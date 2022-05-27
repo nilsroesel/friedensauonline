@@ -108,7 +108,6 @@ export class ArticlesService {
   }
 
   async readArticle( file: string ): Promise<Article | null> {
-    console.log(file)
     return await fetch('http://'+ file).then(response => response.status !== 200? null : response.text())
       .then((data: string | null) => {
         if ( data === null ) return null;
