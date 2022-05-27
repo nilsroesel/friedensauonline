@@ -51,7 +51,7 @@ export class ArticlesService {
   static AUTHOR_SEARCH = 'Author:';
 
   static FILES: string = '/assets/articles/';
-  static PICTURES: string = '/assets/articles/pictures/'
+  static PICTURES: string = 'assets/articles/pictures/'
 
   private loadedArticles$: ReplaySubject<Array<Article>> = new ReplaySubject<Array<Article>>();
 
@@ -138,8 +138,8 @@ export class ArticlesService {
           .substring(startPicturesSearchIndex, data.indexOf('#', startPicturesSearchIndex))
           .split(' ')
           .filter(v => !!v)
-          .map(path => path.trimStart().trimEnd())
-          .map(path => ArticlesService.PICTURES.concat(path)) : [];
+          .map(name => name.trimStart().trimEnd())
+          .map(name => ArticlesService.PICTURES.concat(name)) : [];
         const dateString: string = startDateSearchIndex !== -1 ?
           data.substring(startDateSearchIndex, data.indexOf('#', startDateSearchIndex)).trimStart().trimEnd() : '';
         const date: Moment = moment(String(dateString), 'YYYY-MM-DD');
