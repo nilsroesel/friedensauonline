@@ -29,7 +29,8 @@
             "styles": [
               "src/styles.css",
               "src/icons.css",
-              "src/theme.css"
+              "src/theme.css",
+              "src/headlines.css"
             ],
             "scripts": []
           },
@@ -98,7 +99,8 @@
             "styles": [
               "src/styles.css",
               "src/icons.css",
-              "src/theme.css"
+              "src/theme.css",
+              "src/headlines.css"
             ],
             "scripts": []
           }

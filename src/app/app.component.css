@@ -52,10 +52,10 @@ app-side-bar {
   background-color: var(--background-color);
 }
 
-
-
-.article-menu__element--active {
-}
 .content {
- padding: 1rem;
+  height: auto;
+  scroll-behavior: smooth;
+  overflow-scrolling: auto;
+  overflow: scroll;
+
 }

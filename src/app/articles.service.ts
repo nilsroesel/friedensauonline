@@ -4,7 +4,6 @@ import { ReplaySubject } from 'rxjs';
 import * as moment from 'moment';
 import { Moment } from 'moment';
 import { createMoment } from '../helpers';
-import { ActivatedRoute, Router } from '@angular/router';
 
 export interface Article {
   headline: string;
@@ -58,7 +57,7 @@ export class ArticlesService {
 
   private loadedArticles$: ReplaySubject<Array<Article>> = new ReplaySubject<Array<Article>>();
 
-  constructor(private router: Router, private activeRoute: ActivatedRoute, private location: Location) { }
+  constructor(private location: Location) { }
 
   getArticle( name: string ): ReplaySubject<Article> {
     const replayer = new ReplaySubject<Article>();

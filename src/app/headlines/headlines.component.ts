@@ -16,7 +16,6 @@ export class HeadlinesComponent implements OnInit {
   date$: ReplaySubject<Moment> = new ReplaySubject();
 
   constructor(activeRoute: ActivatedRoute, articlesService: ArticlesService) {
-    articlesService.loadArticles().then();
     activeRoute.params.subscribe(params => {
       const selectedMoment = createMoment(params['date']);
       this.articles$ = articlesService.getArticlesByDate(selectedMoment);
