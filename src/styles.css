@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: FSSans;
+  src: url('assets/OpenSans-Light.ttf');
+}
+
+
+body {
+  font-family: "FSSans";
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.separator {
+}
+
+.separator__border {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg,#807e7c 25%,#807e7c00 0) 0 100% /4px 1px repeat-x;
+  image-rendering: pixelated;
+  width: 100%;
+}
+
+.collapse-checkbox {
+  display: none;
+}

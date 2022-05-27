@@ -1,0 +1,60 @@
+.header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+}
+
+.header__article-menu__element {
+  margin: 12px 1rem;
+  color: white;
+  font-weight: lighter;
+  display: inline-flex;
+}
+
+
+.header-row {
+  width: 100%;
+  background-color: var(--main-color);
+  padding: 6px 12px;
+  height: 40px;
+}
+
+.header-row__logo-name {
+  font-family: "American Typewriter";
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--background-color);
+  line-height: 40px;
+  vertical-align: bottom;
+  margin-left: 12px;
+}
+
+.header-row__menu-icon {
+  right: 0;
+  display: inline;
+  position: absolute;
+  margin-right: 1.5rem;
+  line-height: 40px;
+  vertical-align: bottom;
+}
+
+#menuButton:checked + .header-row__menu-icon + app-side-bar {
+  display: inherit;
+}
+app-side-bar {
+  display: none;
+}
+
+.header__article-menu {
+  border-bottom: black solid 1px;
+  background-color: var(--background-color);
+}
+
+
+
+.article-menu__element--active {
+}
+.content {
+ padding: 1rem;
+}

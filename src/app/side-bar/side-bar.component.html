@@ -1,0 +1,35 @@
+<div class="overlay"></div>
+<nav class="sidebar">
+  <ul style="padding: 0">
+    <li>
+      <div class="sidebar__search__container">
+        <input
+          #searchInput
+          class="sidebar__search"
+          placeholder="FS Online durchsuchen ..."
+        >
+        <span class="search-icon icon--medium sidebar__search__button" (click)="search()"></span>
+      </div>
+
+    </li>
+    <li class="sidebar__item main-color"><h3>Startseite</h3></li>
+    <li class="sidebar__item">
+      Schlagzeilen
+      <input id="collapsible" class="toggle collapse-checkbox" type="checkbox">
+      <label for="collapsible" class="icon--medium expand-icon sidebar__item__button color-contrast-dark"></label>
+      <ul class="sidebar__sublist">
+        <li class="sidebar__sublist__item">test</li>
+        <li class="sidebar__sublist__item">test</li>
+        <li class="sidebar__sublist__item separator">
+          <div class="separator__border"></div>
+        </li>
+      </ul>
+    </li>
+    <li class="sidebar__item">
+      Meinung
+    </li>
+  </ul>
+
+
+
+</nav>

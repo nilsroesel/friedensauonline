@@ -1,0 +1,48 @@
+.article-tile {
+  padding: 1rem 0;
+}
+
+.headline {
+  font-family: "American Typewriter";
+  color: white;
+  font-size: 22px;
+  display: block;
+  margin-top: 6px;
+}
+
+.headline-short {
+  font-size: 18px;
+  color: var(--main-color);
+}
+
+.summary {
+  margin-top: 1rem;
+  color: var(--font-color-contrast-dark);
+  line-break: auto;
+}
+
+.article-tile__picture {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.article-tile__footer {
+  color: var(--font-color-contrast-dark);
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top: 1rem;
+  margin-left: 20px;
+}
+.article-tile__footer > span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.article-tile__footer__element {
+  display: inline;
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+<div class="article-tile" *ngIf="!!article">
+  <img *ngIf="!!article.picturePaths.length" src="{{ article.picturePaths[0] }}" class="article-tile__picture">
+  <span class="headline-short color-main"> {{ article.shortTitle }}</span>
+  <span class="headline" (click)="openArticle()">{{ article.headline }}</span>
+  <div class="summary">
+    {{ article.summary }}
+  </div>
+
+  <div class="article-tile__footer">
+    <div class="article-tile__footer__element">
+      <span class="document-icon icon--small icon--contrast-dark"></span>{{ article.readingTime }} Min
+    </div>
+    <span>•</span>
+    <div class="article-tile__footer__element">{{ article.category }}</div>
+  </div>
+</div>
+
+<div class="separator">
+  <div class="separator__border"></div>
+</div>
+

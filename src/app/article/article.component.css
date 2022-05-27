@@ -1,0 +1,55 @@
+.article_header {
+  display: grid;
+}
+
+.article__headline {
+  font-size: 36px;
+  font-family: "American Typewriter";
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.article__short-header {
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.article__summary {
+  font-size: 20px;
+  color: white;
+}
+
+.article__metadata {
+  color: var(--font-color-contrast-dark);
+  font-size: 12px;
+  margin-top: 2rem;
+}
+
+.article__metadata__author {
+  margin-left: 1rem;
+}
+
+
+.article__block {
+  margin-top: 2.5rem;
+}
+
+.article__block__picture {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.article__block__headline {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.article__block__text {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}

@@ -1,0 +1,13 @@
+:root {
+  --background-color: #1f1e1c;
+  --main-color: #BFE6FF;
+  --font-color-contrast-dark: #bbb9b7;
+}
+
+.main-color {
+  color: var(--main-color) !important;
+}
+
+.color-contrast-dark {
+  color: var(--font-color-contrast-dark) !important;
+}
