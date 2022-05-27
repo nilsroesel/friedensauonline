@@ -96,8 +96,7 @@ export class ArticlesService {
   }
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {
-    const host = window.location.hostname + ':' + window.location.port
-    const article: Article | null = await this.readArticle(host + ArticlesService.FILES + "article" + index);
+    const article: Article | null = await this.readArticle(window.location.href.replace('/home', '') + ArticlesService.FILES + "article" + index);
     if ( article === null ) {
       return articles;
     }
@@ -108,7 +107,7 @@ export class ArticlesService {
   }
 
   async readArticle( file: string ): Promise<Article | null> {
-    return await fetch('http://'+ file).then(response => response.status !== 200? null : response.text())
+    return await fetch(file).then(response => response.status !== 200? null : response.text())
       .then((data: string | null) => {
         if ( data === null ) return null;
 
