@@ -96,7 +96,13 @@ export class ArticlesService {
   }
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {
-    const article: Article | null = await this.readArticle(window.location.href.replace('/home', '') + ArticlesService.FILES + "article" + index);
+    let link: string = window.location.href.replace('/home', '');
+    let articleIndex = link.indexOf('/article');
+    if ( articleIndex > -1 ) {
+      link = link.slice(0, articleIndex)
+    }
+
+    const article: Article | null = await this.readArticle(link.concat(ArticlesService.FILES + "article" + index));
     if ( article === null ) {
       return articles;
     }
