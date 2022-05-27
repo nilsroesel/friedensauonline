@@ -1,0 +1,29 @@
+Title: Die WiFi Leaks#
+Short: Sicherheitslücke im Technik WLAN#
+Summary: Ein gerissener Hacker hat das WLAN Passwort der Technik geknackt. Lesen Sie hier mehr dazu!#
+Category: Technik#
+Pictures: hacker.png hacker-kid.jpeg#
+Date: 2022-05-27#
+Author: Nils Rösel#
+
+Block: "Das Internet ist für uns Alle Neuland"#
+"Das Internet ist für uns Alle Neuland" - Ein Satz, der sich in das Gedächtnis einer ganzen Generation eingebrannt hat.
+Es ist allgemein bekannt, dass Behörden in Deutschland ihre Probleme mit der digitalen Welt haben. Ein Problem, dass aber keinesfalls
+exklusiv unsere beliebten Ämter betrifft. Auch in der privaten Wirtschaft und in Körpern des öffentlichen Rechts ist die Digitalisierung
+noch problematisch. Besonders die IT-Sicherheit wurde in dem letzten Jahrzehnt massivst vernachlässigt und kann mit den
+Angriffsvektoren findiger Expert:innen heute nicht mehr mithalten.
+
+Block: Mittels Keylogger zum Ziel#
+So ist es dem jungen Hacker Marcel P. (Name geändert) gelungen, die Sicherheitsmaßnahmen der Veranstaltungstechnik zu überwinden
+und sich Zugang zu dem WLAN-Netz zu verschaffen. Der Jugendliche nutzte dazu einen sogenannten Keylogger
+um Zugang zu dem Passwort zu erlangen. Dabei saß er verborgen hinter dem Technikpult und wartete, bis ein argloser Techniker
+im Gefühl der Sicherheit das WLAN-Passwort auf der Tastatur eingab und filmte das Ganze mit seinem Mobiltelefon.
+Dieses Vorgehen ist Beweis für die mangelnde "Op-Sec" (Operational Security) bei den Verantwortlichen.
+Wie lange das Passwort noch unverändert bleibt ist derzeit noch offen. Da die Techniker von Natur aus bequem sind, kann davon
+ausgegangen werden, dass das Passwort noch die nächsten Jahre erhalten bleibt.
+
+Block: Reaktionen bleiben aus#
+Auf Nachfragen der FS Online Redaktion gab es bisher keine Antworten. Es wird vermutet, dass bis eine vollständige Bestandsaufnahme
+der Schäden und das Ausmaß der Auswirkungen erst intern aufgearbeitet werden, bis es eine offizielle Stellungnahme zu der
+Thematik gibt. Gerüchte, dass man den Vorfall einfach hinnehmen wolle, können bisher nicht bestätigt werden.
+
