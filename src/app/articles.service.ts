@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
+import { Location} from '@angular/common';
 import { ReplaySubject } from 'rxjs';
 import * as moment from 'moment';
 import { Moment } from 'moment';
+import { createMoment } from '../helpers';
+import { ActivatedRoute, Router } from '@angular/router';
 
 export interface Article {
   headline: string;
@@ -50,12 +53,12 @@ export class ArticlesService {
   static DATE_SEARCH = 'Date:';
   static AUTHOR_SEARCH = 'Author:';
 
-  static FILES: string = '/assets/articles/';
+  static FILES: string = 'assets/articles/';
   static PICTURES: string = 'assets/articles/pictures/'
 
   private loadedArticles$: ReplaySubject<Array<Article>> = new ReplaySubject<Array<Article>>();
 
-  constructor() { }
+  constructor(private router: Router, private activeRoute: ActivatedRoute, private location: Location) { }
 
   getArticle( name: string ): ReplaySubject<Article> {
     const replayer = new ReplaySubject<Article>();
@@ -96,13 +99,8 @@ export class ArticlesService {
   }
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {
-    let link: string = window.location.href.replace('/home', '');
-    let articleIndex = link.indexOf('/article');
-    if ( articleIndex > -1 ) {
-      link = link.slice(0, articleIndex)
-    }
-
-    const article: Article | null = await this.readArticle(link.concat(ArticlesService.FILES + "article" + index));
+    const assetUrl = this.location.prepareExternalUrl(ArticlesService.FILES + "article" + index);
+    const article: Article | null = await this.readArticle(assetUrl);
     if ( article === null ) {
       return articles;
     }
@@ -148,7 +146,7 @@ export class ArticlesService {
           .map(name => ArticlesService.PICTURES.concat(name)) : [];
         const dateString: string = startDateSearchIndex !== -1 ?
           data.substring(startDateSearchIndex, data.indexOf('#', startDateSearchIndex)).trimStart().trimEnd() : '';
-        const date: Moment = moment(String(dateString), 'YYYY-MM-DD');
+        const date: Moment = createMoment(dateString);
         const author: string = startDateSearchIndex !== -1 ?
           data.substring(startAuthorSearchIndex, data.indexOf('#', startAuthorSearchIndex)).trimStart().trimEnd() : '';
 

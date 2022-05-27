@@ -1,27 +1,33 @@
-<div class="article_header">
-  <span class="article__short-header color-main"> {{ (article$ |async).shortTitle }}</span>
-  <span class="article__headline">{{ (article$ |async).headline }}</span>
-  <div class="article__summary ">
-    {{ (article$ |async).summary }}
-  </div>
-  <div class="article__metadata">
-    <span>{{ (article$ |async).date | momentFormatter: 'dd. DD.MM.yyyy'}}</span>
-    <span *ngIf="!!(article$ |async).author" class="article__metadata__author">von {{ (article$ |async).author }}</span>
-  </div>
-</div>
-<div class="separator" style="margin-top: 1rem">
-  <div class="separator__border"></div>
-</div>
+<section class="section" style="padding-top: 2rem">
+  <div style="margin: 0 1rem">
+    <div class="article_header">
+      <span class="article__short-header color-main"> {{ (article$ |async).shortTitle }}</span>
+      <span class="article__headline">{{ (article$ |async).headline }}</span>
+      <div class="article__summary ">
+        {{ (article$ |async).summary }}
+      </div>
+      <div class="article__metadata">
+        <span>{{ (article$ |async).date | momentFormatter: 'dd. DD.MM.yyyy'}}</span>
+        <span *ngIf="!!(article$ |async).author" class="article__metadata__author">von {{ (article$ |async).author }}</span>
+      </div>
+    </div>
+    <div class="separator" style="margin-top: 1rem">
+      <div class="separator__border"></div>
+    </div>
 
-<div *ngFor="let block of (article$ |async).text let i = index" class="article__block">
-  <img *ngIf="!!(article$ |async).picturePaths[i]" src="{{ (article$ |async).picturePaths[i] }}" class="article__block__picture">
-  <h3 *ngIf="!!block.title" class="article__block__headline">
-    {{ block.title }}
-  </h3>
-  <p class="article__block__text">
-    {{ block.text }}
-  </p>
-</div>
+    <div *ngFor="let block of (article$ |async).text let i = index" class="article__block">
+      <img *ngIf="!!(article$ |async).picturePaths[i]" src="{{ (article$ |async).picturePaths[i] }}" class="article__block__picture">
+      <h3 *ngIf="!!block.title" class="article__block__headline">
+        {{ block.title }}
+      </h3>
+      <p class="article__block__text">
+        {{ block.text }}
+      </p>
+    </div>
+  </div>
+
+</section>
+
 
 
 

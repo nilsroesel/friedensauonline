@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { ArticlesComponent } from './articles/articles.component';
 import { MomentFormatterPipe } from './date-formatter.pipe';
 import { SideBarComponent } from './side-bar/side-bar.component';
+import { HeadlinesComponent } from './headlines/headlines.component';
 
 @NgModule({
   declarations: [
@@ -16,17 +17,22 @@ import { SideBarComponent } from './side-bar/side-bar.component';
     ArticleComponent,
     ArticlesComponent,
     MomentFormatterPipe,
-    SideBarComponent
+    SideBarComponent,
+    HeadlinesComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'home', component: ArticlesComponent },
+      { path: 'headlines/:date', component: HeadlinesComponent },
       { path: 'article/:title', component: ArticleComponent }
     ])
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {
+  }
+}

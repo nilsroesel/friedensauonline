@@ -1,0 +1,29 @@
+.headlines__day {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "American Typewriter";
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.headlines__header {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "American Typewriter";
+  color: white;
+  line-height: 78px;
+}
+
+
+.article-list {
+  background-color: var(--background-color);
+  padding-top: 2rem;
+  ;
+}
+
+.page_header {
+  margin-bottom: 0.5rem;
+  background-color: var(--background-color);
+  text-align: center;
+  height: 78px;
+}

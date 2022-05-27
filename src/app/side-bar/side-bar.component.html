@@ -12,14 +12,16 @@
       </div>
 
     </li>
-    <li class="sidebar__item main-color"><h3>Startseite</h3></li>
+    <li class="sidebar__item main-color" (click)="redirect('/home')"><h3>Startseite</h3></li>
     <li class="sidebar__item">
-      Schlagzeilen
+      Artikel
       <input id="collapsible" class="toggle collapse-checkbox" type="checkbox">
       <label for="collapsible" class="icon--medium expand-icon sidebar__item__button color-contrast-dark"></label>
       <ul class="sidebar__sublist">
-        <li class="sidebar__sublist__item">test</li>
-        <li class="sidebar__sublist__item">test</li>
+        <li *ngFor="let articleByDate of (articleByDate$ | async)" class="sidebar__sublist__item"
+            (click)="redirectDate(articleByDate.date)">
+          {{ articleByDate.date | momentFormatter: 'dddd DD.MM.yyyy' }}
+        </li>
         <li class="sidebar__sublist__item separator">
           <div class="separator__border"></div>
         </li>

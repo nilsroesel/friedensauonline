@@ -1,0 +1,19 @@
+<section>
+  <header class="page_header">
+    <span class="headlines__header">Schlagzeilen</span>
+  </header>
+
+  <div class="article-list">
+    <div class="main-color headlines__day">
+      {{ (date$ |async) | momentFormatter: 'dddd DD.MM.yyyy'}}
+    </div>
+
+    <div class="separator">
+      <div class="separator__border"></div>
+    </div>
+
+    <article-tile *ngFor="let article of (articles$ | async)" [article]="article"></article-tile>
+  </div>
+</section>
+
+

@@ -1,5 +1,6 @@
 .article-tile {
-  padding: 1rem 0;
+  padding: 1rem 1rem;
+  background-color: var(--background-color);
 }
 
 .headline {
