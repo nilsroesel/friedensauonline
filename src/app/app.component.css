@@ -37,6 +37,7 @@
   margin-right: 1.5rem;
   line-height: 40px;
   vertical-align: bottom;
+  z-index: 2;
 }
 
 #menuButton:checked + .header-row__menu-icon + app-side-bar {
