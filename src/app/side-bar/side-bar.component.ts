@@ -40,13 +40,17 @@ export class SideBarComponent implements OnInit {
   }
 
   redirect(route: string) {
-    const menuButton: any = document.getElementById('menuButton');
-    menuButton.checked = false;
+    this.closeMenu();
     this.router.navigateByUrl(route);
   }
 
   redirectDate(moment: Moment) {
     this.redirect('/headlines/'.concat(moment.format('YYYY-MM-DD')));
+  }
+
+  closeMenu() {
+    const menuButton: any = document.getElementById('menuButton');
+    menuButton.checked = false;
   }
 
 }

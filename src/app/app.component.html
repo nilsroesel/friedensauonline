@@ -1,13 +1,17 @@
-<div class="header">
+<div class="header--sticky">
   <div class="header-row">
-    <img src="assets/logo-colorised-optimised.svg">
-    <span class="header-row__logo-name">FS Online</span>
-    <div class="header-row__menu-icon menu-icon icon--big"></div>
+    <div>
+      <img style="margin: 0.5rem 1rem 0.5rem 1rem; vertical-align: middle;" src="assets/logo-colorised-optimised.svg">
+      <span class="header-row__logo-name">FS Online</span>
 
-    <input id="menuButton" class="toggle collapse-checkbox" type="checkbox">
-    <label for="menuButton" class="header-row__menu-icon menu-icon icon--big"></label>
-    <app-side-bar class="menu"></app-side-bar>
+      <div class="header-row--icon-group">
+        <input id="menuButton" class="toggle collapse-checkbox" type="checkbox">
+        <label for="menuButton" class="header-row__menu-icon menu-icon icon--big"></label>
+        <app-side-bar class="menu"></app-side-bar>
+      </div>
 
+
+    </div>
   </div>
 
   <div class="header__article-menu">
@@ -23,6 +27,10 @@
 <div class="content">
   <router-outlet></router-outlet>
 </div>
+
+<footer style="padding: 1rem; background-color: var(--background-color); margin-top: 1rem">
+
+</footer>
 
 
 

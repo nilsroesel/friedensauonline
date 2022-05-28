@@ -18,6 +18,7 @@
 .article-list {
   background-color: var(--background-color);
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .page_header {

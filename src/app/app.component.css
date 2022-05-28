@@ -1,8 +1,13 @@
+
+
 .header {
+  width: 100%;
+}
+
+.header--sticky {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  width: 100%;
 }
 
 .header__article-menu__element {
@@ -16,8 +21,6 @@
 .header-row {
   width: 100%;
   background-color: var(--main-color);
-  padding: 6px 12px;
-  height: 40px;
 }
 
 .header-row__logo-name {
@@ -26,7 +29,7 @@
   font-weight: 600;
   color: var(--background-color);
   line-height: 40px;
-  vertical-align: bottom;
+  vertical-align: middle;
   margin-left: 12px;
 }
 
@@ -35,11 +38,12 @@
   display: inline;
   position: absolute;
   margin-right: 1.5rem;
-  line-height: 40px;
-  vertical-align: bottom;
-  z-index: 2;
+  transform: translateY(25%);
 }
 
+.header-row--icon-group {
+  display: inline;
+}
 #menuButton:checked + .header-row__menu-icon + app-side-bar {
   display: inherit;
 }
@@ -57,5 +61,4 @@ app-side-bar {
   scroll-behavior: smooth;
   overflow-scrolling: auto;
   overflow: scroll;
-
 }
