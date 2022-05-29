@@ -64,7 +64,6 @@ export class KeywordsComponent implements OnInit {
           this.categoriesByStartChar
             .filter(e => e.char === keyword.toUpperCase().charAt(0))
             .forEach(e => e.active = true)
-          console.log({ keyword, mark, id })
           return { keyword, mark, id }
         })
       )

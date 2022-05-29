@@ -156,10 +156,26 @@ export class ArticlesService {
       ;
   }
 
-
-
-
-
+  searchArticles( phrase: string ): Observable<Array<Article>> {
+    phrase = phrase.toLowerCase();
+    return this.loadedArticles$.pipe(
+      map(articles => {
+        return articles.filter(article => {
+          const searchPhraseInText = article.text
+            .reduce((acc, curr) => acc || curr?.text.toLowerCase()?.includes(phrase)
+              || curr.title?.toLowerCase()?.includes(phrase), false);
+          const searchPhraseInKeyWords = article.metadata.keywords
+            .reduce((acc, curr) => acc || curr?.toLowerCase()?.includes(phrase), false);
+          return searchPhraseInText || searchPhraseInKeyWords ||
+            article.headline?.toLowerCase()?.includes(phrase) ||
+            article.shortTitle?.toLowerCase()?.includes(phrase) ||
+            article.metadata?.summary?.toLowerCase()?.includes(phrase) ||
+            article.metadata?.category?.toLowerCase()?.includes(phrase) ||
+            article.metadata?.author?.toLowerCase()?.includes(phrase);
+        }) || [];
+      })
+    );
+  }
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {
     const assetUrl = this.location.prepareExternalUrl(ArticlesService.FILES + "article" + index);

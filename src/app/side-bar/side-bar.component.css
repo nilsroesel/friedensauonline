@@ -34,16 +34,32 @@
   width: 100%;
   line-height: 24px;
   font-size: 18px;
-  padding: 4px 26px 4px 4px;
+  padding: 0.5rem 26px 0.5rem 0.5rem;
+  color: white;
+
+  background-color: rgba(47,45,43,1);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--font-color-contrast-dark);
+  border-radius: 1.5px;
+}
+.sidebar__search:focus {
+  outline: none;
+}
+.sidebar__search::placeholder {
+  color: var(--font-color-contrast-dark);
+}
+.sidebar__search::-ms-input-placeholder {
+  color: var(--font-color-contrast-dark);
 }
 
 .sidebar__search__button {
   position: absolute;
-  margin-left: -1rem;
+  margin-left: -0.5rem;
 }
 .sidebar__search__button::before {
-  vertical-align: -40%;
-  color: var(--background-color);
+  vertical-align: -45%;
+  color: white;
 }
 
 li {

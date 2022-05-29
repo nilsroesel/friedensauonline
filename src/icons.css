@@ -51,3 +51,8 @@
   content: '\f3d8';
   font-family: icons;
 }
+
+.clear-icon::before {
+  content: '\f2d7';
+  font-family: icons;
+}

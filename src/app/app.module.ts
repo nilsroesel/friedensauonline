@@ -10,7 +10,9 @@ import { MomentFormatterPipe } from './date-formatter.pipe';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { HeadlinesComponent } from './headlines/headlines.component';
 import { ArticlesByKeywordsComponent } from './articles-by-keywords/articles-by-keywords.component';
-import { KeywordsComponent } from './categories/keywords.component';
+import { KeywordsComponent } from './keywords/keywords.component';
+import { SearchComponent } from './search/search.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,17 +24,20 @@ import { KeywordsComponent } from './categories/keywords.component';
     SideBarComponent,
     HeadlinesComponent,
     ArticlesByKeywordsComponent,
-    KeywordsComponent
+    KeywordsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot([
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'home', component: ArticlesComponent },
       { path: 'headlines/:date', component: HeadlinesComponent },
       { path: 'article/:title', component: ArticleComponent },
       { path: 'topics', component: KeywordsComponent, pathMatch: 'full' },
-      { path: 'topics/:topic', component: ArticlesByKeywordsComponent }
+      { path: 'topics/:topic', component: ArticlesByKeywordsComponent },
+      { path: 'search', component: SearchComponent }
     ])
   ],
   providers: [],

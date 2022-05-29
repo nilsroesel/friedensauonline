@@ -36,7 +36,8 @@ export class SideBarComponent implements OnInit {
 
   search() {
     const searchPhrase = this.searchInput?.nativeElement.value;
-
+    this.router.navigate(['search'], { queryParams: { searchPhrase } })
+    this.closeMenu();
   }
 
   redirect(route: string) {

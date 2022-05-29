@@ -1,0 +1,41 @@
+<section>
+  <header class="page_header">
+    <span class="headlines__header">Suche</span>
+    <div>
+      <form style="padding-bottom: 1rem;">
+        <div class="search-group">
+          <input [ngModelOptions]="{standalone: true}" [(ngModel)]="searchPhrase" class="search__input" #searchField placeholder="Suchbegriff eingeben..." >
+          <div *ngIf="!!searchPhrase.length">
+            <span class="clear-icon icon--medium clear-button" (click)="clearInput()"></span>
+          </div>
+          <div class="search-button" (click)="search()">
+            <span class="search-icon icon--medium search-button__icon"></span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <div class="article-list" *ngIf="(articles$ | async)">
+    <div class="main-color headlines__subheadline">
+      {{ (articles$ | async).length }} Ergebnisse für "{{ searchPhrase$ | async }}"
+    </div>
+
+    <div class="separator">
+      <div class="separator__border"></div>
+    </div>
+
+    <div class="no-data" *ngIf="(articles$ | async).length === 0">
+      <span>
+        Keine Ergebnisse gefunden. Versuchen Sie folgendes:
+      </span>
+      <ul class="no-data__list">
+        <li class="no-data__list__item">Prüfen Sie, ob alle Suchbegriffe korrekt geschrieben wurden.</li>
+        <li class="no-data__list__item">Versuchen Sie einen anderen Suchbegriff.</li>
+        <li class="no-data__list__item">Versuchen Sie allgemeinere Begriffe zu suchen.</li>
+      </ul>
+    </div>
+
+    <article-tile *ngFor="let article of (articles$ | async)" [article]="article"></article-tile>
+  </div>
+</section>
