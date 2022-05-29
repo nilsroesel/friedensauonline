@@ -9,6 +9,8 @@ import { ArticlesComponent } from './articles/articles.component';
 import { MomentFormatterPipe } from './date-formatter.pipe';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { HeadlinesComponent } from './headlines/headlines.component';
+import { ArticlesByKeywordsComponent } from './articles-by-keywords/articles-by-keywords.component';
+import { KeywordsComponent } from './categories/keywords.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HeadlinesComponent } from './headlines/headlines.component';
     ArticlesComponent,
     MomentFormatterPipe,
     SideBarComponent,
-    HeadlinesComponent
+    HeadlinesComponent,
+    ArticlesByKeywordsComponent,
+    KeywordsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,10 @@ import { HeadlinesComponent } from './headlines/headlines.component';
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'home', component: ArticlesComponent },
       { path: 'headlines/:date', component: HeadlinesComponent },
-      { path: 'article/:title', component: ArticleComponent }
+      { path: 'article/:title', component: ArticleComponent },
+      { path: 'topics', component: KeywordsComponent, children:
+          [{ path: ':topic', component: ArticlesByKeywordsComponent }]
+      },
     ])
   ],
   providers: [],

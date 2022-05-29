@@ -4,6 +4,8 @@ import { ReplaySubject } from 'rxjs';
 import * as moment from 'moment';
 import { Moment } from 'moment';
 import { createMoment } from '../helpers';
+import { map } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 export interface Article {
   headline: string;
@@ -71,19 +73,43 @@ export class ArticlesService {
     return this.loadedArticles$;
   }
 
+  getArticlesOrderedByCategory(): ReplaySubject<OrderedArticles>  {
+    const replayer = new ReplaySubject<OrderedArticles>();
+    let articleHolder: OrderedArticles = {};
+
+    this.loadedArticles$.subscribe((articles$: Array<Article>) => {
+      articles$
+        .sort((a, b) => a.category.localeCompare(b.category))
+        .reverse()
+        .forEach(article => {
+          const key = article.category;
+          if ( articleHolder[key] === undefined ) {
+            articleHolder[key] = [article];
+          } else {
+            articleHolder[key] = [...articleHolder[key], article];
+          }
+        });
+      replayer.next(articleHolder);
+    });
+    return replayer;
+  }
+
   getArticlesOrderedByDate(): ReplaySubject<OrderedArticles> {
     const replayer = new ReplaySubject<OrderedArticles>();
     let articleHolder: OrderedArticles = {};
 
     this.loadedArticles$.subscribe((articles$: Array<Article>) => {
-      articles$.forEach(article => {
-        const key = article.date.format('YYYY-MM-DD');
-        if ( articleHolder[key] === undefined ) {
-          articleHolder[key] = [article];
-        } else {
-          articleHolder[key] = [...articleHolder[key], article];
-        }
-      });
+      articles$
+        .sort((a, b) => a.date.diff(b.date))
+        .reverse()
+        .forEach(article => {
+          const key = article.date.format('YYYY-MM-DD');
+          if ( articleHolder[key] === undefined ) {
+            articleHolder[key] = [article];
+          } else {
+            articleHolder[key] = [...articleHolder[key], article];
+          }
+        });
       replayer.next(articleHolder);
     });
     return replayer;
@@ -95,6 +121,13 @@ export class ArticlesService {
       replayer.next(articles$.filter(article => article.date.diff(date, 'days') === 0));
     });
     return replayer;
+  }
+
+  getArticlesByCategory( category: string ): Observable<Array<Article>> {
+    return this.getArticlesOrderedByCategory()
+      .pipe(
+        map((holder: OrderedArticles) => (holder[category] as Array<Article>) || []))
+      ;
   }
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {

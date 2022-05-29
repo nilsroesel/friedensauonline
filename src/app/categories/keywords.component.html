@@ -1,0 +1,16 @@
+<section>
+  <header class="page_header" style="height: unset;">
+    <span class="headlines__header">Themen A-Z</span>
+    <div class="separator">
+      <div class="separator__border"></div>
+    </div>
+    <div>aaa</div>
+  </header>
+
+  <div class="article-list" style="height: 100%">
+    <ul class="category-list">
+      <li class="category-list__item" *ngFor="let category of (categories$ | async)"
+          [routerLink]="[category]">{{ category }}</li>
+    </ul>
+  </div>
+</section>

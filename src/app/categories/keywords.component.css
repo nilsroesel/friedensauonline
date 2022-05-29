@@ -1,0 +1,9 @@
+.category-list {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.category-list__item {
+  color: white;
+  padding: 0.5rem 0;
+}
