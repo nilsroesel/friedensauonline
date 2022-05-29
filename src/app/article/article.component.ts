@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Article, ArticlesService, DEFAULT_ARTICLE, TextBlock } from '../articles.service';
 import { ActivatedRoute } from '@angular/router';
-import { ReplaySubject } from 'rxjs';
+import { Observable, ReplaySubject } from 'rxjs';
 
 @Component({
   selector: 'article',
@@ -11,7 +11,7 @@ import { ReplaySubject } from 'rxjs';
 export class ArticleComponent implements OnInit {
 
   @Input()
-  public article$: ReplaySubject<Article> = new ReplaySubject();
+  public article$: Observable<Article> = new ReplaySubject();
 
   constructor( private route: ActivatedRoute, private articlesService: ArticlesService ) {
     this.route.params.subscribe((params) => {

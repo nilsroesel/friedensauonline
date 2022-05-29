@@ -16,9 +16,9 @@ export class ArticlesByKeywordsComponent implements OnInit {
 
   constructor(activeRoute: ActivatedRoute, articlesService: ArticlesService) {
     activeRoute.params.subscribe(params => {
-      const category = params['topic'];
-      this.articles$ = articlesService.getArticlesByCategory(category);
-      this.category$.next(category);
+      const keyword = params['topic'];
+      this.articles$ = articlesService.getArticlesByKeyword(keyword);
+      this.category$.next(keyword);
     });
   }
 

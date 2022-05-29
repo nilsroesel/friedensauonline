@@ -60,7 +60,7 @@ export class ArticlesService {
 
   constructor(private location: Location) { }
 
-  getArticle( name: string ): ReplaySubject<Article> {
+  getArticle( name: string ): Observable<Article> {
     const replayer = new ReplaySubject<Article>();
     this.loadedArticles$.subscribe((articles$ :Array<Article>) => {
       replayer.next(articles$.filter(article => encodeURI(article.headline) === name)[0]);
@@ -68,11 +68,11 @@ export class ArticlesService {
     return replayer;
   }
 
-  getArticles(): ReplaySubject<Array<Article>> {
+  getArticles(): Observable<Array<Article>> {
     return this.loadedArticles$;
   }
 
-  getArticlesOrderedByCategory(): ReplaySubject<OrderedArticles>  {
+  getArticlesOrderedByCategory(): Observable<OrderedArticles>  {
     const replayer = new ReplaySubject<OrderedArticles>();
     let articleHolder: OrderedArticles = {};
 
@@ -84,7 +84,7 @@ export class ArticlesService {
           const key = article.metadata.category;
           if ( articleHolder[key] === undefined ) {
             articleHolder[key] = [article];
-          } else {
+          } else if( !articleHolder[key].filter(a => a === article).length) {
             articleHolder[key] = [...articleHolder[key], article];
           }
         });
@@ -93,7 +93,7 @@ export class ArticlesService {
     return replayer;
   }
 
-  getArticlesOrderedByDate(): ReplaySubject<OrderedArticles> {
+  getArticlesOrderedByDate(): Observable<OrderedArticles> {
     const replayer = new ReplaySubject<OrderedArticles>();
     let articleHolder: OrderedArticles = {};
 
@@ -105,9 +105,29 @@ export class ArticlesService {
           const key = article.metadata.date.format('YYYY-MM-DD');
           if ( articleHolder[key] === undefined ) {
             articleHolder[key] = [article];
-          } else {
+          } else if( !articleHolder[key].filter(a => a === article).length) {
             articleHolder[key] = [...articleHolder[key], article];
           }
+        });
+      replayer.next(articleHolder);
+    });
+    return replayer;
+  }
+
+  getArticlesOrderedByKeyword(): Observable<OrderedArticles> {
+    const replayer = new ReplaySubject<OrderedArticles>();
+    let articleHolder: OrderedArticles = {};
+
+    this.loadedArticles$.subscribe((articles$: Array<Article>) => {
+      articles$
+        .forEach(article => {
+          article.metadata.keywords.forEach(key => {
+            if ( articleHolder[key] === undefined ) {
+              articleHolder[key] = [article];
+            } else if( !articleHolder[key].filter(a => a === article).length) {
+              articleHolder[key] = [...articleHolder[key], article];
+            }
+          });
         });
       replayer.next(articleHolder);
     });
@@ -128,6 +148,18 @@ export class ArticlesService {
         map((holder: OrderedArticles) => (holder[category] as Array<Article>) || []))
       ;
   }
+
+  getArticlesByKeyword( keyword: string ): Observable<Array<Article>> {
+    return this.getArticlesOrderedByKeyword()
+      .pipe(
+        map((holder: OrderedArticles) => (holder[keyword] as Array<Article>) || []))
+      ;
+  }
+
+
+
+
+
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {
     const assetUrl = this.location.prepareExternalUrl(ArticlesService.FILES + "article" + index);
@@ -175,7 +207,6 @@ export class ArticlesService {
           .split(',')
           .filter(s => s !== '')
           .map(name => this.location.prepareExternalUrl(ArticlesService.PICTURES + name));
-        console.log(picturePaths)
         return {
           headline: articleData?.getAttribute('headline') as string,
           shortTitle: articleData?.getAttribute('shortTitle') as string,

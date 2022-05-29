@@ -31,9 +31,8 @@ import { KeywordsComponent } from './categories/keywords.component';
       { path: 'home', component: ArticlesComponent },
       { path: 'headlines/:date', component: HeadlinesComponent },
       { path: 'article/:title', component: ArticleComponent },
-      { path: 'topics', component: KeywordsComponent, children:
-          [{ path: ':topic', component: ArticlesByKeywordsComponent }]
-      },
+      { path: 'topics', component: KeywordsComponent, pathMatch: 'full' },
+      { path: 'topics/:topic', component: ArticlesByKeywordsComponent }
     ])
   ],
   providers: [],

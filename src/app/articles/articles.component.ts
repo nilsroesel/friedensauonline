@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Article, ArticlesService } from '../articles.service';
-import { ReplaySubject } from 'rxjs';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-articles',
@@ -9,7 +9,7 @@ import { ReplaySubject } from 'rxjs';
 })
 export class ArticlesComponent implements OnInit {
 
-  public articles: ReplaySubject<Array<Article>>;
+  public articles: Observable<Array<Article>>;
 
   constructor( private articlesService: ArticlesService ) {
     this.articles = articlesService.getArticles();
