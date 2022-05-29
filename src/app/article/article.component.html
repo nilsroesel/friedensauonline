@@ -25,7 +25,21 @@
       </p>
     </div>
   </div>
+</section>
 
+<section class="section" style="margin-top: 1rem">
+  <div class="article__footer__header">
+    Mehr lesen über
+  </div>
+  <div>
+    <div class="article__footer__keyword-list">
+      <div class="article__footer__keyword-list__item"
+          *ngFor="let keyword of (article$ |async).metadata.keywords"
+          (click)="navigateToKeyword(keyword)">
+        {{ keyword }}
+      </div>
+    </div>
+  </div>
 </section>
 
 

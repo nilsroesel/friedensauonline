@@ -23,6 +23,7 @@ export class ArticlesByKeywordsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    scrollTo(0,0);
   }
 
 }

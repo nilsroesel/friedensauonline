@@ -24,6 +24,7 @@ export class HeadlinesComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    scrollTo(0,0);
   }
 
 }
