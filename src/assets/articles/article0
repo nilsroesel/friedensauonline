@@ -1,15 +1,28 @@
-Title: Die Friedensau als vierte Gewalt auf dem Zeltplatz#
-Short: Ein Rückblick#
-Summary: Die Journalist:innen der Friedensau haben 2019 den Sturz eines Schreckenregimes bewirken können. Lesen Sie einen kurzen Rückblick und bekommen Sie exklusive Insiderinformationen.#
-Category: Politik#
-Date: 2022-05-27#
-Author: #
+<article
+ headline="Die Friedensau als vierte Gewalt auf dem Zeltplatz"
+ shortTitle="Ein Rückblick"
+ category = "Politik"
+ date = "2022-05-27"
+ author = "Nils Rösel"
+ keywords = "Investigativ,Historie,OLL"
+ pictures = ""
+>
+  <summary>
+  Die Journalist:innen der Friedensau haben 2019 den Sturz eines Schreckenregimes bewirken können.
+  Lesen Sie einen kurzen Rückblick und bekommen Sie exklusive Insiderinformationen.
+  </summary>
 
-Block: #
-Das Jahr 2019. Das letzte Pfingstjugendtreffen, im Herzen Ostdeutschlands, geht mit einem Krachen zu Ende. Nach den Bemühungen der Redaktion der Friedensau, die korrupten Machenschaften der Obersten Lagerleitung offenzulegen,
-Musste sich der Oberste Lagerleiter Michael Plietz aus den Ämtern der Partei zurückziehen und wechselte offiziellen Angaben nach an einen
-Schreibtischjob. In einer wutentbrannten Abschiedsrede griff er die Pressefreiheit und besonders die unabhängige Berichterstattung der Reporter unser geliebten Printmedium
-Öffentlich an.
-Mutmaßlich bildete die abgesetzte Leitung eine Schattenregierung, um alle Maßnahmen der Aufarbeitung des neuen Regimes zu diskreditieren und zu sabotieren.
-Die Ausfälle des Pfingstjugendtreffens in den Jahren 2020, sowie 2021, sind maßgeblich auf das Einwirken der alten OLL zurückzuführen.
-Die durch den Systemsturz muteinhergehende Öffnung der Grenzen erlaubt es erstmalig ein Lager mit anderen Vereinigungen zu veranstalten. Dies wäre mit der reaktionären Haltung der Führung, vor 2019 nicht möglich gewesen.
+  <text-block>
+    <title></title>
+    <text>
+    Das Jahr 2019. Das letzte Pfingstjugendtreffen, im Herzen Ostdeutschlands, geht mit einem Krachen zu Ende. Nach den Bemühungen der Redaktion der Friedensau, die korrupten Machenschaften der Obersten Lagerleitung offenzulegen,
+    Musste sich der Oberste Lagerleiter Michael Plietz aus den Ämtern der Partei zurückziehen und wechselte offiziellen Angaben nach an einen
+    Schreibtischjob. In einer wutentbrannten Abschiedsrede griff er die Pressefreiheit und besonders die unabhängige Berichterstattung der Reporter unser geliebten Printmedium
+    Öffentlich an.
+    Mutmaßlich bildete die abgesetzte Leitung eine Schattenregierung, um alle Maßnahmen der Aufarbeitung des neuen Regimes zu diskreditieren und zu sabotieren.
+    Die Ausfälle des Pfingstjugendtreffens in den Jahren 2020, sowie 2021, sind maßgeblich auf das Einwirken der alten OLL zurückzuführen.
+    Die durch den Systemsturz muteinhergehende Öffnung der Grenzen erlaubt es erstmalig ein Lager mit anderen Vereinigungen zu veranstalten. Dies wäre mit der reaktionären Haltung der Führung, vor 2019 nicht möglich gewesen.
+    </text>
+  </text-block>
+
+</article>

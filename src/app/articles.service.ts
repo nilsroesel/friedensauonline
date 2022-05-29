@@ -7,16 +7,21 @@ import { createMoment } from '../helpers';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 
+
+export interface ArticleMetadata {
+  readingTime: number;
+  date: Moment;
+  author: string;
+  summary: string;
+  category: string;
+  keywords: Array<string>
+}
 export interface Article {
   headline: string;
   text: Array<TextBlock>;
-  category: string;
   shortTitle: string;
-  summary: string;
-  readingTime: number;
+  metadata: ArticleMetadata;
   picturePaths: Array<string>;
-  date: Moment;
-  author: string;
 }
 
 export interface TextBlock {
@@ -30,14 +35,17 @@ export interface OrderedArticles {
 
 export const DEFAULT_ARTICLE: Article = {
   headline: '',
+  metadata: {
+    readingTime: 0,
+    date: moment(),
+    category: '',
+    author: '',
+    summary: '',
+    keywords:[]
+  },
   text: [],
-  category: '',
   shortTitle: '',
-  summary: '',
-  readingTime: 0,
   picturePaths: [],
-  date: moment(),
-  author: ''
 }
 
 @Injectable({
@@ -45,17 +53,8 @@ export const DEFAULT_ARTICLE: Article = {
 })
 export class ArticlesService {
 
-  static TITLE_SEARCH = 'Title:';
-  static SHORT_SEARCH = 'Short:';
-  static SUMMARY_SEARCH = 'Summary:';
-  static CATEGORY_SEARCH = 'Category:';
-  static PICTURE_NAMES_SEARCH = 'Pictures:';
-  static BLOCK_SEARCH = 'Block:';
-  static DATE_SEARCH = 'Date:';
-  static AUTHOR_SEARCH = 'Author:';
-
   static FILES: string = 'assets/articles/';
-  static PICTURES: string = 'assets/articles/pictures/'
+  static PICTURES: string = 'assets/articles/pictures/';
 
   private loadedArticles$: ReplaySubject<Array<Article>> = new ReplaySubject<Array<Article>>();
 
@@ -79,10 +78,10 @@ export class ArticlesService {
 
     this.loadedArticles$.subscribe((articles$: Array<Article>) => {
       articles$
-        .sort((a, b) => a.category.localeCompare(b.category))
+        .sort((a, b) => a.metadata.category.localeCompare(b.metadata.category))
         .reverse()
         .forEach(article => {
-          const key = article.category;
+          const key = article.metadata.category;
           if ( articleHolder[key] === undefined ) {
             articleHolder[key] = [article];
           } else {
@@ -100,10 +99,10 @@ export class ArticlesService {
 
     this.loadedArticles$.subscribe((articles$: Array<Article>) => {
       articles$
-        .sort((a, b) => a.date.diff(b.date))
+        .sort((a, b) => a.metadata.date.diff(b.metadata.date))
         .reverse()
         .forEach(article => {
-          const key = article.date.format('YYYY-MM-DD');
+          const key = article.metadata.date.format('YYYY-MM-DD');
           if ( articleHolder[key] === undefined ) {
             articleHolder[key] = [article];
           } else {
@@ -118,7 +117,7 @@ export class ArticlesService {
   getArticlesByDate( date: Moment ): ReplaySubject<Array<Article>> {
     const replayer = new ReplaySubject<Array<Article>>();
     this.loadedArticles$.subscribe((articles$: Array<Article>) => {
-      replayer.next(articles$.filter(article => article.date.diff(date, 'days') === 0));
+      replayer.next(articles$.filter(article => article.metadata.date.diff(date, 'days') === 0));
     });
     return replayer;
   }
@@ -147,70 +146,44 @@ export class ArticlesService {
       .then((data: string | null) => {
         if ( data === null ) return null;
 
-        const startShortSearchIndex = data.indexOf(ArticlesService.SHORT_SEARCH) !== -1 ?
-          data.indexOf(ArticlesService.SHORT_SEARCH) + ArticlesService.SHORT_SEARCH.length : -1;
-        const startLongSearchIndex = data.indexOf(ArticlesService.TITLE_SEARCH) !== -1 ?
-          data.indexOf(ArticlesService.TITLE_SEARCH) + ArticlesService.TITLE_SEARCH.length : -1;
-        const startSummarySearchIndex = data.indexOf(ArticlesService.SUMMARY_SEARCH) !== -1 ?
-          data.indexOf(ArticlesService.SUMMARY_SEARCH) + ArticlesService.SUMMARY_SEARCH.length : -1;
-        const startCategorySearchIndex = data.indexOf(ArticlesService.CATEGORY_SEARCH) !== -1 ?
-          data.indexOf(ArticlesService.CATEGORY_SEARCH) + ArticlesService.CATEGORY_SEARCH.length : -1;
-        const startPicturesSearchIndex = data.indexOf(ArticlesService.PICTURE_NAMES_SEARCH) !== -1 ?
-          data.indexOf(ArticlesService.PICTURE_NAMES_SEARCH) + ArticlesService.PICTURE_NAMES_SEARCH.length : -1;
-        const startDateSearchIndex = data.indexOf(ArticlesService.DATE_SEARCH) !== -1 ?
-          data.indexOf(ArticlesService.DATE_SEARCH) + ArticlesService.DATE_SEARCH.length : -1;
-        const startAuthorSearchIndex = data.indexOf(ArticlesService.AUTHOR_SEARCH) !== -1 ?
-          data.indexOf(ArticlesService.AUTHOR_SEARCH) + ArticlesService.AUTHOR_SEARCH.length : -1;
+        const parser = new DOMParser();
+        const xmlArticle = parser.parseFromString(data, "application/xml");
 
-        const shortTitle: string = startShortSearchIndex !== -1 ?
-          data.substring(startShortSearchIndex, data.indexOf('#', startShortSearchIndex)).trimStart().trimEnd() : '';
-        const headline: string = startLongSearchIndex !== -1 ?
-          data.substring(startLongSearchIndex, data.indexOf('#', startLongSearchIndex)).trimStart().trimEnd() : '';
-        const summary: string = startSummarySearchIndex !== -1 ?
-          data.substring(startSummarySearchIndex, data.indexOf('#', startSummarySearchIndex)).trimStart().trimEnd() : '';
-        const category: string = startCategorySearchIndex !== -1 ?
-          data.substring(startCategorySearchIndex, data.indexOf('#', startCategorySearchIndex)).trimStart().trimEnd() : '';
-        const picturePaths: Array<string> = startPicturesSearchIndex !== -1 ? data
-          .substring(startPicturesSearchIndex, data.indexOf('#', startPicturesSearchIndex))
-          .split(' ')
-          .filter(v => !!v)
-          .map(name => name.trimStart().trimEnd())
-          .map(name => ArticlesService.PICTURES.concat(name)) : [];
-        const dateString: string = startDateSearchIndex !== -1 ?
-          data.substring(startDateSearchIndex, data.indexOf('#', startDateSearchIndex)).trimStart().trimEnd() : '';
-        const date: Moment = createMoment(dateString);
-        const author: string = startDateSearchIndex !== -1 ?
-          data.substring(startAuthorSearchIndex, data.indexOf('#', startAuthorSearchIndex)).trimStart().trimEnd() : '';
+        const articleData = xmlArticle.getElementsByTagName('article').item(0);
+        const summary = articleData?.getElementsByTagName('summary').item(0)?.innerHTML;
+        const metadata: ArticleMetadata = {
+          readingTime: 0,
+          date: createMoment(articleData?.getAttribute('date') as string),
+          author: articleData?.getAttribute('author') || '',
+          summary: summary as any,
+          category: articleData?.getAttribute('category') || '',
+          keywords: (articleData?.getAttribute('keywords') || '').split(',')
+        };
+        const text: Array<TextBlock> = Array.from(articleData?.getElementsByTagName('text-block') as HTMLCollectionOf<HTMLElement>)
+          .map(element => (
+            {  title: element.getAttribute('title') as string,
+              text: element.getElementsByTagName('text').item(0)?.innerHTML as string }
+            )
+          );
 
-        const text = this.parseTextBlocksFromData(data);
 
-        const readingTime: number = this.calculateReadingTime(
-          text.map(t => t.text + ' ' + t.title).reduce((acc, curr) => acc.concat(curr), '')
+        metadata.readingTime = this.calculateReadingTime(
+         text.map(t => t.text + ' ' + t.title).reduce((acc, curr) => acc.concat(curr), '')
         );
 
-        return { shortTitle, headline, summary, category, text, readingTime, picturePaths, date, author };
+        const picturePaths: Array<string> = (articleData?.getAttribute('pictures') as string)
+          .split(',')
+          .filter(s => s !== '')
+          .map(name => this.location.prepareExternalUrl(ArticlesService.PICTURES + name));
+        console.log(picturePaths)
+        return {
+          headline: articleData?.getAttribute('headline') as string,
+          shortTitle: articleData?.getAttribute('shortTitle') as string,
+          metadata,
+          text,
+          picturePaths
+        };
       });
-  }
-
-  parseTextBlocksFromData(data: string, currentIndex = 0): Array<TextBlock> {
-    const blockStartIndex = data.indexOf(ArticlesService.BLOCK_SEARCH, currentIndex);
-
-    if ( blockStartIndex === -1 ) {
-      return [];
-    }
-
-    const titleEndIndex = data.indexOf('#', blockStartIndex);
-    let blockEnd = data.indexOf(ArticlesService.BLOCK_SEARCH, titleEndIndex);
-    if ( blockEnd === -1 ) {
-      blockEnd = data.length;
-    }
-
-    const title = data.substring(blockStartIndex + ArticlesService.BLOCK_SEARCH.length, titleEndIndex)
-      .trimStart().trimEnd();
-    const text = data.substring(titleEndIndex + 1, blockEnd)
-      .trimStart().trimEnd();
-
-    return [{ title, text }, ...this.parseTextBlocksFromData(data, blockEnd)]
   }
 
   calculateReadingTime(text: string): number {
