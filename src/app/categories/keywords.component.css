@@ -7,3 +7,19 @@
   color: white;
   padding: 0.5rem 0;
 }
+
+.letter-list {
+  margin: 1rem;
+  display: inline-block;
+}
+
+.sort-letter {
+  font-size: 14px;
+  color: white;
+  margin-right: 1rem;
+}
+
+.sort-letter--inactive {
+  pointer-events: none;
+  color: var(--font-color-contrast-dark);
+}

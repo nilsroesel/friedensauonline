@@ -4,13 +4,23 @@
     <div class="separator">
       <div class="separator__border"></div>
     </div>
-    <div>aaa</div>
+    <div class="letter-list">
+      <span class="sort-letter" *ngFor="let e of categoriesByStartChar" [class.sort-letter--inactive]="!e.active"
+        (click)="scrollToSection(e.char)">
+        {{ e.char }}
+      </span>
+    </div>
   </header>
 
   <div class="article-list" style="height: 100%">
     <ul class="category-list">
-      <li class="category-list__item" *ngFor="let category of (categories$ | async)"
-          [routerLink]="[category]">{{ category }}</li>
+      <ng-container *ngFor="let c of (categories$ | async)">
+        <li *ngIf="c.mark" [id]="c.id" class="category-list__item"
+            [routerLink]="[c.keyword]">{{ c.keyword }}</li>
+        <li *ngIf="!c.mark"  class="category-list__item"
+            [routerLink]="[c.keyword]">{{ c.keyword }}</li>
+      </ng-container>
+
     </ul>
   </div>
 </section>
