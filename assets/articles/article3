@@ -9,7 +9,7 @@
 >
   <summary>Ein gerissener Hacker hat das WLAN Passwort der Technik geknackt. Lesen Sie hier mehr dazu!</summary>
 
-  <text-block>
+  <text-block picture="hacker.png">
     <title>"Das Internet ist für uns Alle Neuland"</title>
     <text>
       "Das Internet ist für uns Alle Neuland" - Ein Satz, der sich in das Gedächtnis einer ganzen Generation eingebrannt hat.
@@ -20,7 +20,7 @@
     </text>
   </text-block>
 
-  <text-block>
+  <text-block picture="hacker-kid.jpeg">
     <title>Mittels Keylogger zum Ziel</title>
     <text>
       So ist es dem jungen Hacker Marcel P. (Name geändert) gelungen, die Sicherheitsmaßnahmen der Veranstaltungstechnik zu überwinden
