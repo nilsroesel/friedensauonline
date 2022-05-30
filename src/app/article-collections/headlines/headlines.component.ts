@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Article, ArticlesService } from '../articles.service';
+import { Article, ArticlesService } from '../../articles.service';
 import { ReplaySubject } from 'rxjs';
-import { createMoment } from '../../helpers';
+import { createMoment } from '../../../helpers';
 import { Moment } from 'moment';
 
 @Component({

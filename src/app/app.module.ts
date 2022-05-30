@@ -5,34 +5,36 @@ import { AppComponent } from './app.component';
 import { ArticleTileComponent } from './article-tile/article-tile.component';
 import { ArticleComponent } from './article/article.component';
 import { RouterModule } from '@angular/router';
-import { ArticlesComponent } from './articles/articles.component';
+import { AllArticlesComponent } from './article-collections/all-articles/all-articles.component';
 import { MomentFormatterPipe } from './date-formatter.pipe';
 import { SideBarComponent } from './side-bar/side-bar.component';
-import { HeadlinesComponent } from './headlines/headlines.component';
+import { HeadlinesComponent } from './article-collections/headlines/headlines.component';
 import { ArticlesByKeywordsComponent } from './articles-by-keywords/articles-by-keywords.component';
-import { KeywordsComponent } from './keywords/keywords.component';
+import { KeywordsComponent } from './article-collections/keywords/keywords.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { TickerComponent } from './ticker/ticker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArticleTileComponent,
     ArticleComponent,
-    ArticlesComponent,
+    AllArticlesComponent,
     MomentFormatterPipe,
     SideBarComponent,
     HeadlinesComponent,
     ArticlesByKeywordsComponent,
     KeywordsComponent,
-    SearchComponent
+    SearchComponent,
+    TickerComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
       { path: '', redirectTo: '/home', pathMatch: 'full'},
-      { path: 'home', component: ArticlesComponent },
+      { path: 'home', component: AllArticlesComponent },
       { path: 'headlines/:date', component: HeadlinesComponent },
       { path: 'article/:title', component: ArticleComponent },
       { path: 'topics', component: KeywordsComponent, pathMatch: 'full' },

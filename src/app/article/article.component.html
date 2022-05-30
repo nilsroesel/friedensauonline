@@ -16,7 +16,7 @@
     </div>
 
     <div *ngFor="let block of (article$ |async).text let i = index" class="article__block">
-      <img *ngIf="!!(article$ |async).picturePaths[i]" src="{{ (article$ |async).picturePaths[i] }}" class="article__block__picture">
+      <img *ngIf="!!block.picture" src="{{ block.picture }}" class="article__block__picture">
       <h3 *ngIf="!!block.title" class="article__block__headline">
         {{ block.title }}
       </h3>

@@ -1,0 +1,38 @@
+<article
+ headline="Outfits die Sie auf dem Connectival vermeiden sollten"
+ shortTitle="Modesünder aufgepasst"
+ category = "Lifestyle"
+ date = "2022-05-27"
+ author = "Nils Rösel"
+ keywords = "Mode,Ratgeber"
+ pictures = ""
+>
+  <summary>
+    Germanys Next Topmodel ist vorbei, doch die Modewelt schläft nicht.
+    Erfahren Sie hier welche Modesünden Sie auf dem Connectival unbedingt vermeiden sollten.
+  </summary>
+
+  <text-block picture="">
+    <title></title>
+    <text></text>
+  </text-block>
+
+  <text-block picture="lack-und-leder.jpeg">
+    <title>2. Lack und Leder</title>
+    <text>
+      Die Berliner müssen sich auf dem Connectival etwas zusammenreißen. Auch wenn diese Art von Outfits an diversen Orten
+      der hippen Metropole häufig aufzufinden sind, sind diese für das Leben auf dem Zeltplatz eher ungeeignet.
+      Um sich anzupassen, wird empfohlen die stacheligen Lederhalsbänder mit einer einfachen Halskette zu ersetzen.
+      Harnesse, die für die Fantansie keinen Spielraum übrig lassen, sollten dringlichst für Kleidern in neutralen Farben weichen.
+    </text>
+  </text-block>
+
+  <text-block picture="">
+    <title>3. Gespenster Kutten</title>
+    <text>
+      Auch wenn sich hartgesottene, erkonservative Amerikaner in diesen Kluften wohlfühlen, sind diese beim Zelten äußerst unpraktisch.
+      Außerdem könnten Sie die Anwohner des örtlichen Altenheims damit erschrecken. Diese Zwischenfälle wollen vermieden werden.
+    </text>
+  </text-block>
+
+</article>

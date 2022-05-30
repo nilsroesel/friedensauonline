@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { Article, ArticlesService } from '../articles.service';
+import { Article, ArticlesService } from '../../articles.service';
 import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-articles',
-  templateUrl: './articles.component.html',
-  styleUrls: ['./articles.component.css']
+  templateUrl: './all-articles.component.html',
+  styleUrls: ['./all-articles.component.css']
 })
-export class ArticlesComponent implements OnInit {
+export class AllArticlesComponent implements OnInit {
 
   public articles: Observable<Array<Article>>;
 

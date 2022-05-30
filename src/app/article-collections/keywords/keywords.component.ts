@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, ReplaySubject } from 'rxjs';
-import { ArticlesService } from '../articles.service';
+import { ArticlesService } from '../../articles.service';
 import { map } from 'rxjs/operators';
 
 interface KeywordWithStartIndicator {

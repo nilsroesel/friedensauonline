@@ -27,6 +27,7 @@ export interface Article {
 export interface TextBlock {
   title: string;
   text: string;
+  picture: string | undefined;
 }
 
 export interface OrderedArticles {
@@ -209,10 +210,17 @@ export class ArticlesService {
         };
         const text: Array<TextBlock> = Array.from(articleData?.getElementsByTagName('text-block') as HTMLCollectionOf<HTMLElement>)
           .map(element => (
-            {  title: element.getAttribute('title') as string,
-              text: element.getElementsByTagName('text').item(0)?.innerHTML as string }
-            )
-          );
+            {
+              title: element.getElementsByTagName('title').item(0)?.innerHTML as string,
+              text: element.getElementsByTagName('text').item(0)?.innerHTML as string,
+              picture: element.getAttribute('picture') || undefined
+            })
+          ).map(e => {
+            if ( !!e.picture ) {
+              e.picture = this.location.prepareExternalUrl(ArticlesService.PICTURES + e.picture);
+            }
+            return e;
+          });
 
 
         metadata.readingTime = this.calculateReadingTime(
