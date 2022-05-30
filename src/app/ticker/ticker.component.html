@@ -1,1 +1,11 @@
-<p>ticker works!</p>
+<section class="section" style="padding: 0">
+  <div class="ticker__limiter">
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <div *ngFor="let ticker of (tickerValues | async)" class="ticker__item">{{ ticker }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

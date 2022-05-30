@@ -1,6 +1,12 @@
 
 .article_header {
   display: grid;
+  overflow-wrap: anywhere;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  overflow: hidden;
 }
 
 .article__headline {

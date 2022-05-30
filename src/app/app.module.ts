@@ -9,7 +9,7 @@ import { AllArticlesComponent } from './article-collections/all-articles/all-art
 import { MomentFormatterPipe } from './date-formatter.pipe';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { HeadlinesComponent } from './article-collections/headlines/headlines.component';
-import { ArticlesByKeywordsComponent } from './articles-by-keywords/articles-by-keywords.component';
+import { ArticlesByKeywordsComponent } from './article-collections/articles-by-keywords/articles-by-keywords.component';
 import { KeywordsComponent } from './article-collections/keywords/keywords.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Article, ArticlesService } from '../articles.service';
+import { Article, ArticlesService } from '../../articles.service';
 import { ActivatedRoute } from '@angular/router';
 import { ReplaySubject } from 'rxjs';
 import { Observable } from 'rxjs';
