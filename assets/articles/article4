@@ -50,9 +50,24 @@
     <text>
       Student:innen müssen jetzt besonders stark sein.
       Auch wenn die Praktikabilität dieses Accessoires außer Frage steht, kann dieses unweigerlich zu gewissen Missverständnissen führen.
-      Auch wenn eine Füllung ohne Gerstensaft prinzipiell im Rahmen der Möglichkeiten steht, sollten Sie dieses Wochenende
+      Obwohl eine Füllung ohne Gerstensaft prinzipiell im Rahmen der Möglichkeiten steht, sollten Sie dieses Wochenende
       auf Ihre Alltagskopfbedeckung verzichten.
     </text>
+  </text-block>
+
+  <text-block picture="brown-coat.jpeg">
+    <title>5. Beiger Mantel mit nichts darunter</title>
+    <text>
+      Ein gewagtes Outfit für Kenner. Es kann nicht jedermann tragen. Beige beißt sich oftmals mit den Hauttönen.
+      Wenn Sie diesen Style kopieren möchten, probieren Sie diesen bitte nicht auf dem Zeltplatz aus, sondern etwas Abseits
+      an den Waldgrenzen oder in dunklen Ecken.
+      Oder am Besten: lassen Sie es bleiben.
+    </text>
+  </text-block>
+
+  <text-block picture="">
+    <title></title>
+    <text></text>
   </text-block>
 
 </article>
