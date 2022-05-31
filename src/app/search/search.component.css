@@ -61,3 +61,84 @@
 .search__input::-ms-input-placeholder {
   color: var(--font-color-contrast-dark);
 }
+
+
+.filter-button {
+  color: white;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.filter-button::before {
+  margin: 0;
+}
+
+.filter-group {
+  text-align: left;
+  color: white;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.filter__form {
+  margin: 0 1rem 1rem 1rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.filter__form__header {
+  margin: 1rem 0;
+}
+
+.filter__form__header__title {
+  font-family: "American Typewriter";
+  font-weight: bold;
+  color: var(--main-color);
+  font-size: 1.25rem;
+}
+
+.filter__form__header__reset {
+  background: none;
+  border: none;
+  color: white;
+  float: right;
+  padding: 0;
+}
+
+.filter__form__item {
+  margin-bottom: 1rem;
+}
+.filter__form__item__headline {
+  font-weight: bold;
+}
+
+.radio__label {
+  margin-left: 1rem;
+}
+
+.filter__form__select {
+  padding: 0.75rem 1rem 0.75rem 0.5rem;
+  width: 100%;
+  background: rgba(47,45,43,1);
+  color: white;
+  height: 2.5rem;
+  border-radius: 1.5px;
+  border-color: var(--font-color-contrast-dark);
+
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  appearance:none;
+}
+
+.filter__form__select__arrow {
+
+}
+
+.filter__form__select__arrow::before {
+  color: var(--font-color-contrast-dark);
+  position: absolute;
+  transform: translateY(90%);
+  pointer-events: none;
+  right: 2rem;
+}

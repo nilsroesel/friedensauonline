@@ -56,3 +56,8 @@
   content: '\f2d7';
   font-family: icons;
 }
+
+.filter-icon::before {
+  content: '\f39d';
+  font-family: icons;
+}

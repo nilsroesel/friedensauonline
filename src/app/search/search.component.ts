@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ReplaySubject } from 'rxjs';
 import { Article, ArticlesService } from '../articles.service';
 import { Observable } from 'rxjs';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-search',
@@ -19,6 +20,9 @@ export class SearchComponent implements OnInit {
   articles$: Observable<Array<Article>> = new ReplaySubject();
 
   searchPhrase: string = '';
+  toggleFilter = false;
+
+  @ViewChild('filters') filtersForm : NgForm;
 
   constructor(
     private activatedRoute: ActivatedRoute,

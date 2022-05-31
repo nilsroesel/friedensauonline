@@ -13,8 +13,51 @@
           </div>
         </div>
       </form>
+      <div class="filter-group">
+        <button class="filter-icon icon--small filter-button" (click)="toggleFilter = !toggleFilter" >
+          <span style="margin-left: 1rem" *ngIf="!toggleFilter">Suchergebnisse filtern</span>
+          <span style="margin-left: 1rem" *ngIf="toggleFilter">Filter ausblenden</span>
+        </button>
+      </div>
     </div>
   </header>
+
+  <div *ngIf="toggleFilter" class="section" style="margin-bottom: .5rem;">
+
+    <form #filters class="filter__form">
+      <div class="filter__form__header">
+        <span class="filter__form__header__title">Filter</span>
+        <input class="filter__form__header__reset" type="reset" value="alle zurücksetzen">
+      </div>
+      <div class="separator" style="padding: 0; margin-bottom: 1rem;">
+        <div class="separator__border"></div>
+      </div>
+      <div class="filter__form__item__headline filter__form__item">
+        Zeitraum
+      </div>
+      <div class="filter__form__item ">
+        <select class="filter__form__select">
+          <option>Alles</option>
+          <option>Heute</option>
+        </select>
+        <span class="expand-icon icon--small filter__form__select__arrow"></span>
+      </div>
+      <div class="filter__form__item__headline filter__form__item ">
+        Inhalte
+      </div>
+      <div class="filter__form__item ">
+        <input checked name="contentFilter" type="radio"><label class="radio__label">Alle</label>
+      </div>
+      <div class="filter__form__item ">
+        <input name="contentFilter" type="radio"><label class="radio__label">Überschriften und Vorspann</label>
+      </div>
+      <div class="filter__form__item">
+        <input name="contentFilter" type="radio"><label class="radio__label">Autor</label>
+      </div>
+
+
+    </form>
+  </div>
 
   <div class="article-list" *ngIf="(articles$ | async)">
     <div class="main-color headlines__subheadline">
