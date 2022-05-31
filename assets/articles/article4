@@ -65,9 +65,12 @@
     </text>
   </text-block>
 
-  <text-block picture="">
-    <title></title>
-    <text></text>
+  <text-block picture="karneval.jpeg">
+    <title>6. Karneval Trachten</title>
+    <text>
+      Andere Länder, andere Sitten. Im Westen mögen solche Geschmacksverirrungen zwar gesellschaftlich akzeptiert sein,
+      aber im Osten ist das ein absolutes No-Go.
+    </text>
   </text-block>
 
 </article>
