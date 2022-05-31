@@ -2,7 +2,7 @@
   <div class="ticker__limiter">
     <div class="ticker-wrap">
       <div class="ticker">
-        <div *ngFor="let ticker of (tickerValues | async)" class="ticker__item">{{ ticker }}</div>
+        <div *ngFor="let ticker of (tickerValues$ | async)" class="ticker__item">{{ ticker.text }}</div>
       </div>
     </div>
   </div>

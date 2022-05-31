@@ -34,6 +34,11 @@ export interface OrderedArticles {
   [key: string]: Array<Article>;
 }
 
+export interface TickerValue {
+  text: string;
+  date: Moment;
+}
+
 export const DEFAULT_ARTICLE: Article = {
   headline: '',
   metadata: {
@@ -56,8 +61,10 @@ export class ArticlesService {
 
   static FILES: string = 'assets/articles/';
   static PICTURES: string = 'assets/articles/pictures/';
+  static TICKER: string = 'assets/articles/ticker'
 
   private loadedArticles$: ReplaySubject<Array<Article>> = new ReplaySubject<Array<Article>>();
+  private loadedTicker$: ReplaySubject<Array<TickerValue>> = new ReplaySubject<Array<TickerValue>>();
 
   constructor(private location: Location) { }
 
@@ -71,6 +78,10 @@ export class ArticlesService {
 
   getArticles(): Observable<Array<Article>> {
     return this.loadedArticles$;
+  }
+
+  getTicker(): Observable<Array<TickerValue>> {
+    return this.loadedTicker$;
   }
 
   getArticlesOrderedByCategory(): Observable<OrderedArticles>  {
@@ -176,6 +187,27 @@ export class ArticlesService {
         }) || [];
       })
     );
+  }
+
+  async loadTicker() {
+     return await fetch(this.location.prepareExternalUrl(ArticlesService.TICKER))
+      .then(response => response.status !== 200 ? null : response.text())
+      .then(( data: string | null ) => {
+        if ( data === null ) return null;
+
+        const parser = new DOMParser();
+        const xmlArticle = parser.parseFromString(data, "application/xml");
+        const tickerValues = Array
+          .from(xmlArticle.getElementsByTagName('live-ticker').item(0)?.getElementsByTagName('ticker') || [])
+          .map(element => {
+            const date = createMoment(element.getAttribute('date'));
+            const text = element.innerHTML;
+            return { text, date }
+          });
+
+        this.loadedTicker$.next(tickerValues)
+        return;
+      }).then()
   }
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {

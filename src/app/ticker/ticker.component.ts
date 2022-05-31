@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { ArticlesService, TickerValue } from '../articles.service';
+import { map } from 'rxjs/operators';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-ticker',
@@ -8,12 +11,12 @@ import { Observable, of } from 'rxjs';
 })
 export class TickerComponent implements OnInit {
 
-  tickerValues: Observable<Array<string>> = of([
-    'Hier könnte Ihre Werbng stehen',
-    'Die Friedensau ist jetzt auch online verfügbar'
-  ])
+  tickerValues$: Observable<Array<TickerValue>> = of([] as Array<TickerValue>)
 
-  constructor() { }
+  constructor(private articlesService: ArticlesService) {
+    this.tickerValues$ = articlesService.getTicker()
+      .pipe(map(tickerValues => tickerValues.filter(t => t.date.diff(moment(), 'days') === 0)));
+  }
 
   ngOnInit(): void {
   }

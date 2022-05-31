@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
 
   constructor( private articlesService: ArticlesService ) {
     this.articlesService.loadArticles().then();
+    this.articlesService.loadTicker().then();
   }
 
   ngOnInit() {
