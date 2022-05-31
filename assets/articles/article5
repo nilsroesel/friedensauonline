@@ -1,0 +1,66 @@
+<article
+ headline="Die schönsten Badestellen in Friedensau"
+ shortTitle="Der Sommer kann kommen"
+ category = "Lifestyle"
+ date = "2022-05-27"
+ author = "Nils Rösel"
+ keywords = "Freizeit,Ratgeber"
+ pictureBasePath="badestellen/"
+ pictures = ""
+>
+  <summary>
+    Der Sommer ist da und pünktlich zu den steigenden Temperaturen präsentieren wir Ihnen die schönsten Badestellen in Friedensau.
+  </summary>
+
+  <text-block picture="">
+    <title>1. Das Biotop</title>
+    <text>
+      Zugegeben. Es wirkt auf den ersten Blick vielleicht etwas sumpfig. Aber an den Moorgeruch gewöhnt man sich doch ziemlich zügig.
+      Die günstige Lage direkt am Zeltplatz macht diese Badestelle besonders attraktiv für Touristen.
+    </text>
+  </text-block>
+
+  <text-block picture="">
+    <title>2. Der Brunnen am Studentenwohnheim</title>
+    <text>
+      Zum Bahnen ziehen ungeeignet, dafür aber mit bester Wasserqualität. Die belebte Badestelle sorgt nicht nur bei den
+      Student:innen, sondern auch bei Kindern für maximalen Badespaß!
+    </text>
+
+
+  <text-block picture="">
+    <title>3. Die Ihle</title>
+    <text>
+      Mit den knapp 800m in Friedensau, ihrer gesamten 30km Länge,
+      bietet die Ihle viele Möglichkeiten für jeden, der nach einem Platz zum planschen sucht.
+      Nehmen Sie jedoch dringlichst Rücksicht auf die örtliche Binnenschifffahrt sowie die Friedensauer Pfingstregatta
+      auf der Ihle (Sonntag 22.05.2022)
+    </text>
+  </text-block>
+
+  <text-block picture="">
+    <title>4. Das Taufbecken</title>
+    <text>
+      Das Connectival steht in direkter Tradition zu dem PfiLa der BMV.
+      Mit der obligatorischen Taufe, die gewöhnlich am Sabbat stattfindet, bietet sich die einmalige Chance
+      im Pool planschen zu gehen.
+      Hier gilt allerdings: Nur für künftige Mitglieder.
+    </text>
+  </text-block>
+
+  <text-block picture="teich_bib.jpeg">
+    <title>6. Der Teich an der Bibliothek</title>
+    <text>
+      Gegenüber der Bibliothek findet sich ein kleiner Teich. Allerding gilt hier: Wer hier baden will muss leise sein.
+    </text>
+  </text-block>
+
+  <text-block picture="">
+    <title>6. Der Naturbadeteich</title>
+    <text>
+      Abseits der Zivilisation, weit abgelegen liegt er. Der Badeteich. Kein wirkliche Alternative.
+      Um ihn zu erreichen muss erst die Ihle überquert werden, was den Besuch überflüssig macht, da man dann auch direkt in die Ihle kann.
+      Der einzige Pluspunkt: Der kleine Strand.
+    </text>
+  </text-block>
+</article>
