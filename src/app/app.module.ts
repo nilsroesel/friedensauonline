@@ -12,7 +12,7 @@ import { HeadlinesComponent } from './article-collections/headlines/headlines.co
 import { ArticlesByKeywordsComponent } from './article-collections/articles-by-keywords/articles-by-keywords.component';
 import { KeywordsComponent } from './article-collections/keywords/keywords.component';
 import { SearchComponent } from './search/search.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TickerComponent } from './ticker/ticker.component';
 
 @NgModule({
@@ -32,6 +32,7 @@ import { TickerComponent } from './ticker/ticker.component';
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'home', component: AllArticlesComponent },

@@ -24,10 +24,10 @@
 
   <div *ngIf="toggleFilter" class="section" style="margin-bottom: .5rem;">
 
-    <form #filters class="filter__form">
+    <form #filters class="filter__form" (change)="updateSearchFilter()" [formGroup]="filtersForm">
       <div class="filter__form__header">
         <span class="filter__form__header__title">Filter</span>
-        <input class="filter__form__header__reset" type="reset" value="alle zurücksetzen">
+        <input class="filter__form__header__reset" type="reset" value="alle zurücksetzen" (click)="resetFilters()">
       </div>
       <div class="separator" style="padding: 0; margin-bottom: 1rem;">
         <div class="separator__border"></div>
@@ -36,9 +36,10 @@
         Zeitraum
       </div>
       <div class="filter__form__item ">
-        <select class="filter__form__select">
-          <option>Alles</option>
-          <option>Heute</option>
+        <select class="filter__form__select" formControlName="searchTimeframe">
+          <option value="all">Alles</option>
+          <option value="today">Heute</option>
+          <option value="older">Älter</option>
         </select>
         <span class="expand-icon icon--small filter__form__select__arrow"></span>
       </div>
@@ -46,16 +47,17 @@
         Inhalte
       </div>
       <div class="filter__form__item ">
-        <input checked name="contentFilter" type="radio"><label class="radio__label">Alle</label>
+        <input id="filter-all" checked name="searchContents" type="radio" value="all" formControlName="searchContents">
+        <label class="radio__label" for="filter-all">Alle</label>
       </div>
       <div class="filter__form__item ">
-        <input name="contentFilter" type="radio"><label class="radio__label">Überschriften und Vorspann</label>
+        <input id="filter-headlines" name="searchContents" type="radio" value="headlines" formControlName="searchContents">
+        <label class="radio__label" for="filter-headlines">Überschriften und Vorspann</label>
       </div>
       <div class="filter__form__item">
-        <input name="contentFilter" type="radio"><label class="radio__label">Autor</label>
+        <input id="filter-author" name="searchContents" type="radio" value="author" formControlName="searchContents">
+        <label class="radio__label" for="filter-author">Autor</label>
       </div>
-
-
     </form>
   </div>
 
