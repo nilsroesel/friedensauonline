@@ -199,6 +199,7 @@ export class ArticlesService {
         const xmlArticle = parser.parseFromString(data, "application/xml");
 
         const articleData = xmlArticle.getElementsByTagName('article').item(0);
+        const pictureBasePath = articleData?.getAttribute('pictureBasePath') || '';
         const summary = articleData?.getElementsByTagName('summary').item(0)?.innerHTML;
         const metadata: ArticleMetadata = {
           readingTime: 0,
@@ -217,7 +218,7 @@ export class ArticlesService {
             })
           ).map(e => {
             if ( !!e.picture ) {
-              e.picture = this.location.prepareExternalUrl(ArticlesService.PICTURES + e.picture);
+              e.picture = this.location.prepareExternalUrl(ArticlesService.PICTURES + pictureBasePath + e.picture);
             }
             return e;
           });
