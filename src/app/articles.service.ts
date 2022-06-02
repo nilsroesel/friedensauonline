@@ -212,66 +212,78 @@ export class ArticlesService {
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {
     const assetUrl = this.location.prepareExternalUrl(ArticlesService.FILES + "article" + index);
-    const article: Article | null = await this.readArticle(assetUrl);
-    if ( article === null ) {
+    const loadedArticles: Array<Article> | null = await this.readArticle(assetUrl);
+    if ( loadedArticles === null ) {
       return articles;
     }
-    return this.loadArticles(articles.concat(article), ++index).then(a => {
+    return this.loadArticles(articles.concat(loadedArticles), ++index).then(a => {
       this.loadedArticles$.next(a);
       return a;
     });
   }
 
-  async readArticle( file: string ): Promise<Article | null> {
+  async readArticle( file: string ): Promise<Array<Article> | null> {
     return await fetch(file).then(response => response.status !== 200? null : response.text())
       .then((data: string | null) => {
-        if ( data === null ) return null;
+          if ( data === null ) return null;
 
-        const parser = new DOMParser();
-        const xmlArticle = parser.parseFromString(data, "application/xml");
-
-        const articleData = xmlArticle.getElementsByTagName('article').item(0);
-        const pictureBasePath = articleData?.getAttribute('pictureBasePath') || '';
-        const summary = articleData?.getElementsByTagName('summary').item(0)?.innerHTML;
-        const metadata: ArticleMetadata = {
-          readingTime: 0,
-          date: createMoment(articleData?.getAttribute('date') as string),
-          author: articleData?.getAttribute('author') || '',
-          summary: summary as any,
-          category: articleData?.getAttribute('category') || '',
-          keywords: (articleData?.getAttribute('keywords') || '').split(',')
-        };
-        const text: Array<TextBlock> = Array.from(articleData?.getElementsByTagName('text-block') as HTMLCollectionOf<HTMLElement>)
-          .map(element => (
-            {
-              title: element.getElementsByTagName('title').item(0)?.innerHTML as string,
-              text: element.getElementsByTagName('text').item(0)?.innerHTML as string,
-              picture: element.getAttribute('picture') || undefined
-            })
-          ).map(e => {
-            if ( !!e.picture ) {
-              e.picture = this.location.prepareExternalUrl(ArticlesService.PICTURES + pictureBasePath + e.picture);
-            }
-            return e;
-          });
+          const parser = new DOMParser();
+          const xmlArticle = parser.parseFromString(data, "application/xml");
 
 
-        metadata.readingTime = this.calculateReadingTime(
-         text.map(t => t.text + ' ' + t.title).reduce((acc, curr) => acc.concat(curr), '')
-        );
+          const articleData = xmlArticle.getElementsByTagName('articles').item(0);
+          const defaultDate: Moment = createMoment(articleData?.getAttribute('date') as string);
+          const articlesArray: Array<Article> = Array
+            .from(articleData?.getElementsByTagName('article') as HTMLCollectionOf<HTMLElement> || [])
+            .map(e => this.mapNodeToArticle(e, defaultDate));
 
-        const picturePaths: Array<string> = (articleData?.getAttribute('pictures') as string)
-          .split(',')
-          .filter(s => s !== '')
-          .map(name => this.location.prepareExternalUrl(ArticlesService.PICTURES + name));
-        return {
-          headline: articleData?.getAttribute('headline') as string,
-          shortTitle: articleData?.getAttribute('shortTitle') as string,
-          metadata,
-          text,
-          picturePaths
-        };
+          return articlesArray;
+        }
+      );
+  }
+
+  mapNodeToArticle(articleData: HTMLElement, defaultDate: Moment): Article {
+    const pictureBasePath = articleData?.getAttribute('pictureBasePath') || '';
+    const summary = articleData?.getElementsByTagName('summary').item(0)?.innerHTML;
+    const metadata: ArticleMetadata = {
+      readingTime: 0,
+      date: articleData?.getAttribute('date') !== null ?
+        createMoment(articleData?.getAttribute('date') as string) : defaultDate,
+      author: articleData?.getAttribute('author') || '',
+      summary: summary as any,
+      category: articleData?.getAttribute('category') || '',
+      keywords: (articleData?.getAttribute('keywords') || '').split(',')
+    };
+    const text: Array<TextBlock> = Array.from(articleData?.getElementsByTagName('text-block') as HTMLCollectionOf<HTMLElement>)
+      .map(element => (
+        {
+          title: element.getElementsByTagName('title').item(0)?.innerHTML as string,
+          text: element.getElementsByTagName('text').item(0)?.innerHTML as string,
+          picture: element.getAttribute('picture') || undefined
+        })
+      ).map(e => {
+        if ( !!e.picture ) {
+          e.picture = this.location.prepareExternalUrl(ArticlesService.PICTURES + pictureBasePath + e.picture);
+        }
+        return e;
       });
+
+
+    metadata.readingTime = this.calculateReadingTime(
+      text.map(t => t.text + ' ' + t.title).reduce((acc, curr) => acc.concat(curr), '')
+    );
+
+    const picturePaths: Array<string> = (articleData?.getAttribute('pictures') as string)
+      .split(',')
+      .filter(s => s !== '')
+      .map(name => this.location.prepareExternalUrl(ArticlesService.PICTURES + name));
+    return {
+      headline: articleData?.getAttribute('headline') as string,
+      shortTitle: articleData?.getAttribute('shortTitle') as string,
+      metadata,
+      text,
+      picturePaths
+    };
   }
 
   calculateReadingTime(text: string): number {
