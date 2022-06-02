@@ -1,234 +1,166 @@
 <calendar>
-  <entry
-    startDate="2022-06-02 21:00"
-    endDate="2022-06-02 21:30"
-  >
+  <!-- FREITAG -->
+  <entry startDate="2022-06-03 21:00" endDate="2022-06-03 21:30">
     <title>Eröffnungsveranstatung</title>
     <description>
       Predigt von Basti Bak
     </description>
   </entry>
-
-  <entry
-    startDate="2022-06-02 21:30"
-    endDate="2022-06-02 24:00"
-  >
+  <entry startDate="2022-06-03 21:30" endDate="2022-06-03 24:00">
     <title>Night Life</title>
     <description>
-      Spaß am Lagerfeuer
+      Geselliges Beisammensein und Romantik unter dem Sternenhimmel
     </description>
   </entry>
-  <entry
-      startDate="2022-06-03 24:00"
-      endDate="2022-06-04 06:00"
-  >
+  <entry startDate="2022-06-03 00:00" endDate="2022-06-04 06:00">
     <title>Nachtruhe</title>
     <description>
-      Das heißt: Keine Raves. Keine geheimen Zeltparties. Kein Entsorgen von Altglas.
+      Keine Raves. Keine Zeltparties. Und ganz wichtig: Kein Entsorgen von Altglas
     </description>
   </entry>
 
-  <entry
-      startDate="2022-06-04 08:00"
-      endDate="2022-06-04 08:30"
-  >
+  <!-- SAMSTAG -->
+  <entry startDate="2022-06-04 08:00" endDate="2022-06-04 08:30">
     <title>Morning Workout</title>
     <description>
-    Oder einfach länger schlafen!
+      Schwitzen oder weiterschlafen?
     </description>
   </entry>
-  <entry
-      startDate="2022-06-04 08:30"
-      endDate="2022-06-04 10:00"
-  >
+  <entry startDate="2022-06-04 08:30" endDate="2022-06-04 09:45">
     <title>Frühstück</title>
     <description>
-      Nutella mit Butter ist eine inakzeptable Perversion!
+      Frische Brötchen. Nutella mit Butter ist absolut pervers. Tipp: Mit Erdnussbutter is(s)t man beinahe einen Snickers.
     </description>
   </entry>
-  <entry
-      startDate="2022-06-04 10:00"
-      endDate="2022-06-04 12:00"
-  >
+  <entry startDate="2022-06-04 10:00" endDate="2022-06-04 12:00">
     <title>Gottesdienst</title>
     <description>
-      Mit Abendmahl. Predigt:
+      Predigt: XXX
+      Mit Abendmahl
     </description>
   </entry>
-  <entry
-      startDate="2022-06-04 12:30"
-      endDate="2022-06-04 13:30"
-  >
+  <entry startDate="2022-06-04 12:30" endDate="2022-06-04 13:30">
     <title>Mittagessen</title>
     <description>
+      Guten Appetit
     </description>
   </entry>
-  <entry
-      startDate="2022-06-04 14:30"
-      endDate="2022-06-04 16:00"
-  >
+  <entry startDate="2022-06-04 14:30" endDate="2022-06-04 16:00">
     <title>Workshops</title>
     <description>
     </description>
   </entry>
-  <entry
-      startDate="2022-06-04 18:00"
-      endDate="2022-06-04 19:30"
-  >
+  <entry startDate="2022-06-04 18:00" endDate="2022-06-04 19:30">
     <title>Abendessen</title>
     <description>
+      In der Ortsgruppe
     </description>
   </entry>
-  <entry
-      startDate="2022-06-04 24:00"
-      endDate="2022-06-04 6:00"
-  >
-    <title>Taufe & YADA Konzert</title>
+  <entry startDate="2022-06-04 20:00" endDate="2022-06-04 21:30">
+    <title>Taufe inkl. YADA Worship Konzert</title>
     <description>
+      Predigt: XXX
     </description>
   </entry>
-
-  <entry
-    startDate="2022-06-04 21:30"
-    endDate="2022-06-04 24:00"
-  >
+  <entry startDate="2022-06-04 21:30" endDate="2022-06-04 24:00">
     <title>Night Life</title>
     <description>
-      Spaß am Lagerfeuer
+      Entspanntes Beisammensein am feuer mit heißen und klaten Getränken
     </description>
   </entry>
-  <entry
-      startDate="2022-06-04 24:00"
-      endDate="2022-06-05 06:00"
-  >
+  <entry startDate="2022-06-04 24:00" endDate="2022-06-05 06:00">
     <title>Nachtruhe</title>
     <description>
-      Das heißt: Keine Raves. Keine geheimen Zeltparties. Kein Entsorgen von Altglas.
+      Kein lautes Schnarchen. Kein Zünden von Feuerwerk
     </description>
   </entry>
 
-
-  <entry
-      startDate="2022-06-05 08:00"
-      endDate="2022-06-05 08:30"
-  >
+  <!-- Sonntag -->
+  <entry startDate="2022-06-05 08:00" endDate="2022-06-05 08:30">
     <title>Morning Workout</title>
     <description>
-    Oder einfach länger schlafen!
+      Schwitzen oder weiterschlafen?
     </description>
   </entry>
-  <entry
-      startDate="2022-06-05 08:30"
-      endDate="2022-06-05 10:00"
-  >
+  <entry startDate="2022-06-05 08:30" endDate="2022-06-05 09:45">
     <title>Frühstück</title>
     <description>
-      Nutella mit Butter ist eine inakzeptable Perversion!
+      Frische Brötchen. Nutella mit Butter ist absolut pervers. Tipp: Mit Erdnussbutter is(s)t man beinahe einen Snickers.
     </description>
   </entry>
-  <entry
-      startDate="2022-06-05 10:00"
-      endDate="2022-06-05 11:00"
-  >
+  <entry startDate="2022-06-05 10:00" endDate="2022-06-05 11:00">
     <title>Morgenveranstaltung</title>
     <description>
-      Predigt:
+      Predigt: XXX
     </description>
   </entry>
-  <entry
-      startDate="2022-06-05 11:00"
-      endDate="2022-06-05 12:30"
-  >
+  <entry startDate="2022-06-05 11:00" endDate="2022-06-05 12:30">
     <title>Workshops</title>
     <description>
     </description>
   </entry>
-  <entry
-        startDate="2022-06-05 12:30"
-        endDate="2022-06-05 13:30"
-    >
-      <title>Mittagessen</title>
-      <description>
-      </description>
+  <entry startDate="2022-06-05 12:30" endDate="2022-06-05 13:30">
+    <title>Mittagessen</title>
+    <description>
+      Guten Appetit
+    </description>
   </entry>
-  <entry
-      startDate="2022-06-05 14:30"
-      endDate="2022-06-05 16:00"
-  >
+  <entry startDate="2022-06-05 14:30" endDate="2022-06-05 16:00">
     <title>Workshops</title>
     <description>
     </description>
   </entry>
-  <entry
-      startDate="2022-06-05 18:00"
-      endDate="2022-06-05 19:30"
-  >
+  <entry startDate="2022-06-05 18:00" endDate="2022-06-05 19:30">
     <title>Abendessen</title>
     <description>
+      In der Ortsgruppe
     </description>
   </entry>
-  <entry
-    startDate="2022-06-05 20:00"
-    endDate="2022-06-05 24:00"
-  >
+  <entry startDate="2022-06-05 20:00" endDate="2022-06-05 24:00">
     <title>Night Life</title>
     <description>
-      Spaß am Lagerfeuer
+      Entspanntes Beisammensein am feuer mit heißen und klaten Getränken
     </description>
   </entry>
-  <entry
-      startDate="2022-06-05 24:00"
-      endDate="2022-06-06 06:00"
-  >
+  <entry startDate="2022-06-05 24:00" endDate="2022-06-06 06:00">
     <title>Nachtruhe</title>
     <description>
-      Das heißt: Keine Raves. Keine geheimen Zeltparties. Kein Entsorgen von Altglas.
+      Kein lautes Schnarchen. Kein Zünden von Feuerwerk
     </description>
   </entry>
 
- <entry
-      startDate="2022-06-06 08:00"
-      endDate="2022-06-06 08:30"
-  >
+
+
+  <!-- Montag -->
+  <entry startDate="2022-06-06 08:00" endDate="2022-06-06 08:30">
     <title>Morning Workout</title>
     <description>
-    Oder einfach länger schlafen!
+      Schwitzen oder weiterschlafen?
     </description>
   </entry>
-  <entry
-      startDate="2022-06-06 08:30"
-      endDate="2022-06-06 10:00"
-  >
+  <entry startDate="2022-06-06 08:30" endDate="2022-06-06 09:45">
     <title>Frühstück</title>
     <description>
-      Nutella mit Butter ist eine inakzeptable Perversion!
+      Frische Brötchen. Nutella mit Butter ist absolut pervers. Tipp: Mit Erdnussbutter is(s)t man beinahe einen Snickers.
     </description>
   </entry>
-  <entry
-      startDate="2022-06-06 10:00"
-      endDate="2022-06-06 11:00"
-  >
+  <entry startDate="2022-06-06 10:00" endDate="2022-06-06 11:00">
     <title>Morgenveranstaltung</title>
     <description>
-      Predigt:
+      Predigt: XXX
     </description>
   </entry>
-  <entry
-      startDate="2022-06-06 11:00"
-      endDate="2022-06-06 12:30"
-  >
-    <title>Abbau</title>
+  <entry startDate="2022-06-06 11:00" endDate="2022-06-06 12:30">
+    <title>Abbau und Abreise</title>
     <description>
+      Zeit zum Zelte abbrechen und die Heimreise anzutreten.
+      Gute Fahrt!
     </description>
   </entry>
-  <entry
-        startDate="2022-06-06 12:30"
-        endDate="2022-06-06 13:30"
-    >
-      <title>Mittagessen</title>
-      <description>
-      </description>
+  <entry startDate="2022-06-06 12:30" endDate="2022-06-06 13:30">
+    <title>Mittagessen</title>
+    <description>
+      Für die armen Seelen, die noch nicht nach Hause können.
+    </description>
   </entry>
-
-
 </calendar>

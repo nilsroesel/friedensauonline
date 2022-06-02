@@ -44,8 +44,11 @@ export class CalendarService {
 
   getCalendarEntriesFromDay(date: Moment): Observable<Array<CalendarEntry>> {
     return this.calendarEntries$.pipe(map(entries => {
-      return entries.filter(e => e.startDate.diff(date, 'days') === 0
-        || e.startDate.clone().subtract(1, 'hour').diff(date, 'days') === 0 );
+      let e = entries
+        .sort((a, b) => a.startDate.diff(b.startDate))
+        .filter(e => e.startDate.clone().day() === date.day());
+      console.log(e)
+      return e;
     }));
   }
 

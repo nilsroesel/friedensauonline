@@ -2,7 +2,12 @@
   margin: 1rem;
 }
 
-
+.header__date {
+  color: white;
+  font-family: "American Typewriter";
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
 .entry {
   margin-bottom: 1rem;
 }

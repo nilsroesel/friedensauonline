@@ -1,6 +1,9 @@
 <section>
   <header class="page_header">
     <span class="section__header">Plan Heute</span>
+    <div class="header__date">
+      {{ date | momentFormatter: 'dddd DD. MMMM yyyy'}}
+    </div>
   </header>
 
   <div class="article-list">

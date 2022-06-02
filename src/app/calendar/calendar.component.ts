@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { createMoment } from '../../helpers';
 import { CalendarEntry, CalendarService } from '../calendar.service';
 import { Observable, ReplaySubject } from 'rxjs';
-import * as moment from 'moment';
+import { Moment } from 'moment';
 
 @Component({
   selector: 'app-calendar',
@@ -13,11 +13,11 @@ import * as moment from 'moment';
 export class CalendarComponent implements OnInit {
 
   calendarEntriesFromToday$: Observable<Array<CalendarEntry>> = new ReplaySubject();
-  private currentHour = moment().hour();
+  date: Moment = createMoment(undefined);
 
   constructor(private activatedRoute: ActivatedRoute, private calendarService: CalendarService) {
     this.activatedRoute.queryParams.subscribe(params => {
-      const date = createMoment(params['date']);
+      const date = createMoment(undefined);
       this.calendarEntriesFromToday$  = calendarService.getCalendarEntriesFromDay(date);
     });
   }
