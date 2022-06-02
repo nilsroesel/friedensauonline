@@ -14,17 +14,19 @@ import { KeywordsComponent } from './article-collections/keywords/keywords.compo
 import { SearchComponent } from './search/search.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TickerComponent } from './ticker/ticker.component';
+import { ArticlesByCategoryComponent } from './article-collections/articles-by-category/articles-by-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArticleTileComponent,
     ArticleComponent,
+    ArticlesByKeywordsComponent,
+    ArticlesByCategoryComponent,
     AllArticlesComponent,
     MomentFormatterPipe,
     SideBarComponent,
     HeadlinesComponent,
-    ArticlesByKeywordsComponent,
     KeywordsComponent,
     SearchComponent,
     TickerComponent
@@ -40,6 +42,7 @@ import { TickerComponent } from './ticker/ticker.component';
       { path: 'article/:title', component: ArticleComponent },
       { path: 'topics', component: KeywordsComponent, pathMatch: 'full' },
       { path: 'topics/:topic', component: ArticlesByKeywordsComponent },
+      { path: 'categories/:category', component: ArticlesByCategoryComponent },
       { path: 'search', component: SearchComponent }
     ])
   ],
