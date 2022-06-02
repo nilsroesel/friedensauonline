@@ -16,4 +16,23 @@
   </text-block>
 
 </article>
+
+<article
+ headline="Witz des Tages"
+ shortTitle=""
+ category = "Humor"
+ date = "2022-06-03"
+ author = ""
+ keywords = "Memes,Witze"
+ pictures = "witze/affe.jpg"
+>
+  <summary></summary>
+
+  <text-block picture="witze/affe.jpg">
+    <title></title>
+    <text></text>
+  </text-block>
+
+</article>
+
 </articles>

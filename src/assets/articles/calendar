@@ -1,0 +1,234 @@
+<calendar>
+  <entry
+    startDate="2022-06-02 20:00"
+    endDate="2022-06-02 21:00"
+  >
+    <title>Eröffnungsveranstatung</title>
+    <description>
+      Predigt von Basti Bak
+    </description>
+  </entry>
+
+  <entry
+    startDate="2022-06-02 21:30"
+    endDate="2022-06-02 24:00"
+  >
+    <title>Night Life</title>
+    <description>
+      Spaß am Lagerfeuer
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-03 24:00"
+      endDate="2022-06-04 06:00"
+  >
+    <title>Nachtruhe</title>
+    <description>
+      Das heißt: Keine Raves. Keine geheimen Zeltparties. Kein Entsorgen von Altglas.
+    </description>
+  </entry>
+
+  <entry
+      startDate="2022-06-04 08:00"
+      endDate="2022-06-04 08:30"
+  >
+    <title>Morning Workout</title>
+    <description>
+    Oder einfach länger schlafen!
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-04 08:30"
+      endDate="2022-06-04 10:00"
+  >
+    <title>Frühstück</title>
+    <description>
+      Nutella mit Butter ist eine inakzeptable Perversion!
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-04 10:00"
+      endDate="2022-06-04 12:00"
+  >
+    <title>Gottesdienst</title>
+    <description>
+      Mit Abendmahl. Predigt:
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-04 12:30"
+      endDate="2022-06-04 13:30"
+  >
+    <title>Mittagessen</title>
+    <description>
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-04 14:30"
+      endDate="2022-06-04 16:00"
+  >
+    <title>Workshops</title>
+    <description>
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-04 18:00"
+      endDate="2022-06-04 19:30"
+  >
+    <title>Abendessen</title>
+    <description>
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-04 24:00"
+      endDate="2022-06-04 6:00"
+  >
+    <title>Taufe & YADA Konzert</title>
+    <description>
+    </description>
+  </entry>
+
+  <entry
+    startDate="2022-06-04 21:30"
+    endDate="2022-06-04 24:00"
+  >
+    <title>Night Life</title>
+    <description>
+      Spaß am Lagerfeuer
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-04 24:00"
+      endDate="2022-06-05 06:00"
+  >
+    <title>Nachtruhe</title>
+    <description>
+      Das heißt: Keine Raves. Keine geheimen Zeltparties. Kein Entsorgen von Altglas.
+    </description>
+  </entry>
+
+
+  <entry
+      startDate="2022-06-05 08:00"
+      endDate="2022-06-05 08:30"
+  >
+    <title>Morning Workout</title>
+    <description>
+    Oder einfach länger schlafen!
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-05 08:30"
+      endDate="2022-06-05 10:00"
+  >
+    <title>Frühstück</title>
+    <description>
+      Nutella mit Butter ist eine inakzeptable Perversion!
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-05 10:00"
+      endDate="2022-06-05 11:00"
+  >
+    <title>Morgenveranstaltung</title>
+    <description>
+      Predigt:
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-05 11:00"
+      endDate="2022-06-05 12:30"
+  >
+    <title>Workshops</title>
+    <description>
+    </description>
+  </entry>
+  <entry
+        startDate="2022-06-05 12:30"
+        endDate="2022-06-05 13:30"
+    >
+      <title>Mittagessen</title>
+      <description>
+      </description>
+  </entry>
+  <entry
+      startDate="2022-06-05 14:30"
+      endDate="2022-06-05 16:00"
+  >
+    <title>Workshops</title>
+    <description>
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-05 18:00"
+      endDate="2022-06-05 19:30"
+  >
+    <title>Abendessen</title>
+    <description>
+    </description>
+  </entry>
+  <entry
+    startDate="2022-06-05 20:00"
+    endDate="2022-06-05 24:00"
+  >
+    <title>Night Life</title>
+    <description>
+      Spaß am Lagerfeuer
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-05 24:00"
+      endDate="2022-06-06 06:00"
+  >
+    <title>Nachtruhe</title>
+    <description>
+      Das heißt: Keine Raves. Keine geheimen Zeltparties. Kein Entsorgen von Altglas.
+    </description>
+  </entry>
+
+ <entry
+      startDate="2022-06-06 08:00"
+      endDate="2022-06-06 08:30"
+  >
+    <title>Morning Workout</title>
+    <description>
+    Oder einfach länger schlafen!
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-06 08:30"
+      endDate="2022-06-06 10:00"
+  >
+    <title>Frühstück</title>
+    <description>
+      Nutella mit Butter ist eine inakzeptable Perversion!
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-06 10:00"
+      endDate="2022-06-06 11:00"
+  >
+    <title>Morgenveranstaltung</title>
+    <description>
+      Predigt:
+    </description>
+  </entry>
+  <entry
+      startDate="2022-06-06 11:00"
+      endDate="2022-06-06 12:30"
+  >
+    <title>Abbau</title>
+    <description>
+    </description>
+  </entry>
+  <entry
+        startDate="2022-06-06 12:30"
+        endDate="2022-06-06 13:30"
+    >
+      <title>Mittagessen</title>
+      <description>
+      </description>
+  </entry>
+
+
+</calendar>

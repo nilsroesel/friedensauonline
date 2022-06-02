@@ -1,0 +1,24 @@
+<section>
+  <header class="page_header">
+    <span class="section__header">Plan Heute</span>
+  </header>
+
+  <div class="article-list">
+    <div class="calendar">
+      <div *ngFor="let entry of (calendarEntriesFromToday$ | async)" class="entry">
+        <span class="entry__title">{{ entry.title }}</span>
+        <div class="entry__timeframe">
+          <span> {{ entry.startDate | momentFormatter: 'HH:mm'}} - {{ entry.endDate | momentFormatter: 'HH:mm'}} </span>
+        </div>
+        <div class="entry__description">
+          {{ entry.description }}
+        </div>
+        <div class="separator" style="padding: 0; margin: 1rem 0;">
+          <div class="separator__border"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>

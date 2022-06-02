@@ -1,0 +1,23 @@
+.calendar {
+  margin: 1rem;
+}
+
+
+.entry {
+  margin-bottom: 1rem;
+}
+.entry__title {
+  font-family: "American Typewriter";
+  font-size: 24px;
+  color: var(--main-color);
+}
+
+.entry__timeframe {
+  color: white;
+  font-size: 18px;
+}
+
+.entry__description {
+  color: var(--font-color-contrast-dark);
+  font-size: 18px;
+}

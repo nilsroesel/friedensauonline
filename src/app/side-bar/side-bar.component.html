@@ -13,6 +13,12 @@
 
     </li>
     <li class="sidebar__item main-color" (click)="redirect('/home')"><h3>Startseite</h3></li>
+    <li class="sidebar__item" (click)="redirect('/calendar')">
+      Kalender
+    </li>
+    <div class="sidebar__sublist__item separator" style="padding: 0;">
+      <div class="separator__border"></div>
+    </div>
     <li class="sidebar__item">
       Artikel
       <input id="collapsible" class="toggle collapse-checkbox" type="checkbox">
@@ -22,7 +28,7 @@
             (click)="redirectDate(articleByDate.date)">
           {{ articleByDate.date | momentFormatter: 'dddd DD.MM.yyyy' }}
         </li>
-        <li class="sidebar__sublist__item separator">
+        <li class="sidebar__sublist__item separator" style="padding: 0; margin-left: -1rem;">
           <div class="separator__border"></div>
         </li>
       </ul>

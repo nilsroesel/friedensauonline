@@ -15,6 +15,7 @@ import { SearchComponent } from './search/search.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TickerComponent } from './ticker/ticker.component';
 import { ArticlesByCategoryComponent } from './article-collections/articles-by-category/articles-by-category.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ArticlesByCategoryComponent } from './article-collections/articles-by-c
     HeadlinesComponent,
     KeywordsComponent,
     SearchComponent,
-    TickerComponent
+    TickerComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +45,7 @@ import { ArticlesByCategoryComponent } from './article-collections/articles-by-c
       { path: 'topics', component: KeywordsComponent, pathMatch: 'full' },
       { path: 'topics/:topic', component: ArticlesByKeywordsComponent },
       { path: 'categories/:category', component: ArticlesByCategoryComponent },
+      { path: 'calendar', component: CalendarComponent },
       { path: 'search', component: SearchComponent }
     ])
   ],

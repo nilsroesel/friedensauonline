@@ -8,3 +8,10 @@ export function createMoment(dateString: string | undefined |null): Moment {
   return moment(String(dateString), 'YYYY-MM-DD');
 }
 
+export function createMomentWithTime(dateString: string | undefined |null): Moment {
+  if ( dateString === undefined || dateString === null ) {
+    return moment();
+  }
+  return moment(String(dateString), 'YYYY-MM-DD hh:mm');
+}
+
