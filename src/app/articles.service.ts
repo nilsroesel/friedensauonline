@@ -63,7 +63,7 @@ export class ArticlesService {
 
   static FILES: string = 'assets/articles/';
   static PICTURES: string = 'assets/articles/pictures/';
-  static TICKER: string = 'assets/articles/ticker'
+  static TICKER: string = 'assets/articles/ticker.xml'
 
   private loadedArticles$: ReplaySubject<Array<Article>> = new ReplaySubject<Array<Article>>();
   private loadedTicker$: ReplaySubject<Array<TickerValue>> = new ReplaySubject<Array<TickerValue>>();
