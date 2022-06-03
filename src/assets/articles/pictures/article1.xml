@@ -1,0 +1,151 @@
+<articles date="2022-06-04">
+  <article
+    headline="Gewagtes Klotzen"
+    shortTitle="Ruhrpott"
+    category = "Menschen"
+    author = "Dominik W."
+    keywords = "Persönliche Schikcksale"
+    pictures = "samstag/pott-lager.jpeg"
+    location="Ruhrpott"
+  >
+    <text-block picture="samstag/pott-lager.jpeg">
+      <title></title>
+      <text>
+        Die Gruppe aus dem Ruhrpott beweist mal wieder, aus welchem Holz die Arbeiterpartei geschnitzt ist.
+        Keine Kosten und Mühen wurden gescheut, um früher anzureisen. Im Nu ist die Küche aufgebaut und strotzt nur so
+        von Lebensmitteln. Diese steht jedoch völlig unbewacht und offen für alle Personen, die Böses im Sinn haben.
+        Oder ist es die Arroganz der dickheutigen Kohleschürfer, die sich gegenüber den hageren Dienstleistungsmitarbeitern
+        im Norden und Osten Deutschlands körperlich weit überlegen fühlen? Es bleibt der kraftvolle Eindruck einer vergessenen
+        Arbeiterschicht, die ihresgleichen in Deutschland sucht. Ob diese Generation schon begriffen hat, dass ihre Vormacht
+        aus der Zeit gefallen ist, bleibt offen.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Und es hat Boom gemacht!"
+    shortTitle="Eklatante Verstopfungsgefahr"
+    category = "Lifestyle"
+    author = "Dominik W."
+    keywords = "Toiletten,Sanitäranlagen,Zeltplatz,Verstopfung"
+    pictures = ""
+    location="Friedensau"
+  >
+    <text-block>
+      <title>Kein Spielraum für übermäßige Verdauungsaktivität</title>
+      <text>
+        Die ansässige Sanitärleitung warnt vor dem übermäßigen Konsum von Grillgut.
+        Alle Freunde des toten Fleisches sind gebeten, ihre Fleischeslust zu zügeln, gut zu kauen und ausreichend Zeit
+        zwischen den Mahlzeiten zu lassen. Schlecht verdaute Tiermuskeln können der Zeltplatzleitung nach die Abwasserleitungen
+        überfordern und zu Überschwemmungen des Zeltplatzes führen. Tofuwürstchen oder Steaks auf Basis von Erbsenprotein können
+        hingegen bedenkenlos konsumiert werden. Das gilt jedoch nicht für Grillkäse. Er verklumpt im Magen und sorgt für übermäßig lange Sitzungen
+        auf der Toilette. Bitte konsumiert bewusst und denkt an eure Mitmenschen. Danke!
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Sondereinstatz ADRA Deutschland"
+    shortTitle="Mücken are coming"
+    category = "Wirtschaft"
+    author = "Dominik W."
+    keywords = "ADRA,Spenden,Ukraine"
+    pictures = ""
+    location=""
+  >
+    <summary>
+      ADRA bittet um einen kleinen Obolus
+    </summary>
+    <text-block>
+      <title></title>
+      <text>
+        Naturkatastrophen und Kriege haben Europa fest im Griff. ADRA Deutschland fördert, hilft und rettet, wo sie nur können.
+        Hilfsbedürftige wie auch Einsatzkräfte brauchen unsere Unterstützung. Eine kleine Blutspende kann Menschen das Leben retten oder
+        gewinnträchtig verkauft werden. Aus dem Grund hat ADRA Deutschland kleine Helfer beauftragt, welche Mikromengen an Blut von Teilnehmern abnehmen.
+        Sie sind zu erkennen an einem nervig-summenden Geräusch und ihrer rüsselförmigen Schnauze. Jede Mücke trägt ein Oberarmband mit dem ADRA Logo.
+        Um das Tagesprogramm so wenig wie möglich zu behindern, werden die Spenden hauptsächlich in der Dämmerung sowie nachts gesammelt.
+        Wenn ihr also ein leises Summen an eurem Ohr habt, dann dürft ihr beruhigt weiterschlafen, denn ihr rettet gerade Menschenleben.
+        Vielen Dank für eure bereitwilligen und großzügigen Spenden!
+      </text>
+    </text-block>
+
+
+  </article>
+  <article
+    headline="Interview mit Paul Horch"
+    shortTitle="Ein Name zum Aufhorchen!"
+    category = "Interview"
+    author = "Dominik Weber"
+    keywords = "Interview,Prediger,Investigativ"
+    pictures = "samstag/paul.png"
+    location=""
+  >
+    <summary>
+      Wer ist dieser Paul Horch?
+      Der Name lässt schon mal aufhorchen – Paul. Er ist wohl eine Mischung zwischen Johannes Paul II. und Paul Panzer:
+      Fromme Führungskraft mit dem humoristischen Scharm einer vorgetäuschten Sprachbehinderung. Die Reporter der FriedenSau
+      waren ganz nah dran an diesem Mann, der bodenständiger nicht sein könnte und gleichzeitig große Träume hat.
+    </summary>
+    <text-block picture="samstag/paul.png">
+      <title>FriedenSau: Welche Superkraft fasziniert dich?</title>
+      <text>
+        Paul: Die Geschwindigkeit als Wahrnehmung der Zeit lässt mich nicht los. Wenn ich mir vorstelle, wie Flash
+        durch die Gegend rast und sich dabei alle Menschen wie in Superzeitlupe bewegen, dann zieht mich das an.
+        Es ist die Leichtigkeit, in der Flash Fehler mal eben korrigiert oder einfach in einem Wimpernschlag Urlaub macht.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Wenn du der geistliche Führer in einer anderen Konfession oder Religion sein müsstest, welche Rolle würdest du nehmen?</title>
+      <text>
+        P: Ich wäre dann ein jüdischer Rabbi. Mich interessiert die Kultur dieser alten Religion. Einerseits sind sie sehr
+        eingeschränkt durch Regeln und Weltvorstellungen, andererseits haben sie einen leichtfüßigen, humorvollen Umgang mit
+        dem Leben. Zudem würden mir Bart und Löckchen ausgezeichnet stehen.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Wenn du dich als Frau identifizieren würdest, wie dürften wir dich rufen?</title>
+      <text>
+        P: Definitiv „Paula“. Paul ist ein kraftvoller und beliebter Name. Da kann ich mit „Paula“ nichts falsch machen.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Du hast dich entschieden, den Leitgedanken des Connectivals im Leben von Esther aufzuzeigen.
+        Welche Verbindung siehst du zwischen dem Motto und dem Buch über Esther?
+      </title>
+      <text>
+        P: Ohne zu viele Details oder Gedanken zu äußern, kann ich klar sagen, dass Esther vielen Menschen Mut macht.
+        Sie macht deutlich, dass es keine Rolle spielt, wo du lebst oder herkommst. Bei Gott ist keiner vergessen.
+        Jeder ist eine berufene Person, die dort, wo sie steht, im Sinne des Reiches Gottes wirken kann.
+        Keiner muss Beobachter bleiben, sondern wird zum Gestalter berufen.
+        Dazu muss kein Engel erscheinen oder sich das Meer teilen. Esther kämpft für Gerechtigkeit und Wahrheit.
+        Sie folgt ihrem Gewissen und legt dabei ihr eigenes Leben in die Waagschale.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: An welchem Punkt in deinem Leben bist du vom Mitläufer zum Akteur geworden?</title>
+      <text>
+        P: Ich kann mich noch gut daran erinnern, wie ich in der Jugendstunde bei der Andacht saß und nicht abwarten konnte,
+        bis die Person am Ende war. Gedanklich war ich schon beim spaßigen Nachprogramm. Mein Fokus änderte sich, als es in der
+        Gruppe zu Lücken und fehlendem Einsatz kam. In dem Moment begriff ich, dass mein Einsatz Gewicht hat und ich nicht existiere,
+        um zu konsumieren. Mit meiner tatkräftigen Unterstützung kann Gemeinschaft und Wachstum entstehen. Daraus entstanden mehr Freude
+        und Zufriedenheit, als aus spaßigen Nachprogrammen.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Was würdest du einem oder einer Jugendlichen heute mitgeben?</title>
+      <text>
+        P: Pack es an! Es ist dran, etwas zu tun! Du kennst dein Leben selbst am besten. Wenn dem nicht so ist,
+        dann komm für eine gewisse Zeit zur Ruhe und denke über dein Leben nach. Wo du stehst, wo Gott gerade wirkt
+        und wo du Teil des Großen Ganzen sein kannst. Am Reich Gottes baust du mit, wenn du Verantwortung für dein und
+        das Leben deiner Mitmenschen übernimmst. Dazu hat Gott Esther berufen. Dazu beruft er auch dich.
+      </text>
+    </text-block>
+  </article>
+
+
+
+
+
+
+
+
+
+</articles>
