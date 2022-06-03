@@ -7,6 +7,7 @@
         {{ (article$ |async).metadata.summary }}
       </div>
       <div class="article__metadata">
+        <span *ngIf="(article$ |async).metadata.location" class="article__metadata__location">{{ (article$ |async).metadata.location }}</span>
         <span>{{ (article$ |async).metadata.date | momentFormatter: 'dd. DD.MM.yyyy'}}</span>
         <span *ngIf="!!(article$ |async).metadata.author" class="article__metadata__author">von {{ (article$ |async).metadata.author }}</span>
       </div>

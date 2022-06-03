@@ -14,7 +14,8 @@ export interface ArticleMetadata {
   author: string;
   summary: string;
   category: string;
-  keywords: Array<string>
+  keywords: Array<string>;
+  location: string;
 }
 export interface Article {
   headline: string;
@@ -47,7 +48,8 @@ export const DEFAULT_ARTICLE: Article = {
     category: '',
     author: '',
     summary: '',
-    keywords:[]
+    keywords:[],
+    location: ''
   },
   text: [],
   shortTitle: '',
@@ -211,13 +213,13 @@ export class ArticlesService {
   }
 
   async loadArticles(articles: Array<Article> = [], index = 0): Promise<Array<Article>> {
-    const assetUrl = this.location.prepareExternalUrl(ArticlesService.FILES + "article" + index);
+    const assetUrl = this.location.prepareExternalUrl(ArticlesService.FILES + "article" + index + '.xml');
     const loadedArticles: Array<Article> | null = await this.readArticle(assetUrl);
     if ( loadedArticles === null ) {
       return articles;
     }
     return this.loadArticles(articles.concat(loadedArticles), ++index).then(a => {
-      this.loadedArticles$.next(a);
+      this.loadedArticles$.next(a.reverse());
       return a;
     });
   }
@@ -252,7 +254,8 @@ export class ArticlesService {
       author: articleData?.getAttribute('author') || '',
       summary: summary as any,
       category: articleData?.getAttribute('category') || '',
-      keywords: (articleData?.getAttribute('keywords') || '').split(',')
+      keywords: (articleData?.getAttribute('keywords') || '').split(','),
+      location: articleData?.getAttribute('location') || '',
     };
     const text: Array<TextBlock> = Array.from(articleData?.getElementsByTagName('text-block') as HTMLCollectionOf<HTMLElement>)
       .map(element => (
@@ -273,7 +276,7 @@ export class ArticlesService {
       text.map(t => t.text + ' ' + t.title).reduce((acc, curr) => acc.concat(curr), '')
     );
 
-    const picturePaths: Array<string> = (articleData?.getAttribute('pictures') as string)
+    const picturePaths: Array<string> = (articleData?.getAttribute('pictures') as string || '')
       .split(',')
       .filter(s => s !== '')
       .map(name => this.location.prepareExternalUrl(ArticlesService.PICTURES + name));
