@@ -28,3 +28,29 @@
 
 </article>
 </articles>
+
+
+
+<article
+  headline=""
+  shortTitle=""
+  category = ""
+  author = ""
+  keywords = ""
+  pictures = ""
+  location=""
+>
+  <text-block>
+    <title></title>
+    <text>
+    </text>
+  </text-block>
+
+  <text-block>
+    <title></title>
+    <text>
+
+    </text>
+  </text-block>
+
+</article>
