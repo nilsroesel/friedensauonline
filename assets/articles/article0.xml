@@ -167,9 +167,12 @@
     category = "Lifestyle"
     author = "Tabea Gibbert"
     keywords = "Top,Flop"
-    pictures = ""
+    pictures="flipflop.png"
   >
-    <text-block>
+    <summary>
+      Der Top und Flop vom Freitag
+    </summary>
+    <text-block picture="flipflop.png">
       <title>Top des Tages</title>
       <text>
         Luise H. freut sich, dass ihr Auto jetzt weltberühmt wird. Es wurde bei der Einfahrt nach Friedensau von einer Drohne gefilmt.
@@ -210,7 +213,7 @@
         Doch das Urteil war bereits gesprochen und die Gerechtigkeit hatte gesiegt!
       </text>
     </text-block>
-    <text-block piture="freitag/oll.jpeg">
+    <text-block picture="freitag/oll.jpeg">
       <title>Massive Sabotageversuche der abgesetzten OLL</title>
       <text>
         Die abgesetzte Schattenregierung der OLL versuchte alle Maßnahmen der Aufarbeitung eines späteren Regimes
@@ -468,7 +471,6 @@
       </text>
     </text-block>
   </article>
-
   <article
     headline="Leipziger Kollektivversagen"
     shortTitle="Autos fahren reihenweise in Sackgasse"
