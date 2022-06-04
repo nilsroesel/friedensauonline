@@ -540,12 +540,12 @@
     category = "Lifestyle"
     author = "Tabea Gibbert"
     keywords = "Top,Flop"
-    pictures = "flipflop.jpeg"
+    pictures = "flipflop.png"
   >
     <summary>
       Der Top und Flop vom Samstag
     </summary>
-    <text-block picture="flipflop.jpeg">
+    <text-block picture="flipflop.png">
       <title>Top des Tages</title>
       <text>
         Bei der Kabine einer der Herrenduschen fehlt eine Tür. Bei den Nutzenden fiel dies jedoch durchaus positiv auf.

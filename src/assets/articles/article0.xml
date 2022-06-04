@@ -167,12 +167,12 @@
     category = "Lifestyle"
     author = "Tabea Gibbert"
     keywords = "Top,Flop"
-    pictures="flipflop.jpeg"
+    pictures="flipflop.png"
   >
     <summary>
       Der Top und Flop vom Freitag
     </summary>
-    <text-block picture="flipflop.jpeg">
+    <text-block picture="flipflop.png">
       <title>Top des Tages</title>
       <text>
         Luise H. freut sich, dass ihr Auto jetzt weltberühmt wird. Es wurde bei der Einfahrt nach Friedensau von einer Drohne gefilmt.
