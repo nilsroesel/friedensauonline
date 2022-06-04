@@ -1,0 +1,570 @@
+<articles date="2022-06-04">
+  <article
+    headline="Gewagtes Klotzen"
+    shortTitle="Ruhrpott"
+    category = "Menschen"
+    author = "Dominik W."
+    keywords = "Persönliche Schikcksale"
+    pictures = "samstag/pott-lager.jpeg"
+    location="Ruhrpott"
+  >
+    <text-block picture="samstag/pott-lager.jpeg">
+      <title></title>
+      <text>
+        Die Gruppe aus dem Ruhrpott beweist mal wieder, aus welchem Holz die Arbeiterpartei geschnitzt ist.
+        Keine Kosten und Mühen wurden gescheut, um früher anzureisen. Im Nu ist die Küche aufgebaut und strotzt nur so
+        von Lebensmitteln. Diese steht jedoch völlig unbewacht und offen für alle Personen, die Böses im Sinn haben.
+        Oder ist es die Arroganz der dickheutigen Kohleschürfer, die sich gegenüber den hageren Dienstleistungsmitarbeitern
+        im Norden und Osten Deutschlands körperlich weit überlegen fühlen? Es bleibt der kraftvolle Eindruck einer vergessenen
+        Arbeiterschicht, die ihresgleichen in Deutschland sucht. Ob diese Generation schon begriffen hat, dass ihre Vormacht
+        aus der Zeit gefallen ist, bleibt offen.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Und es hat Boom gemacht!"
+    shortTitle="Eklatante Verstopfungsgefahr"
+    category = "Lifestyle"
+    author = "Dominik W."
+    keywords = "Toiletten,Sanitäranlagen,Zeltplatz,Verstopfung"
+    pictures = ""
+    location="Friedensau"
+  >
+    <text-block>
+      <title>Kein Spielraum für übermäßige Verdauungsaktivität</title>
+      <text>
+        Die ansässige Sanitärleitung warnt vor dem übermäßigen Konsum von Grillgut.
+        Alle Freunde des toten Fleisches sind gebeten, ihre Fleischeslust zu zügeln, gut zu kauen und ausreichend Zeit
+        zwischen den Mahlzeiten zu lassen. Schlecht verdaute Tiermuskeln können der Zeltplatzleitung nach die Abwasserleitungen
+        überfordern und zu Überschwemmungen des Zeltplatzes führen. Tofuwürstchen oder Steaks auf Basis von Erbsenprotein können
+        hingegen bedenkenlos konsumiert werden. Das gilt jedoch nicht für Grillkäse. Er verklumpt im Magen und sorgt für übermäßig lange Sitzungen
+        auf der Toilette. Bitte konsumiert bewusst und denkt an eure Mitmenschen. Danke!
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Sondereinstatz ADRA Deutschland"
+    shortTitle="Mücken are coming"
+    category = "Wirtschaft"
+    author = "Dominik W."
+    keywords = "ADRA,Spenden,Ukraine"
+    pictures = "samstag/adra.png"
+    location=""
+  >
+    <summary>
+      ADRA bittet um einen kleinen Obolus
+    </summary>
+    <text-block picture="samstag/adra.png">
+      <title></title>
+      <text>
+        Naturkatastrophen und Kriege haben Europa fest im Griff. ADRA Deutschland fördert, hilft und rettet, wo sie nur können.
+        Hilfsbedürftige wie auch Einsatzkräfte brauchen unsere Unterstützung. Eine kleine Blutspende kann Menschen das Leben retten oder
+        gewinnträchtig verkauft werden. Aus dem Grund hat ADRA Deutschland kleine Helfer beauftragt, welche Mikromengen an Blut von Teilnehmern abnehmen.
+        Sie sind zu erkennen an einem nervig-summenden Geräusch und ihrer rüsselförmigen Schnauze. Jede Mücke trägt ein Oberarmband mit dem ADRA Logo.
+        Um das Tagesprogramm so wenig wie möglich zu behindern, werden die Spenden hauptsächlich in der Dämmerung sowie nachts gesammelt.
+        Wenn ihr also ein leises Summen an eurem Ohr habt, dann dürft ihr beruhigt weiterschlafen, denn ihr rettet gerade Menschenleben.
+        Vielen Dank für eure bereitwilligen und großzügigen Spenden!
+      </text>
+    </text-block>
+
+
+  </article>
+  <article
+    headline="Interview mit Paul Horch"
+    shortTitle="Ein Name zum Aufhorchen!"
+    category = "Interview"
+    author = "Dominik Weber"
+    keywords = "Interview,Prediger,Investigativ"
+    pictures = "samstag/paul.png"
+    location=""
+  >
+    <summary>
+      Wer ist dieser Paul Horch?
+      Der Name lässt schon mal aufhorchen – Paul. Er ist wohl eine Mischung zwischen Johannes Paul II. und Paul Panzer:
+      Fromme Führungskraft mit dem humoristischen Scharm einer vorgetäuschten Sprachbehinderung. Die Reporter der FriedenSau
+      waren ganz nah dran an diesem Mann, der bodenständiger nicht sein könnte und gleichzeitig große Träume hat.
+    </summary>
+    <text-block picture="samstag/paul.png">
+      <title>FriedenSau: Welche Superkraft fasziniert dich?</title>
+      <text>
+        Paul: Die Geschwindigkeit als Wahrnehmung der Zeit lässt mich nicht los. Wenn ich mir vorstelle, wie Flash
+        durch die Gegend rast und sich dabei alle Menschen wie in Superzeitlupe bewegen, dann zieht mich das an.
+        Es ist die Leichtigkeit, in der Flash Fehler mal eben korrigiert oder einfach in einem Wimpernschlag Urlaub macht.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Wenn du der geistliche Führer in einer anderen Konfession oder Religion sein müsstest, welche Rolle würdest du nehmen?</title>
+      <text>
+        P: Ich wäre dann ein jüdischer Rabbi. Mich interessiert die Kultur dieser alten Religion. Einerseits sind sie sehr
+        eingeschränkt durch Regeln und Weltvorstellungen, andererseits haben sie einen leichtfüßigen, humorvollen Umgang mit
+        dem Leben. Zudem würden mir Bart und Löckchen ausgezeichnet stehen.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Wenn du dich als Frau identifizieren würdest, wie dürften wir dich rufen?</title>
+      <text>
+        P: Definitiv „Paula“. Paul ist ein kraftvoller und beliebter Name. Da kann ich mit „Paula“ nichts falsch machen.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Du hast dich entschieden, den Leitgedanken des Connectivals im Leben von Esther aufzuzeigen.
+        Welche Verbindung siehst du zwischen dem Motto und dem Buch über Esther?
+      </title>
+      <text>
+        P: Ohne zu viele Details oder Gedanken zu äußern, kann ich klar sagen, dass Esther vielen Menschen Mut macht.
+        Sie macht deutlich, dass es keine Rolle spielt, wo du lebst oder herkommst. Bei Gott ist keiner vergessen.
+        Jeder ist eine berufene Person, die dort, wo sie steht, im Sinne des Reiches Gottes wirken kann.
+        Keiner muss Beobachter bleiben, sondern wird zum Gestalter berufen.
+        Dazu muss kein Engel erscheinen oder sich das Meer teilen. Esther kämpft für Gerechtigkeit und Wahrheit.
+        Sie folgt ihrem Gewissen und legt dabei ihr eigenes Leben in die Waagschale.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: An welchem Punkt in deinem Leben bist du vom Mitläufer zum Akteur geworden?</title>
+      <text>
+        P: Ich kann mich noch gut daran erinnern, wie ich in der Jugendstunde bei der Andacht saß und nicht abwarten konnte,
+        bis die Person am Ende war. Gedanklich war ich schon beim spaßigen Nachprogramm. Mein Fokus änderte sich, als es in der
+        Gruppe zu Lücken und fehlendem Einsatz kam. In dem Moment begriff ich, dass mein Einsatz Gewicht hat und ich nicht existiere,
+        um zu konsumieren. Mit meiner tatkräftigen Unterstützung kann Gemeinschaft und Wachstum entstehen. Daraus entstanden mehr Freude
+        und Zufriedenheit, als aus spaßigen Nachprogrammen.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Was würdest du einem oder einer Jugendlichen heute mitgeben?</title>
+      <text>
+        P: Pack es an! Es ist dran, etwas zu tun! Du kennst dein Leben selbst am besten. Wenn dem nicht so ist,
+        dann komm für eine gewisse Zeit zur Ruhe und denke über dein Leben nach. Wo du stehst, wo Gott gerade wirkt
+        und wo du Teil des Großen Ganzen sein kannst. Am Reich Gottes baust du mit, wenn du Verantwortung für dein und
+        das Leben deiner Mitmenschen übernimmst. Dazu hat Gott Esther berufen. Dazu beruft er auch dich.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Techniker zocken Adventjugend ab"
+    shortTitle="Machen sich einen Lenz"
+    category = "Politik"
+    author = "Nils P."
+    keywords = "Technik,Skandal,Abzocke,Steuerhinterziehung,Arbeit"
+    pictures = "samstag/techniker.jpeg"
+    location="Berlin"
+  >
+    <summary>
+      Techniker sind ja generell bekannt dafür bequem zu sein. Aber Bequemlichkeit hat ihre Grenzen. Lesen Sie die ganze
+      Story!
+    </summary>
+    <text-block picture="samstag/techniker.jpeg">
+      <title>Abzocke mit System</title>
+      <text>
+        Schon länger war es zu beobachten, doch noch nie wurde es so offen zur Schau gestellt, wie in diesen Tagen des
+        Connectivals: Statt sich um die komplexe Herausforderung der technischen Betreuung der Veranstaltungen zu kümmern,
+        lümmelt das Team um Jonas A. und Lucas O. lieber stundenlang in zwielichtigen Ecken rum, trinkt ununterbrochen
+        Katee und lässt unschuldige Jugendliche für sich schuften. Schon vergangenes Wochenende beim HILA der BMV fiel
+        das Team nur durch dumme Kommentare gegenüber der Band und peinlichen Kuscheltierdiebstahl auf. Um ihr unverblümtes
+        Desinteresse an ihren eigentlichen Aufgaben auch öffentlichkeitswirksam zu demonstrieren, hielten sie all
+        dies sogar unnötig per Video fest und stellten die schockierenden Aufnahmen ins Netz (-> Siehe Instagram-Kanal der BMV-Adventjugend).
+        Doch wenn es darum geht, die Ehrenamtspauschalen abzukassieren, sind die dreisten Dechniker natürlich ganz vorne mit dabei.
+        Die FriedenSau-Redaktion zeigt sich ob dieser Geschehnisse sehr besorgt und wird in den kommenden Tagen die weitere Entwicklung
+        genauestens beobachten.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Zelt-Index offenbart Gehaltsgefälle"
+    shortTitle="Reich und Schön"
+    category = "Wirtschaft"
+    author = "Dominik Weber"
+    keywords = "Lohn-Gap,Ausbeutung,Ungerechtigkeit"
+    pictures = "samstag/zelt-index.png"
+    location=""
+  >
+    <summary>
+      Trotz politischer Bemühungen gibt es noch massive Gehaltslücken bei den Beschäftigten der Kirche. Lesen Sie mehr.
+    </summary>
+    <text-block>
+      <title>Massives Gehaltsgefälle</title>
+      <text>
+        Seit Jahren ist der Lohn-Gap in aller Munde. Frauen werden schlechter bezahlt als Männer, obwohl sie gleichwertige
+        Arbeit und einen ebensolchen Beitrag zum Unternehmenserfolg leisten. Diesen Vorwurf wollte sich die Vereinigung
+        in NRW nicht länger gefallen lassen, woraufhin sämtliche Strukturen umgekehrt wurden. Besonders deutlich ist das
+        aktuelle Gehaltsgefälle am allseits bekannten Zelt-Index abzulesen.
+      </text>
+    </text-block>
+    <text-block picture="samstag/zelt-index.png">
+      <title>Klassengesellschaft innerhalb der Pastorengemeinschaft</title>
+      <text>
+        Paul H., Jugendabteilungsleiter und Freizeit-Rabbi in NRW, kann sich mit seinem knapp bemessenen Pastorengehalt
+        gerade so ein Mini-Zelt (s. Vordergrund) leisten. Mit angezogenen Füßen und einem Koffer in der Größe eines
+        Kulturbeutels fehlt nur noch die Brücke, um der Armut den finalen Schliff zu geben. Hingegen kann sich die
+        Jugendreferentin Corien L. ein üppiges Zeltschloss mit mehreren weitläufigen Fügeln leisten (s. Hintergrund).
+        Vom Ankleidezimmer über die Beautyecke bis hin zur Sofalounge ist alles dabei. Es fehlen nur noch ein eigenes Wappen
+        auf der Zeltspitze und Leibwachen in Rüstung vor der Tür, dann wäre der Waldausflug von Prinzessin
+        "Ich-mach-mir-die-Hände-nicht-schmutzig" perfekt.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Was sind die Asuwirkungen?</title>
+      <text>
+        Ob die Umkehrung der Gehaltsstrukturen angesichts dieser Verhältnisse sinnvoll ist, bleibt äußerst umstritten.
+        Das Arbeiten als Jugendreferentin in NRW scheint allerdings überaus lukrativ zu sein.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Arena brennt - Feuerwehr isst Schokolade"
+    shortTitle="Brandheiße Eröffnung für das Connectival"
+    category = "Lokales"
+    author = "Tabea Gibbert"
+    keywords = "Feuer,Brand,Arena,Feuerwehr,Faulheit,Veranstaltung"
+    pictures = "samstag/feuer1.jpeg,samstag/feuer2.jpeg"
+    location="Zeltplatz"
+  >
+    <summary>
+      Beim Connectival geht es von Anfang an heiß her. Bei der Abschlussprobe zu Eröffnungsveranstaltung gab es einen kleinen
+      Zwischenfall der die örtliche Feuerwehr auf den Plan rief.
+    </summary>
+    <text-block picture="samstag/feuer2.jpeg">
+      <title>Panik bei den Jugendlichen</title>
+      <text>
+        Das Connectival hatte noch nicht richtig begonnen, da kam es bereits zur Katastrophe. Es begann mit einem Züngeln,
+        breitete sich jedoch schnell zu einem Inferno aus. Rauch quoll aus den Toren der gerade neu gebauten Arena in Friedensau,
+        Menschenmassen mussten evakuiert werden - und das nur wenige Minuten vor Beginn der aller ersten Veranstaltung.
+        "Wir haben Karten gespielt. Als wir den Alarm hörten, dachten wir, wir sollten zur Veranstaltung kommen.
+        Das so etwas passiert, konnte ja keiner wissen", berichtete Lenja M. Auch Torsten Sch. war der Überzeugung, es sei die Einlassklingel:
+        "Wäre mal was neues". "Ich dachte, sie hätten endlich einen neuen Papst gewählt" berichtete Celine D. im Angesicht der weißen
+        Rauchschwaden mit vor Enttäuschung trüben Augen. Marc-Aurel N. war bereits nach drei Sekunden genervt. Der Einzige, der nichts gehört hatte, war Wieland G. Verwirrt blickte er auf die Menschenansammlung vor der Arena.
+      </text>
+    </text-block>
+    <text-block picture="samstag/feuer1.jpeg">
+      <title>Mit leeren Magen löscht's sich schlecht</title>
+      <text>
+        Als die Freiwillige Feuerwehr mit Blaulicht aus dem Ort anrückte, kam zunächst Hoffnung auf. Zum Entsetzen aller sah diese die Situation jedoch tiefenentspannt. Stefan B.-S., leitender Brandschutzbeauftragter, sah kurz in das brennende Gebäude und packte sich daraufhin einen Schokoriegel aus. "Ist alles halb so schlimm", sagte er kauend.
+        Wenige Minuten später konnte die Ursache jedoch geklärt werden. Durch einen übermäßigen Gebrauch der Nebelmaschine war der Eindruck eines Flächenbrandes entstanden. Zu den genauen Umständen konnte von keinem der Beteiligten bisher keine gesicherte Aussage gegeben werden. Anonyme Quellen berichten jedoch, dass ein Techniker auf dem Nebelknopf eingeschlafen sei.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Badesaison am Friedensauer Natursee in Gefahr"
+    shortTitle="FriedenSau Mystery"
+    category = "Mystery"
+    author = "Tabea Gibbert"
+    keywords = "Investigativ,Natur,Skandal,Verschmutzung,Friedensau,Umwelt"
+    pictures = "samstag/see1.jpeg,samstag/see3.jpeg,samstag/see3.jpeg"
+    location="Friedensau"
+  >
+    <summary>
+      Der Natursee in Friedensau ist einer der Wenigen Orte zum Entspannen bei Temperaturen jenseits der 25 Grad Marke.
+      Unsere Recherchen haben einen massiven Umweltskandal aufgedeckt.
+    </summary>
+    <text-block picture="samstag/see1.jpeg">
+      <title>Süßwasseralgen im See</title>
+      <text>
+        Unbekannten Quellen zufolge wurden im Friedensauer Naturbadesee am vergangenen Freitag Rotschwanzalgen gefunden.
+        Bei dieser besonderen Unterart der Süßwasseralgen handelt es sich um ein sehr resistentes Gewächs, welches in den vergangenen hundert
+        Jahren deutschlandweit nur in zwei anderen Gewässern gefunden wurde. Kommt es in Kontakt mit menschlicher Haut,
+        verspüren Betroffene einen extremen Drang nach Süßgebäck.
+      </text>
+    </text-block>
+    <text-block picture="samstag/see2.jpeg">
+      <title>Herkunft unklar</title>
+      <text>
+        Bisher konnte nicht geklärt werden, woher die Rotschwanzalgen kommen. Friedensauer Rentner berichten,
+        sie hätte in der Nacht seltsame Geräusche vom See gehört, welche sie an ein „Scheppern oder Gurgeln“ erinnerten.
+        Gisela P., die sich um 4 Uhr zu ihrem wöchentlichen Sabbatmorgen-Spaziergang aufmachte, ist der festen Überzeugung,
+        gegen 4:27 Uhr zwei vermummte Gestalten beobachtet zu haben, welche aus Richtung des Sees kamen.
+        Ihr Ehemann Günther P. wies jedoch darauf hin, dass das Sehvermögen seiner Frau stark beeinträchtigt sei, woraufhin Gisela P.
+        ihm eine Ohrfeige verpasste und ein zünftiger Ehestreit losbrach. Beide Zeugen konnten daraufhin nicht weiter vernommen werden.
+      </text>
+    </text-block>
+    <text-block picture="samstag/see3.jpeg">
+      <title>See gesperrt</title>
+      <text>
+        Der Friedensauer Badesee wurde nun großflächig abgesperrt. Mit den Ermittlungen kann jedoch erst begonnen werden,
+        wenn das Wasser eine Temperatur von -2°C erreicht. Bis dahin vernimmt die Polizei weitere Zeugen. Sollte euch in der
+        Nacht von Freitag auf Sabbat etwas aufgefallen sein, wendet euch bitte umgehend an die Friedensauer Polizei!
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="COVID19 Verbot"
+    shortTitle="Corona in Friedensau ist verboten!"
+    category = "Politik"
+    author = "Dominik W."
+    keywords = "Corona,Friedensau,OLL"
+    pictures = "samstag/corona.jpeg"
+    location=""
+  >
+    <summary>
+      LK Jerichower Land - Corona Verordung 062022/B erlassen.
+    </summary>
+    <text-block picture = "samstag/corona.jpeg">
+      <title></title>
+      <text>
+        Seit dem 01.06.2022 ist COVID19 im Landkreis Jerichower Land offiziell verboten.
+        Jede Person, die im Besitz einer COVID19 Infektion ist, wird gebeten diese unverzüglich beim zuständigen
+        Gesundheitsamt abzugeben. Der Besitz und der Handel mit COVID19 wird wie eine Ordnungswidrigkeit behandelt.
+        Bußgelder bis zu 100 € können pro Fall erhoben werden. Die öffentlichen Stellen empfehlen den Virus in einem
+        handelsüblichen Taschentuch auszuschneuzen und anschließend in einem Frischhaltebeutel beim zuständigen Amt abzugeben.
+        Ab Montag, dem 06.06.2022, wird auch eine anonyme Virusklappe beim Polizeirevier in Möckern für ungewollte Infektionen
+        eingerichtet sein, die 24/7 betreut wird.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Achtung Ausbruch!"
+    shortTitle="FriedenSau Mystery"
+    category = "Mystery"
+    author = "Dominik Weber"
+    keywords = "Rentner,Ausbruch,Seniorenheim,Friedensau,Polizei"
+    pictures = "samstag/rentner1.png"
+    location="Friedensau"
+  >
+    <summary>
+      Ausbruch aus dem Seniorenheim. Halten Sie Zelte geschlossen und seien Sie in Gruppen von mindestens drei Personen Unterwegs.
+    </summary>
+    <text-block picture="samstag/rentner2.jpeg">
+      <title>ACHTUNG: AUSBRUCH</title>
+      <text>
+        Im angrenzenden Seniorenheim sind am Freitagmorgen zwei weibliche Insassinnen aus dem Hochsicherheitstrakt ausgebrochen.
+        Noch ist nicht klar, auf welchem Wege die Flüchtig:innen ausbrechen konnten. „Ein Mitwirken von Pfleger:innen ist zu diesem
+        Zeitpunkt nicht auszuschließen“, teilte der Polizeisprecher am Mittag mit. „Es wird mit Hochdruck nach den Seniorinnen gesucht.“
+        Es wurden in der gesamten Umgebung Kekse und Pudding ausgelegt, um die Seniorinnen anzulocken. Es wird dringend geraten keine Süßigkeiten
+        oder flauschigen Kuscheltiere öffentlich zugänglich zu machen. Naschen und Knuddeln lockt die Flüchtig:innen unnötig an.
+        Gerade auch unbeaufsichtigte Kleinkinder sind gefährdet, einfach auf den Schoß genommen zu werden.
+      </text>
+    </text-block>
+
+    <text-block picture="samstag/rentner1.png">
+      <title>Statement der Polizei</title>
+      <text>
+        Die Bevölkerung ist gebeten die Augen offen zu halten und der Polizei Hinweise unverzüglich zu melden.
+        Von einem persönlichen Eingreifen wird dringend abgeraten. Die Gesuchten sind rüstig und mit der neusten Generation
+        von den Dritten bewaffnet. Gegebenenfalls sind sie mit einer Gehilfe ausgerüstet, von der sie jederzeit Gebrauch machen könnten.
+        Die Polizei rät: „Bleiben Sie im Zelt, halten Sie Reißverschlüsse geschlossen und bewahren Sie Ruhe.“
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Modesünden aus der Hölle"
+    shortTitle="Wie man sich auf dem Connectival besser nicht kleidet"
+    category = "Ratgeber"
+    author = "Nils Rösel"
+    keywords = "Mode,Tipps,Flop,Freizeit,Style"
+    pictures = "samstag/mode/title.jpeg"
+    pictureBasePath="samstag/mode/"
+    location=""
+  >
+    <summary>
+      Germanys Next Topmodel ist vorbei, doch die Modewelt schläft nicht.
+      Erfahren Sie hier welche Modesünden Sie auf dem Connectival unbedingt vermeiden sollten.
+    </summary>
+    <text-block picture="plagen-doktor.png">
+      <title>1. Arzt im Vogelkostüm</title>
+      <text>
+        Corona hat sich auf unsere Lebensweise und unseren Kleidungsstil nachdrücklich ausgewirkt.
+        Mit den derzeitigen Corona-Schutzverordnungen des Bundes ist das Tragen von Vogelmasken allerdings nicht länger notwendig.
+        Sofern ihr also keine persönlichen Gründe zum Tragen eines Vogelkostüms habt, solltet ihr von diesem Outfit absehen.
+      </text>
+    </text-block>
+
+    <text-block picture="lack-und-leder.jpeg">
+      <title>2. Lack und Leder</title>
+      <text>
+        Die Berliner müssen sich auf dem Connectival etwas zusammenreißen: Auch, wenn diese Art von Outfit an diversen Orten
+        der hippen Metropole häufig vorzufinden ist, sind sie für das Leben auf dem Zeltplatz eher ungeeignet.
+        Um sich anzupassen, wird empfohlen, die stacheligen Lederhalsbänder mit einer einfachen Halskette zu ersetzen.
+        Harnesse, welche für die Fantasie keinen Spielraum übriglassen, sollten dringlichst für Kleider in neutralen Farben weichen.
+      </text>
+    </text-block>
+    <text-block picture="gespenster.jpeg">
+      <title>3. Ku-Klux-Klan-Kutten</title>
+      <text>
+        Auch wenn sich hartgesottene, erzkonservative Amerikaner in diesen Kluften wohlfühlen, sind sie beim Zelten äußerst
+        unpraktisch. Außerdem könntet ihr die Anwohner des örtlichen Altenheims damit erschrecken. Diese Zwischenfälle wollen vermieden werden.
+      </text>
+    </text-block>
+    <text-block picture="bierhelm.jpeg">
+      <title>4. Getränkehelm</title>
+      <text>
+        Studierende müssen jetzt besonders stark sein. Auch wenn die Praktikabilität dieses Accessoires außer Frage steht,
+        kann dieses unweigerlich zu gewissen Missverständnissen führen. Obwohl eine Füllung ohne Gerstensaft prinzipiell
+        im Rahmen der Möglichkeiten steht, sollten ihr dieses Wochenende auf eure Alltagskopfbedeckung verzichten.
+      </text>
+    </text-block>
+    <text-block picture="brown-coat.jpeg">
+      <title>5. Beiger Mantel mit nichts darunter</title>
+      <text>
+        Ein gewagtes Outfit für Kenner. Es kann nicht jedermann tragen. Beige beißt sich oftmals mit den Hauttönen.
+        Wenn ihr diesen Style kopieren möchtet, probiert diesen bitte nicht auf dem Zeltplatz aus, sondern etwas Abseits
+        an den Waldgrenzen oder in dunklen Ecken. Oder besser noch: Lasst es zum Wohlergehen aller bleiben.
+      </text>
+    </text-block>
+    <text-block picture="karneval.jpeg">
+      <title>6. Karnevalstrachten</title>
+      <text>
+        Andere Länder, andere Sitten. Im Westen mögen solche Geschmacksverirrungen zwar gesellschaftlich akzeptiert sein,
+        doch im Osten stehen sie unter Strafe und sind ein absolutes No-Go.
+      </text>
+    </text-block>
+    <text-block picture="braut.jpeg">
+      <title>7. Brautkleid</title>
+      <text>
+        Das Kleidungsstück für den schönsten Tag des Lebens...oder den zweitschönsten... oder den drittschönsten...
+        Natürlich ehrt dies die Lagerleitung und die Organisation, aber das Outfit ist doch etwas zu förmlich.
+        Versucht es lieber mit dem kleinen Schwarzen für alle Anlässe.
+      </text>
+    </text-block>
+    <text-block picture="borat.jpeg">
+      <title>8. Borat Mankini</title>
+      <text>
+        Eine Stilikone, die Generationen prägte. Borats gewagte Outfits sind definitiv pure Hingucker für jeden Geschmack.
+        Allerdings benötigt der kasachische Stil ein gewisses Maß an Körperbehaarung. Solltet ihr also nicht wie Chewbacca aussehen,
+        lasst den Mankini bitte in der Tasche.
+      </text>
+    </text-block>
+    <text-block picture="papst.jpeg">
+      <title>9. Messgewand</title>
+      <text>
+        Innerhalb der Adventgemeinde eine eher umstrittene Bekleidung. Solltet ihr nicht gerade Ted Wilson heißen, ist dieses Outfit tabu.
+      </text>
+    </text-block>
+    <text-block picture="kondom.jpeg">
+      <title>10. Ganzkörperkondom</title>
+      <text>
+        Sicherheit geht vor. Aber man kann es auch etwas übertreiben.
+        Es sieht nicht nur albern aus, sondern ist obendrauf auch noch völlig Überflüssig, da Körperkontakt zum anderen Geschlecht
+        in jedweder Form vor der Ehe ohnehin nicht gestattet ist.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Ungemütliches Sitzkissen verschluckt Handy"
+    shortTitle="Unausgereifte Konstruktion"
+    category = "Meinung"
+    author = ""
+    keywords = "Gedicht,Community,Unfall"
+    pictures = "samstag/sitzkissen.png"
+    location=""
+  >
+    <summary>
+      Die Sitzkissen sind ja in der Theorie ganz praktisch. Die Umsetzung ist jedoch nicht ganz durchdacht.
+    </summary>
+    <text-block>
+      <title>Eine bodenlose Frechheit!</title>
+      <text>
+        Nach einem langen, unbequemen Tag wollten sich die Mitglieder der Thüringer Jugendgruppe nur noch entspannt in die luftig
+        aussehenden Sitzkissen der Chillout-Area schmeißen. Die Vorfreude war nach einer zerrenden Autofahrt und im Stehen verbrachten
+        Zugreise wahrlich vorhanden. Gesagt, getan - voller Elan fletzten sich die übermüdeten Faultiere in die Luftkissen.
+        Rumms! Klatsch! Was für ein Schreck!
+        Die gemütlich scheinenden Luftkissen entpuppten sich als schmerzliche Überraschung.
+        Durch die Sitzkissen wurde man nicht herzlich aufgefangen, sondern landete mit aller Härte auf dem Boden der Realität.
+        Dies war nicht nur höchst ungemütlich, sondern hatte noch einen weiteren negativen Nebeneffekt: Das Handy war urplötzlich verschwunden!
+        Doch Rettung war in Sicht, hört weiter im Gedicht:
+      </text>
+    </text-block>
+
+    <text-block picture = "samstag/sitzkissen.png">
+      <title></title>
+      <text>
+        Sitzkissen, sie locken die Leute
+        und suchen doch nur hungrig nach Beute.
+        Die erdrosseln Kameras und verschlingen jeden,
+        sie beenden jedes erdenktliche Leben.
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Die Luft war raus, jede Hoffnung verloren.
+        Da hatte Maik, der Feuerwehrmann, einen Plan erkoren:
+        Er wedelte frische Luft hinein
+        und verbesserte jedes Menschensein.
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Sein Einsatz versüßte uns die späte Stund,
+        drum bringen euch die Thüringer nun frohe Kund:
+        Man sitzt sich hier nicht mehr den Hintern wund!
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Illegales Lagerfeuer"
+    shortTitle="Dresden"
+    category = "Kurzmeldungen"
+    author = "Nils R."
+    keywords = "OLL,Lagerfeuer,Kriminalität,Dresden"
+    pictures="samstag/lagerfeuer.jpeg"
+    location="Dresden"
+  >
+    <text-block picture="samstag/lagerfeuer.jpeg">
+      <title></title>
+      <text>
+        Die Dresdner haben bekanntlich ja eine gewisse Affinität zu illegaler Pyromanie.
+        Nicht nur im ortsansässigen Fußballstadion - auch hier auf dem Connectival.
+        Am Freitag Abend brannte im Dresdner Lager ein, von der neuen OLL, nicht genehmigtes Lagerfeuer.
+        "Die Mail kam gestern! Außerdem: Welchen Sinn hat das denn bitte? Es geht ja nicht mal um eine mögliche Waldbrandgefahr.
+        Das kann doch nicht sein!", echauffierte sich ein Wischmopp, der sich bei genauerem Hinsehen als Jugendleiter entpuppte.
+        Ob sich hier erste Züge eines neuen Unrechtregimes abzeichnen? Ob und welche Konsequenzen das rechtswidrige Gekokel nach sich ziehen wird,
+        ist bisher noch unbekannt. Die FriedenSau ermittelt.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Schlümpfe alleingelassen"
+    shortTitle="Chefredakteur vernachlässigt Aufsichtpflicht"
+    category = "Kurzmeldungen"
+    author = ""
+    keywords = "Skandal,FriedenSau,Pastor,Mystery"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Skandal! Papa Schlumpf vernachlässigt seine Kinder! Am Freitagabend gegen 22 Uhr ereignete sich das furchtbare Spektakel.
+        Nils P., Chefredakteur der FriedenSau, ließ seine Schlumpfenfamilie auf offener Bühne vor aller Leute Augen zurück
+        und überleiß sie sich selbst. Vorgeworfen werden ihm Schlumpfeswohlgefährdung sowie eine Verletzung der Aufsichtspflicht.
+        Eine Stellungnahme des Beklagten ist dringend erforderlich! Wenn diese nicht in den nächsten 24 Stunden erfolgt, wird das örtliche
+        Jugendamt zur Inobhutnahme hinzugezogen.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Top und Flop des Tages"
+    shortTitle=""
+    category = "Lifestyle"
+    author = "Tabea Gibbert"
+    keywords = "Top,Flop"
+    pictures = "flipflop.jpeg"
+  >
+    <summary>
+      Der Top und Flop vom Samstag
+    </summary>
+    <text-block picture="flipflop.jpeg">
+      <title>Top des Tages</title>
+      <text>
+        Bei der Kabine einer der Herrenduschen fehlt eine Tür. Bei den Nutzenden fiel dies jedoch durchaus positiv auf.
+        "Das ist praktisch, da kann mehr als einer duschen und das Lagermotto kommt besser zur Geltung!".
+      </text>
+    </text-block>
+    <text-block>
+      <title>Flop des Tages</title>
+      <text>
+        Letzte Nacht realisierte Anni G. (24, Studentin), dass Australien nicht bei den USA, sondern bei Indonesien liegt.
+        Vor Enttäuschung schaffte sie es lediglich auf eine halbe Stunde Schlaf.
+      </text>
+    </text-block>
+  </article>
+
+
+
+
+
+
+
+</articles>
