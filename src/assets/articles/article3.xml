@@ -3,17 +3,473 @@
 >
 
   <article
-    headline=""
-    shortTitle=""
-    category = ""
+    headline="Generation Z-eltunfähig"
+    shortTitle="Was können die eigentlich noch"
+    category = "Gesellschaft"
+    author = "Nils R."
+    keywords = "Gesellschaft,Internet,Digital,Rente,Generation"
+    pictures = "montag/zeltfail.jpg"
+    location=""
+  >
+    <summary>
+      Die Jugend von Heute ist ja auch schlimm. Was die Griechen schon erkannten geht nun ins Extreme. Selten gab es
+      ein solches Maß an Unselbstständigkeit.
+    </summary>
+    <text-block picture="montag/zeltfail.jpg">
+      <title>Die Technik bestimmt das Leben</title>
+      <text>
+        Es ist klein, steckt in der Hose und ist unfassbar praktisch. Die Rede ist vom Smartphone. Die Möglichkeiten der
+        nahezu unbegrenzten Kommunikation mit Lichtgeschwindigkeit bietet viele Chancen, aber auch eine Herausforderung
+        für die Erziehung einer ganzen Generation. Nicht nur der bewusste Umgang mit den Medien, sondern auch viel profanere Dinge.
+        Die Ausbildung essenzieller Fähigkeiten und eines gesunden Verstandes beispielsweise. Doch wozu sollte man gewisse Dinge lernen,
+        wenn man sie doch innerhalb kürzester Zeit über das Internet abrufen und sich im Crashkurs aneignen kann? Problematisch wird es nur,
+        wenn das Smartphone auf einmal kein Internet mehr hat und man eben keine Tutorials auf YouTube anschauen kann.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Ohne Internet geht nichts</title>
+      <text>
+        Die Auswirkungen dieser Misserziehung sind überdeutlich spürbar. Schreitet man so über den Zeltplatz,
+        kommt man nicht umhin, sich ernsthafte Gedanken über die Zukunft der eigenen Rente zu machen. Im Lager einer,
+        jetzt nicht näher genannten, Berliner Ortsgruppe (es ist Waldfriede) finden sich diverse Anschauungsbeispiele
+        einer degenerierten Generation.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Komplexe Probleme einfach lösen?</title>
+      <text>
+        Camping ist eben kein Ponyhof und Zelte sind manchmal doch etwas komplexer. Soweit so gut.
+        Es ist allerdings auch nicht gerade eine Raketenwissenschaft, ein Zelt aufzubauen. Unstrittig ist jedoch,
+        dass die Berliner ja ohnehin eine gewisse.... Erfahrung mit unfertigen Bauprojekten haben.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Neuer Chefredakteur gesucht??!"
+    shortTitle="Personelle Probleme bei Lokalzeitung"
+    category = "Wirtschaft"
     author = ""
-    keywords = ""
+    keywords = "FriedenSau,Stellenabbau"
     pictures = ""
     location=""
   >
     <text-block>
       <title></title>
       <text>
+        Schon in der zweiten Ausgabe der FriedenSau 2022 wurden Vorwürfe gegen den derzeitigen Chefredakteur Nils P.
+        alias Papa Schlumpf erhoben. Nun kursieren Gerüchte, dass dieser zurücktreten will, um nicht das Sorgerecht
+        für seine blauen Schutzbefohlenen zu verlieren. Wir haben mit dem zukünftigen Ch.-Rd. R.V. gesprochen, welcher
+        uns Schockierendes mitteilte. Er sei bestürzt und enttäuscht von der Aktion seines Vorgängers, jedoch empfände
+        er die Übernahme der FriedenSau als absolut notwendig, um so die Zeitung erneut seriös und rentabel zu etablieren.
+        Bedeutet das eine Steigerung der Arbeitsplatzzahl für Friedensau? Man weiß es nicht. Wird R.V. seine Versprechen halten können?
+        Dies steht noch in den Sternen.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Stellungnahme der Redaktion</title>
+      <text>
+        Anm. d. Redaktion: Der FriedenSau Redaktion ist der "zukünftige Ch.-Rd. R.V." oder einer Übernahme nicht bekannt.
+        N.P. plant nicht, von seinem Amt zurückzutreten und die FriedenSau wird weiterhin seriös und rentabel bleiben.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Konkurrenz, die belebt"
+    shortTitle="Monster-Food-Truck-Show"
+    category = "Wirtschaft"
+    author = "Nils R."
+    keywords = "Food Trucks,Street Food,Essen,Lifestyle,Verschwörung,Skandal"
+    pictures = "montag/coffee-bar.jpg"
+    location=""
+  >
+    <summary>
+      Krugels Coffee Bar ist eine Institution bei Veranstaltungen in Friedensau. Wer es leid ist,
+      Spülwasser am Morgen zu trinken, findet hier Anlauf und wird gut versorgt.
+    </summary>
+    <text-block picture="montag/coffee-bar.jpg">
+      <title>Die Food Trucks</title>
+      <text>
+        Krugels Coffee Bar ist eine Institution bei Veranstaltungen in Friedensau. Wer es leid ist,
+        Spülwasser am Morgen zu trinken, findet hier Anlauf und wird gut versorgt.
+      </text>
+    </text-block>
+
+    <text-block picture="montag/foodtruck.jpg">
+      <title></title>
+      <text>
+        Erstmalig in der Geschichte wurden auch neue Foodtrucks und Verkaufsstellen eingerichtet.
+        Gab es früher gerade noch einen Stand mit Fritz Cola und Bionade, kann man jetzt neben der Coffee Bar
+        zusätzlich zu den Heiß- und Kaltgetränken, sowie Gebäck und Snacks, bei Schmidtchen auch Eis und herzhaftes Fastfood bekommen.
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Eine positive Änderung der OLL, die den Bereich um die Chillout Area deutlich belebter wirken lässt
+        und ein breiteres Spektrum von Geschmäckern anspricht.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Harter Konkurrenzkampf mit allen Mitteln</title>
+      <text>
+        Die Betreiber der Kaffeebar reagieren bisher gelassen auf die neue Konkurrenz. Berichten zu Folge wurden die
+        Brüder A. und R. Krugel dabei beobachtet, wie sie sich schelmisch die Hände reibend hinter Schmidtchens Food Truck aufhielten.
+        Auf Anfrage ließ man verlautbaren, dass man nur Creme zur Prävention von trockenen Händen auftrug und diese
+        Maßnahme absolut notwendig sei, um eine gleich bleibende Qualität zu wahren und Umsatzzahlen weiter zu erhöhen.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Kampf der Influenzer"
+    shortTitle="Neue Trick-Betrüger-Masche"
+    category = "Technik"
+    author = ""
+    keywords = "Digital,Soziale Medien,Medien,Betrug,Instagram,Frank"
+    pictures = "montag/hacker-frank.jpeg"
+    location=""
+  >
+    <summary>
+      ist @folge_frank real oder Abzocke eines kriminellen Genies?
+    </summary>
+    <text-block>
+      <title>Neue Medien im Fokus</title>
+      <text>
+        Ein neuer Instagram-Account, guter Content und viele Follower - Frank hatte sich das Leben auf Social Media so
+        schön vorgstellt. Besonders wegen seiner Community, welche es nicht scheute, Franks Namen bei Funk und Fernsehen
+        bekannt zu machen - auch auf Werbeplakaten an den viel besuchten Toiletten-Häuschen. Diese fordern auf,
+        unbedingt Teil von Franks Community zu werden, damit der Influencer bis zum Montag mehr Anhänger hat als das
+        sagenumwobene Social-Media-Team des Connectivals.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Neue Maschen der Abzocke</title>
+      <text>
+        Aufgrund des recht ansprechenden Profils des attraktiven Chemnitzers beteiligten sich im Verlauf des Sonntags
+        schon viele überzeugte Jünger an der Aktion. Doch schon kurze Zeit später kam die erschütternde Nachricht:
+        Agenten unter dem Codenamen "die rasenden Reporter" hatten herausgefunden, dass es sich bei @folge_frank um eine
+        neue Masche der Hacker-Branche handelte. Ausdrücklich warnten sie die Bevölkerung davor, auf den Follow-Button zu
+        tippen, wenn ihnen das Leben ihres Accounts lieb sei.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Fangemeinde gesepalten</title>
+      <text>
+        Anonymen Quellen zufolge haben sich mittlerweile zwei Lager gebildet: Die einen feiern Frank,
+        den Influencer, die anderen versuchen, Frank, den Schwerverbrecher, hinter Gittern zu bringen.
+        Welche Seite gewinnt, blieb bisher unklar. Die FriedenSau ermittelt.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Mädchen entrinnt nur knapp dem Hitzetod"
+    shortTitle="Mit sich selbst bestens verbunden"
+    category = "Kurzmeldungen"
+    author = "Tabea G."
+    keywords = "Unfall,Sonne,Sommer,Krebs,Gesundheit"
+    pictures = "montag/mumie.jpeg"
+    location=""
+  >
+    <text-block picture="montag/mumie.jpeg">
+      <title>...Und am Sonntag schien die Sonne</title>
+      <text>
+        Der Sonntag war ein heißer Tag. Und während andere es schafften, sich vor der Sonne zu schützen, hatte Eliza G.
+        weniger Glück. Gerade noch so konnte sie sich am Sonntagabend zum Sanitätsdienst retten, wo ihr sofort von
+        kompetenten MitarbeiterInnen geholfen wurde. Nachdem diese sich die körperweiten Verbrennungen 6. Grades angesehen hatten,
+        war ihnen schnell klar, was zu tun war: Eliza G. benötigte genau EINEN Verband, damit die Heilung in Kraft treten könnte.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Ärzte können Leben retten</title>
+      <text>
+        Nachdem die Fachkräfte ihre Arbeit verrichtet hatten, konnten sie es sich nicht nehmen lassen, das verarztete
+        Mädchen als Zeichen des Mahnes und Gedenkens auf einer Liege durch Friedensau zu tragen. "Wir wollen den Anwohnern klar machen,
+        was passiert, wenn man die Hitze auf die leichte Schulter nimmt. Jeder ist an heißen Tagen für sich selbst verantwortlich",
+        sagte ein Sprecher des Sanitätsdienstes, bevor er Eliza G. in Richtung Arena abtransportierte.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Reinigungskraft gesucht!"
+    shortTitle="Fauler Jura Justus"
+    category = "Anzeigen"
+    author = "Jura Justus"
+    keywords = "Jobs,Reinigungskraft,Aufräumen"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        In einem Schuppen lebt seit Jahren
+        ein Junge mit schwarzen, lockigen Haaren.
+        Doch ist es eher ein Überleben,
+        selbst Drachenlord würde sich übergeben.
+        Das liegt an fehlenden Reinigungskompetenzen,
+        die herrschende Entropie kennt keine Grenzen.
+        Es nimmt gar gesundheitsschädigende Ausmaße an.
+        Ein trauriger Fall von jemandem, der nicht aufräumen kann.
+        Aus Nächstenliebe wollen wir Justus W. unterstützen
+        und seine Gesundheit bestmöglichst beschützen.
+        Deshalb suchen wir eine Reinigungskraft,
+        die vollbringt, was Justus allein nicht schafft.
+        Wenn du also strapazierfähig bist, wirst du sofort eingestellt.
+        Doch auch wenn die Arbeit hart ist...du bekommst kein Geld.
+        (Denn Dankbarkeit ist doch das Schönste auf der Welt)
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Melde dich bei Justus, wenn du dich zu Schwerstarbeit motivieren kannst!</title>
+      <text>
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Der Mann am Pool"
+    shortTitle="Interview mit Mart*in"
+    category = "Interview"
+    author = "Nils P."
+    keywords = "Prediger,Sprecher,Interview,Investigativ,OLL"
+    pictures = "montag/mann-im-pool.jpeg"
+    location=""
+  >
+    <text-block picture = "montag/mann-im-pool.jpeg">
+      <title>FriedenSau: Wer, was, Alter und wie viele Kinder?</title>
+      <text>
+        Mart*in: Mart*in Hartlapp (geliebtes Kind Gottes), Jugendabteilungsleiter der BMV, 39, 1 Tochter
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>F: Was ist das Erste, das dir zu/m Pfingstreffen/Connectival einfällt?</title>
+      <text>
+        M: Wenn ich „viel Arbeit“ sage, ist das doof, oder? Nein, ich denke an die schöne gemeinsame Zeit. :)
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Worauf hast du dich dieses Jahr beim Connectival am meisten gefreut?</title>
+      <text>
+        M: Ich freue mich ganz sehr, dass Matilda sich hat taufen lassen und dass ich dabei mitwirken durfte.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Wenn Friedensau eine/n eigene/n Bürgermeister/Bürgermeisterin hätte, wen würdest du wählen und warum?</title>
+      <text>
+        M: Mich! Nein, Spaß! [Es folgte sehr langes Überlegen. Mehrere Vorschläge wurden wieder verworfen]
+        Ich würde Rüdiger Schröter wählen. Er hat über all die Jahre einen fantastischen Job in Friedensau gemacht.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Lieber zelten bei -20 Grad oder einen Marathon laufen bei +35 Grad?</title>
+      <text>
+        M: Ich nehm den Marathon, da kann man sich noch irgendwie mit Wasser helfen. Kalt ist einfach nur eine Katastrophe.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Was war das Lustigste, was deine Tochter bisher gemacht hat?</title>
+      <text>
+        M: Sie sagt oft so richtig lustige, spontane Sachen, wie sie eben nur von einem Kind kommen können.
+        Sie hat mal aus meinem Portemonnaie Geld genommen. Ich meinte zu ihr: „Du kannst doch nicht einfach Geld
+        von fremden Menschen nehmen!“. Da hat sie gesagt: „Aber Papa, ich kenn dich doch!“
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Das Thema ist "Call to change". Woran wird dir am stärksten bewusst, dass Veränderung passiert?</title>
+      <text>
+        M: Immer wenn ich in den Spiegel schaue. Ich bekomm immer mehr graue Haare (er meint Nasenhaare/Anm.d.Red.)
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Was würdest du gerade gerne in deinem Umfeld verändern?</title>
+      <text>
+        M: Ich hätte gern mehr Zeit. Wäre gut, wenn der Tag mehr Minuten hätte. Und ich hätte manchmal gern mehr Geduld.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Wo hat Gott etwas in deinem Leben verändert?</title>
+      <text>
+        M: Nach meinem Studium war ich zwei Jahre arbeitslos. Gott hat mich auf den Pfad zum Theologiestudium geschickt.
+        Ich habe in Friedensau dann auch meine Frau kennengelernt. Ohne Gottes Eingreifen wäre alles ganz anders gekommen,
+        sowohl in meinem Beruf als auch privat.
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Zum Abschluss: Ein Buch das jeder gelesen haben sollte? (außer die Bibel)</title>
+      <text>
+        M: Dafür habe ich extra eine Liste, wo ich alle meine Bücher bewerte. Ich würde sagen „Gender Gaga“ von
+        Birgit Kelle, da habe ich so viel gelacht. [Anmerkung der Redaktion: Die Entscheidung fiel sehr schwer,
+        die Interviewerin kennt jetzt sämtliche von Mart*ins Büchern mit Bewertung;
+        es gibt auch ein Buch, welches mit -5 Sternen bewertet wurde; um welches es sich dabei handelt,
+        fällt jedoch unter die journalistische Schweigepflicht.]
+      </text>
+    </text-block>
+
+
+  </article>
+  <article
+    headline="Time to say Good Bert"
+    shortTitle="NDV-JAL gebührend verabschiedet"
+    category = "Politik"
+    author = "Nils Podzschümski"
+    keywords = "Investigativ,OLL,Abschied,Doktorarbeit,Zitate"
+    pictures = "montag/bert2.jpeg"
+    location=""
+  >
+    <summary>
+      Es kam zum Abschied von Bert. Lesen Sie die Reaktionen hier:
+    </summary>
+    <text-block picture="montag/bert1.jpeg">
+      <title>Emotionale Verabschiedung</title>
+      <text>
+        Am Ende der sonntäglichen Veranstaltung wurde es nochmal emotional: Unser aller Öko-Bert ohne Bart,
+        unser B-Hörnchen und nun ehemaliger norddeutscher Jugendabteilungsleiter sagte tschüss, einfach so.
+        Nur weil er neue Freunde bei Adra gefunden hat, die von Ökologie und Nachhaltigkeit noch nichts gehört
+        haben und bekehrt werden wollen. Und ohne uns zu fragen! Was denken unsere Connectival-TeilnehmerInnen dazu?
+        Die FriedenSau hat nachgefragt, was ihr Bert als letzten Rat für sein weiteres Leben mitgeben möchtet:
+      </text>
+    </text-block>
+
+    <text-block picture="montag/bert2.jpeg">
+      <title>Amos N. (Jena): "Gieß deinen Baum!"</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Adrian H. (Leipzig): "Die Basis ist Grundlage aller Fundamente."</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Amelie K. (Plauen): "Nach heute kommt morgen. Das motiviert mich jeden Tag!"</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Tizi B. (Dresden): "Schöne Rente!"</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Stippi (Ostfildern): "Er soll seinen (icor-) Werten treu bleiben!"</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Lydia K. (Freital): "Die Sterne sieht man auch auf kleinen Bergen."</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Ernie (Sesamstraße): "Ich kann dich nicht hören, ich habe eine Banane im Ohr!"</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Joe S. (Pirna): "Ich wünsche dir Leute, die dich auch dann unterstützen, wenn sie anderer Meinung sind."</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Nils P. (Dresden): "Das Reh springt hoch, das Reh springt weit. Warum auch nicht? Es hat ja Zeit. Denk mal drüber nach!"</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Cory L. (Ruhrpott): "Der krumme Baum lebt sein Leben, der gerade Baum wird ein Brett." (Coryanische Weisheit)</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Worte der Redaktion</title>
+      <text>
+        Nach reiflicher Überlegung und einer seeeeehr langen Denkpause, gefolgt von einem seufzenden "Puh...",
+        hatte unser Ex-Chef dann auch einen sehr tiefschürfenden Rat für die Jugendlichen des Connectivals:
+        "Ich glaube, dass Glaube nur im realen Leben einen Unterschied macht, wenn wir leben, wovon wir reden.
+        Das bedeutet auch als Gemeinden und Adventjugend ökologisch, nachhaltig und gesellschaftsrelevant zu sein.
+        Und hier möchte ich unseren Jugendlichen Mut zusprechen: Habt Mut, aufzustehen und unsere Gemeinden zu gestalten
+        und zu verändern! Das wird nur durch euch als Jugend! Eure Kirche braucht euch!" Dem haben wir als FriedenSau
+        nichts mehr hinzuzufügen! Wir wünschen dir, lieber Bert, für deine neue Aufgabe Gottes fetten und nie endenden Segen!
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Die Schlafreportage: Wie schläft es sich im Zelt?"
+    shortTitle="Exklusive Einblicke"
+    category = "Ratgeber"
+    author = "Nils Rösel"
+    keywords = "Ratgeber,Umfrage,Schlaf,Zelten,Outdoor,Lifestyle"
+    pictures = "montag/umfrage.png"
+    location=""
+  >
+    <summary>
+      Schlaf ist wichtig. Einigen Menschen scheint das aber nicht klar zu sein und so sind sie zu unsäglicher
+      Stunde noch wach. Unser Reporter für investigativen Qualitätsjournalismus hat die Leute befragt, denen ein
+      gesunder Schlaf wichtig ist, wie es sich denn so schläft.
+    </summary>
+    <text-block picture = "montag/umfrage.png">
+      <title>Die Auswertung</title>
+      <text>
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Der Lagerratgeber, der jetzt auch zu spät ist.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Was mache ich, damit ich nächste Nacht nicht friere?</title>
+      <text>
+        Warm anziehen und zudecken.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Mein Lagerfeuer brennt nicht. Was muss ich tun?</title>
+      <text>
+        Anzünden.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Wie kann ich mich effektiv vor Mücken schützen?</title>
+      <text>
+        Gar nicht. Dieser Auswurf der Hölle ist nicht aufzuhalten. Erschlagt sie einfach alle.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Kuchendiebstahl versetzt Anwohner in blanke Panik"
+    shortTitle="FriedenSau Mystery"
+    category = "Mystery"
+    author = "Tabea Gibert"
+    keywords = "Diebstahl,Kriminalität,Gebäck"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title>Kuchen unauffindbar</title>
+      <text>
+        Für Hannelore S. hätte es ein so schöner Sonntagnachmittag werden können. Die 82-jährige Rentnerin hatte zum
+        Anlass ihres 65. Taufjubiläums einen originalen Friedensauer Apfelkuchen gebacken und zum Abkühlen auf die Fensterbank
+        ihrer Erdgeschosswohnung gestellt. Als sie nach 20 Minuten erneut nach ihrem Kuchen sah, war dieser verschwunden.
+        "Ich war wie im Schock. Das dauert ja auch eine Weile, bis das ankommt. Ich realisiere das jetzt erst. Ich kann doch mein
+        Taufjubiläum nicht ohne Kuchen feiern!", stammelte die betagte Dame, kurz bevor sie von den Rettungskräften mit dem Einsatzwagen
+        abtransportiert wurde.
+        Die Polizei rückte eine halbe Stunde nach der Tat ein und konnte bereits erste Spuren sicherstellen. So wurde
+        in dem vor dem Haus befindlichen Blumenbeet ein Fußabdruck der Größe 48,5 entdeckt. Nun bittet die Polizei die
+        örtliche Bevölkerung um Mithilfe:
+        Haben Sie am Sonntag in der Zeit von 12:23 Uhr und 12:43 Uhr seltsame Gestalten im Ahornweg gesehen? Ist Ihnen
+        zur Tatzeit sonst irgendetwas aufgefallen? Hinweise bitte direkt an die örtliche Polizeibehörde!
       </text>
     </text-block>
 
@@ -25,5 +481,301 @@
     </text-block>
 
   </article>
+  <article
+    headline="Dresdner kollidiert mit Eichhörnchen"
+    shortTitle="Unfall"
+    category = "Kurzmeldungen"
+    author = ""
+    keywords = "Unfall,Dresden,Sachsen,Wild"
+    pictures = ""
+    location="Dresden"
+  >
+    <summary>Katastrophe abgewendet</summary>
+    <text-block>
+      <title></title>
+      <text>
+        Am späten Sonntagnachmittag wäre es auf der Straße zwischen Ökohaus und Ausgang Zeltplatz fast zur Katastrophe gekommen.
+        Als ein Dresdner Taxifahrer an der Kreuzung nach rechts abbiegen wollte, hätte er beinahe das Babyeichhörnchen übersehen,
+        welches gerade die Straße kreuzte. Mit einem gewagten Ausweichmanöver konnte der professionelle Taxifahrer die Situation retten,
+        während sich das Eichhörnchen mit zwei schnellen Sprüngen in den Friedensauer Forst rettete. Der Fahrer und die
+        beiden Lübecker Insassen kamen mit dem Schrecken davon.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Tod der Ruhestörung!"
+    shortTitle="Schluss mit lustig!"
+    category = "Meinung"
+    author = ""
+    keywords = "Ruhe,Schlafen,Meinung,Kriminalität"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Was haben Mücken, Frösche und die Amsel (gemeint ist die Nachtigall/Anm.d.Red.) am Ökohaus gemeinsam?
+        Richtig! Sie nerven übertrieben, wenn man schlafen will. Natur hin oder her, sowas güldet
+        (die Redaktion war sich an dieser Stelle uneins/Anm.d.Red.) als Ruhestörung, Belästigung oder
+        irgendwelches anderes Zeug, welches meinem Wortschatz gerade fremd ist. Hiermit wollen wir eine Petition
+        zur Abschaffung lästiger Tiere starten. Ab 200 Unterschriften kann diese im Dorfrat von Friedensau eingereicht werden.
+        Gebt uns eure Unterschrift und erhaltet so einen ruhigen Schlaf! Die Liste findet ihr am Deich-Schild bei Mart*in am Pool.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="FriedenSau Mystery"
+    shortTitle="Wanted"
+    category = "Anzeigen"
+    author = ""
+    keywords = "Mystery,Gesucht,Kriminalität,Diebstahl"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title>Schild, ca. 1,2153m hoch</title>
+      <text>
+        Gestern wurde ein sehr wichtiger Wegweiser vom Zeltplatz entwendet. Dieser weist mit einer schwarzen Aufschrift auf
+        das Lebenselexier der jüngeren Generation hin. Wer würde es wagen, der Zukunft der Jugend so etwas anzutun? Steckt
+        eine Verschwörung dahinter? Oder sogar die Illuminaten?!
+        Falls Sie das Schild mit der Aufschrift "WLAN-Passwort" sehen, melden Sie sich bitte bei Mart*in am Pool!
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="The Fat-Man-Theory"
+    shortTitle="Dick und Doof"
+    category = "Wissenschaft"
+    author = ""
+    keywords = "Ernährung,Ehe,Theorie"
+    pictures = ""
+    location=""
+  >
+    <summary>Bahnbrechende Theorie in den Ernährungswissenschaften</summary>
+    <text-block>
+      <title></title>
+      <text>
+        Während des Connectivals haben einige verheiratete männliche Wesen der Magdeburger/Schönebecker Gruppe so viel gegessen
+        (wie die Worte "Magdeburg" und "schön" gemeinsam in einen sinnvollen Satz passen sollen, ist uns ein Rätsel/Anm.d.Red.),
+        dass ihr Gehirn Wissenschaft produziert hat. Die Fat-Man-Theory entstand. Diese besagt, dass ein verheirateter Mann fett
+        sein muss und nicht zu kochen braucht, weil die Frau ja kocht. Neue Studien haben allerdings gezeigt, dass Frauen nicht mehr
+        kochen wollen und, da der Mann auch nicht kocht, diesen verlassen werden. Deshalb muss sich der Mann eine neue Frau suchen,
+        kann aber in dieser Zeit nicht kochen. So müssen Männer ihr Fett vorher so gut angelegt haben, dass sie 5 Jahre überleben.
+        Dies ist die Basis der Fat-Man-Theory.
+        Der Erwartbarkeitssatz ist demnach: Ist ein verheirateter Mann dünn, sollte man erwarten, dass er in den
+        nächsten Jahren stark zunehmen wird. Also Männer: Esst recht viel und setzt euer Leben nicht auf's Spiel.
+        Denn wenn die Frau aufhört zu kochen, hungert ihr die nächsten Wochen.
+        Prof. Dr. LL (Künstlername)
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline=""
+    shortTitle=""
+    category = "Lifestyle"
+    author = ""
+    keywords = "Mode,Frisur,Style"
+    pictures = "montag/zopf1.jpeg"
+    location=""
+  >
+    <text-block picture="montag/zopf1.jpeg">
+      <title></title>
+      <text>
+      </text>
+    </text-block>
+
+    <text-block picture="montag/zopf2.jpeg">
+      <title>Gewinnerin wird verkündet</title>
+      <text>
+        Nach einem langen Tag voll geflochtener Zöpfe haben 35 unparteiische Befragte entschieden, wer Zopfmodel 2022 wird!
+        Und der Gewinner ist: Line von den Dresdnern!
+        Es war aber ein Kopf an Kopf Rennen, das nur um Haaresbreite entschieden werden konnte!
+        Den 2. Platz hat Debohra aus Leipzig errungen. Und zu guter letzt: Den 3. Platz teilen sich Philipp Krautschick,
+        Lydia Kühnlenz und Viktoria Bauer.
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>Das wars von unserem Modelwettbewerb. Und vergesst nicht: Nächstes Jahr wird auch nur einer Friedensaus next Top Zopfmodel werden!</text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Angel (gestorben im Alter von 15 Jahren)"
+    shortTitle="Todesanzeige"
+    category = "Anzeigen"
+    author = ""
+    keywords = "Trauer,Tod,Wasserschlacht,Massenbewässerungswaffen,Wasserbombeb,Bewässerung,Bewässerungsverbrechen"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title>Angel (gestorben im Alter von 15 Jahren)</title>
+      <text>
+        "Wir bedauern sehr, dass eine gute Person von uns gegangen ist, welche durch ihre Schönheit und Persönlichkeit
+        stets ein Hoffnungsschimmer für die war, welche keinen Menschen zum Party machen hatten. Angel ist am Sonntagvormittag
+        in den andauernden Wasserschlachten ums Leben gekommen. Sie/Er hat stolz gekämpft und ist den Heldentod gestorben."
+        - gez. der Geist von Angel
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        P.S.: Die Beisetzung erfolgt am Montag, den 06.06.2022 um 15 Uhr bei den Toiletten. Bitte bringt Klopapier mit.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="But we'll still stay connected!"
+    shortTitle="Die schöne Zeit ist nun zu Ende"
+    category = "Meinung"
+    author = "Nils Podzimstky"
+    keywords = "Abschied,Connectival,PfiLa"
+    pictures = ""
+    location=""
+  >
+    <summary>
+      Ein Wochenende voll Sommer, Sonne und Sonnenschein. Spaß und geistlichen Input.
+    </summary>
+    <text-block>
+      <title>Fazit</title>
+      <text>
+        Das 1. Connectival ist nun Geschichte. Es waren bewegte und bewegende Tage, die uns miteinander
+        verbunden und sicherlich auch wieder ein Stück weit verändert haben. Was haben wir nicht alles erlebt:
+      </text>
+    </text-block>
+
+    <text-block>
+      <title></title>
+      <text>
+        In Büsche fahrende Kameramänner, wegen eines Seils völlig verzweifelte Mitarbeiter, mehrfach traumatisierte Schlümpfe,
+        abwechslungsreiche Interviews, Verführungen durch das Malzeichen des Tieres, eine brennende Arena mit schokolade-essenden
+        Feuerwehrmännern, strunz-faule Techniker, Stau im Friedensauer Hüttendorf, frisch erkorene Influencer, undenkbare Modesünden,
+        Regenwasser-Gerüchte, gesperrte Badeseen, Unmengen an Kontaktanzeigen, epische Wasserschlachten,
+        den stetig am Pool sitzenden Mart*in, schockierende Gehaltsgefälle, haarige Zopfmodel, eigens für den Job
+        eingekleidete Zeitungsjungen, Ganzkörperverbände, FriedenSau Mystery, tolle und mutmachende Veranstaltungen in
+        der Arena und eine wunderschöne und berührende Taufe von 4 (mehr oder weniger) jungen Menschen, die ihren Weg mit Jesus gehen wollen.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Danke und gute Heimfahrt</title>
+      <text>
+        Das alles und noch viel mehr war nur und ausschließlich durch euch möglich: Euer Lesen, eure Kommentare,
+        euer Schreiben, euer Rätseln, euer Lachen, euer Nachdenken – nur so konnte die FriedenSau zu dem werden,
+        was sie dieses Jahr geworden ist. Deshalb sagen wir als Redaktion euch allen ein riesengroßes DANKESCHÖN!
+        Es war uns eine Ehre und wir freuen uns schon darauf, euch hoffentlich sehr bald wieder hier in Friedensau als
+        FriedenSau begrüßen zu dürfen! Bis dahin: Stay connected and be blessed! :)
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Matildas Glaubensbekenntnis im Text"
+    shortTitle="Ganz exklusiv für die FriedenSau"
+    category = "Lifestyle"
+    author = "Matilda"
+    keywords = "Glaube,Taufe,Matilda,Bekenntnis"
+    pictures = "montag/bekenntnis.jpeg"
+    location=""
+  >
+    <summary>
+      Weise und bewegende Worte einer sehr sehr Jungen Frau. Worte die berühren und mehr Inhalt haben als so manche Predgt.
+    </summary>
+    <text-block picture="montag/bekenntnis.jpeg">
+      <title></title>
+      <text>
+        Es heißt, dass das Beste immer zum Schluss kommt. Wann genau das eintrifft, ist wohl ungewiss - doch dürfen wir uns sicher sein,
+        dass mit Jesus an unserer Seite, das Beste gerade erst noch vor uns liegt, egal in welcher Lebenssituation du dich gerade befindest.
+        Es gibt nichts Schöneres, als sich für den Weg mit Jesus zu entscheiden. Und daher als kleinen Mutmacher für euch zum Abschluss
+        der FriedenSau 2022: Das Taufbekenntnis von Matilda (ohne H!!!) aus Jena:
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Was bedeutet Glaube für mich?</title>
+      <text>
+        Glaube bedeutet für mich, mit Freude sagen zu können, dass ich jemanden an meiner Seite habe, dem ich alles
+        erzählen kann, ohne verurteilt zu werden.
+        Mit Freude sagen zu können, dass ich nie allein sein werde, egal wie neblig oder dunkel mir mein Weg auch vorkommt.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemanden an meiner Seite zu haben, der mich begleitet und den Weg mit Licht erhellt.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemand, der all das an mir liebt, was ich an mir hasse.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemand, der als einziger Freund bleibt, wenn alle anderen sich dazu entscheiden, zu gehen.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemand, der mir Stärke gibt, um all die bösen Kommentare zu übertönen.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemanden zu haben, der mit mir auf der Schultoilette wartet, bis die Pause endlich vorbei ist.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemand, der an meiner Seite ist, wenn ich falle und mir seine Hand gibt, um wieder aufzustehen.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemanden zu haben, der 100% an unsere Beziehung glaubt, während das Böse versucht, mich zu verunsichern.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemand, der mir hilft, meine Emotionen unter Kontrolle zu haben, wenn meine Klasse sich wieder über mich lustig macht.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemanden zu haben, der mich zuversichtlich aus dem Loch holte und mir half, den Berg zu besteigen.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemand, der darum kämpfte, dass ich ihn verstand, obwohl ich taub war.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title>Jemanden zu haben, der auf mich aufpasst und seine schützende Hand über mich hält.</title>
+      <text>
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Dieser Jemand ist Jesus Christus für mich. Er ist ein Beschützer, ein Unterstützer, ein helfender, liebender
+        und stärkender Fels für mich gewesen. Ich habe ihn in einer schweren Zeit kennengelernt und möchte ihm Danke sagen
+        für all das, was er in meinem Leben Gutes getan hat und noch machen wird. Ich will ein Jünger Gottes werden und
+        anderen Menschen erzählen, wie großartig unser Gott ist und was er alles Gutes in meinem Leben angerichtet hat.
+        Damit jeder Mensch so etwas erleben kann und nicht die Hoffnung verliert.
+      </text>
+    </text-block>
+
+  </article>
+
+
+
+
+
+
+
+
+
 
 </articles>

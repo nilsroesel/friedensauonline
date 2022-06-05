@@ -504,7 +504,7 @@
     shortTitle="Challenge time"
     category = "Technik"
     author = ""
-    keywords = "Digital,Instagram,Internet"
+    keywords = "Digital,Instagram,Internet,Frank"
     pictures = ""
     location=""
   >
@@ -743,7 +743,7 @@
     shortTitle="#folgeFrank"
     category = "Anzeigen"
     author = ""
-    keywords = "Anzeigen,Suche,Freundin,Jung,Liebe,Leben"
+    keywords = "Anzeigen,Suche,Freundin,Jung,Liebe,Leben,Frank"
     pictures = ""
     location="Waldfriede"
   >
@@ -840,7 +840,7 @@
     shortTitle="Der Sommer kann kommen"
     category = "Ratgeber"
     author = "Nils Rösel"
-    keywords = "Sport,Tipps,Top,Freizeit,Lifestyle"
+    keywords = "Sport,Tipps,Top,Freizeit,Lifestyle,Ratgeber"
     pictures = "sonntag/badestellen/see.jpeg"
     pictureBasePath="sonntag/badestellen/"
     location=""

@@ -349,7 +349,7 @@
     shortTitle="Wie man sich auf dem Connectival besser nicht kleidet"
     category = "Ratgeber"
     author = "Nils Rösel"
-    keywords = "Mode,Tipps,Flop,Freizeit,Style"
+    keywords = "Mode,Tipps,Flop,Freizeit,Style,Ratgeber"
     pictures = "samstag/mode/title.jpeg"
     pictureBasePath="samstag/mode/"
     location=""
