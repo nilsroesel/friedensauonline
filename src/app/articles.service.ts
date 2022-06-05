@@ -176,7 +176,7 @@ export class ArticlesService {
       map(articles => {
         return articles.filter(article => {
           const searchPhraseInText = article.text
-            .reduce((acc, curr) => acc || curr?.text.toLowerCase()?.includes(phrase)
+            .reduce((acc, curr) => acc || curr?.text?.toLowerCase()?.includes(phrase)
               || curr.title?.toLowerCase()?.includes(phrase), false);
           const searchPhraseInKeyWords = article.metadata.keywords
             .reduce((acc, curr) => acc || curr?.toLowerCase()?.includes(phrase), false);
