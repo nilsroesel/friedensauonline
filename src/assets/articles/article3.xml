@@ -1,0 +1,29 @@
+<articles
+  date="2022-06-06"
+>
+
+  <article
+    headline=""
+    shortTitle=""
+    category = ""
+    author = ""
+    keywords = ""
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+      </text>
+    </text-block>
+
+    <text-block>
+      <title></title>
+      <text>
+
+      </text>
+    </text-block>
+
+  </article>
+
+</articles>
