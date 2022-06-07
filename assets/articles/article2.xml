@@ -1,0 +1,900 @@
+<articles
+  date="2022-06-05"
+>
+  <article
+    headline="Alles tanzt!"
+    shortTitle="Bewegende Taufe rührt alle zu Jubel"
+    category = "Lifestyle"
+    author = "Nils P."
+    keywords = "YADA,Worship,Veranstaltung"
+    pictures = "sonntag/yada.jpeg"
+    location=""
+  >
+    <summary>
+      YADA rockt die Arena mit einer unfassbaren Performance
+    </summary>
+    <text-block picture="sonntag/yada.jpeg">
+      <title>Besonderer Abend</title>
+      <text>
+        Es war ein besonderer Abend. Ein Abend voller Andächtigkeit, Emotionen, bewegender Bekenntnisse und lautstarker
+        Freude! Auch der Humor sollte nicht zu kurz kommen: Ein Pastor, der auf offener Bühne seltsame Gespräche mit
+        einem Handschuh führt und einen Karabiner sowie das dazugehörige Seil seine besten Freunde nennt – da wirkt man
+        selbst doch direkt wieder erleichternd normal! Doch seine Message war wichtig: Glaube, auch wenn du Angst hast!
+        Bleibe mit Gott verbunden! Und gib (Gott) niemals auf, egal was kommt!
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Zu Tränen gerürte Menschen</title>
+      <text>
+        Der bewegende Teil sollte allerdings noch kommen. Mit teils emotionalen Worten wurden die vier Täuflinge Kimi,
+        Yuki, Andreas und Mathilda dem Publikum vorgestellt, bevor sie ihr Leben unter tosendem Applaus in Jesu Hände
+        gaben und sich taufen ließen. Begleitet wurde all dies durch Yada Worship, die mit viel Feeling und toller
+        Musik durch diesen außergewöhnlichen Abend führten und dabei halfen, Gott ganz persönlich und in einer tollen
+        Gemeinschaft zu begegnen. Absolutes Highlight waren die letzten Songs, zu denen die Band die Jugendlichen nach
+        vorne auf die Stage holte, um gemeinsam ausgelassen und voller Freude Gottes Größe zu feiern und seinen Namen zu loben!
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Ein Wort an die Täuflinge</title>
+      <text>
+        In all dieser Freude wünschen wir als FriedenSau-Redaktion den vier Täuflingen Gottes immerwährenden Segen und
+        dass sie ihn in jeder Phase ihres Lebens mit jeder Faser ihres Körpers spüren dürfen – und dass in Situationen,
+        in denen ihnen das schwer fällt, sie dennoch den Mut haben, den Weg mit Gott weiterzugehen und sie Gott dabei
+        nochmal auf ganz neue Weise kennenlernen dürfen!
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Mathildas krasses Bekenntnis</title>
+      <text>
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Eine nicht ganz so geheime Liebeserklärung"
+    shortTitle="Ramontisch!"
+    category = "Kurzmeldungen"
+    author = ""
+    keywords = ""
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Eine Frau, wie dich, gibt es nur einmal auf diesem Planeten.
+        Lachen, noch lauter, als der Knall von Langstreckenraketen.
+        Emotionen so extrem, wie Terroristen.
+        Augen so braun, wie Kakaobohnenkisten.
+        Nichts verfliegt so schnell, wie unsre gemeinsamen Stunden.
+        Aber ist nicht schlimm – sind ja schon fürs ganze Leben gebunden.
+        Dein nicht-ganz-so geheimer Verehrer
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Die Geständnisse des Hochstaplers Alex Vilem"
+    shortTitle="Interview mit A. Vilem"
+    category = "Interview"
+    author = "Peter Nerlich"
+    keywords = "Interview,Prediger,Investigativ"
+    pictures = "sonntag/alex1.jpeg"
+    location=""
+  >
+    <summary>
+      Was ist dran an diesem Mann? Lesen Sie das ganze Interview im Text.
+    </summary>
+    <text-block>
+      <title>FriedenSau: Zu Beginn - wer, was, woher, Alter und wie viele Kinder?</title>
+      <text>
+        Alex: Alex, Pastor aus Leidenschaft, Wien (der zweitschönsten Stadt der Welt), 25 und Drei
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>F: Auf einer Skala von Olaf Scholz bis Donald Trump – wie aufgeregt bist du mit Blick auf das Connectival?</title>
+      <text>
+        A: Annalena Bärbock – also oberhalb von Scholz. Ich freue mich wirklich tierisch drauf. 500 Leute in
+        Friedensau aus halb Deutschland – bin annalena-mäßig aufgeregt!
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>F: Geständnisse helfen ja, die Aufgeregtheit zu lindern – was möchtest du hier und jetzt feierlich gestehen?</title>
+      <text>
+        A: Vielleicht sollte jeder wissen, dass ich Schokolade mag. Ich finds echt krass.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>F: Hast du schon mal etwas Verbotenes getan?</title>
+      <text>
+        Oh je – was von den vielen Geschichten soll ich da erzählen? ….
+        langes sinnieren Ich möchte doch nicht zur inneren Desorientierung der Jugendlichen beitragen?
+      </text>
+    </text-block>
+    <text-block>
+      <title>F: Ist es damit nicht schon lange vorbei?</title>
+      <text>A: lacht</text>
+    </text-block>
+
+    <text-block>
+      <title>F: Als geborener Ösi - was genau ist eigentlich Wiener Schmäh? Wie klingt das?</title>
+      <text>
+        A: Das sind so Sachen, über die nur der Wiener lacht, alle anderen aber nicht. Er ist situativ bösartig,
+        meint es aber nett. (Es folgt unverständliches Geschwurbel)
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>
+        F: Okay… Fremdes Land, fremde Kultur, fremde Sprache – wie war das für dich, als du als Wirtschaftsflüchtling
+        nach Deutschland gekommen bist?
+      </title>
+      <text>
+        A: Ein Kulturschock. Das Essen zum in den Boden versinken. Die Sprache für Österreicher absolut gewöhnungsbedürftig.
+        Und die Flachheit der Sachsen-Anhaltinischen Steppe war…. also….. zerstörend für die Seele…
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>
+        F: Was hast du im Moment dieses Bildes gedacht? à BILD
+      </title>
+      <text>
+        A: Schön, das gefällt mir sehr gut. Das bin ich.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>
+        F: Unser Lagermotto ist ja „Call to change“. Wenn du die Möglichkeit hättest, etwas an dir zu verändern – was wäre das?
+      </title>
+      <text>
+        A: Also mein Äußeres natürlich nicht. Mein Humor auch nicht, der ist brillant. Also mir fällt eigentlich nix ein.
+      </text>
+    </text-block>
+
+    <text-block picture="sonntag/alex1.jpeg">
+      <title>
+        F: Und wenn du ganz ehrlich bist?
+      </title>
+      <text>
+        A: Dann die Konsequenz Dinge umzusetzen und dran zu bleiben
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>
+        F: Was war denn die größte Veränderung, die Gott in deinem Leben bewirkt hat?
+      </title>
+      <text>
+        A: Gott hat aus einem faulen Schüler, der immer nur dumme Sprüche geklopft hat, einen Menschen gemacht,
+        der Verantwortung übernimmt und zu seinem Wort steht. (Das heißt natürlich nicht, dass die dummen Sprüche verschwunden sind, Anm.d.R.)
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>
+        F: Warum hast du thematisch die Jünger gewählt, was fasziniert dich an ihnen?
+      </title>
+      <text>
+        A: Die hab ich nicht gewählt, sie haben mich gewählt. Und ich finde mich in der Geschichte von Petrus ziemlich wieder.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>F: Zum Abschluss: Welcher ist der beste kurze Witz, den du kennst?</title>
+    </text-block>
+
+    <text-block picture = "sonntag/alex0.jpeg">
+      <title></title><text>A: Warum machen Italiener immer so?</text>
+    </text-block>
+    <text-block picture = "sonntag/alex.jpeg">
+      <title></title><text>A: Weil so scheiße aussieht.</text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Glatzköpfiger Opa wird zur Ganzkörperblockade"
+    shortTitle="Stau im Friedensauer Hüttendorf"
+    category = "Kurzmeldungen"
+    author = "Nils P."
+    keywords = "Stau,Friedensau,Verkehr,OLL"
+    pictures = ""
+    location="Zeltplatz-Hüttendorf"
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Während die Umbauarbeiten der Food-Area in vollem Gange waren und geschäftiges Treiben herrschte,
+        kam die meterlange Karawane voller Tische und Bänke unvermittelt zum Stehen. Dabei konnte eine handfeste
+        Massenkarambolage nur haarscharf verhindert werden. Was war geschehen? Marco K., ein alter und gebrechlicher
+        Mann mit schütterem Haupthaar, Anfang 50 Jahre, fällte den Entschluss seinen sabbatlichen Nachmittagsschlaf
+        just in diesem Moment antreten zu wollen. Wütende Proteste und Hupkonzerte der anderen Karawanenmitglieder
+        schienen an ihm abzuprallen wie Mücken an einer Fliegenklatsche. "Eigentlich solltet ihr mich ja auf einer Sänfte tragen",
+        versuchte er aus dieser Situation sogar noch Kapital für sich herauszuschlagen. Nur die Tatsache, dass die vorhandenen
+        Tische und Bänke letzten Endes seinen Komfortansprüchen nicht genügten, brachte ihn dazu, wieder weiterzugehen und sich
+        in seine Luxussuite zurückzuziehen. Die Food-Area konnte so mit einer mittelschweren
+        Verspätung letztlich doch umgesiedelt werden.
+        Inwiefern das rücksichtslose Verhalten M. Knorrs Einfluss auf seine jüngeren
+        Mitmenschen innerhalb der Karawane nehmen wird, bleibt abzuwarten.
+      </text>
+    </text-block>
+
+
+
+  </article>
+  <article
+    headline="Papa Schlumpf sucht windige Ausreden"
+    shortTitle="Klarstellung"
+    category = "Politik"
+    author = "Nils P. Chefredakteur"
+    keywords = "Klarstellung,Schlumpf"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Nachdem ich in der vergangenen Ausgabe wegen meiner Erziehungsmethoden unrechtmäßigerweise an den Pranger gestellt wurde,
+        möchte ich an dieser Stelle für Aufklärung sorgen. Zunächst habe ich meine Schlümpfe nicht alleine zurückgelassen oder sie gar vergessen
+        - mein Wunsch und Ziel war es, ihnen etwas Freiraum zu geben, damit sie sich in ihrer eigenen Persönlichkeit frei
+        von elterlichen Zwängen gelöst entwickeln können. Dabei hatte ich sie mit einem halben Auge immer im Blick -
+        oder zumindest in meinen Gedanken. Darüber hinaus habe ich sie vor den gefräßigen Mäulern meiner Redaktionsmitarbeiter
+        schützen wollen, derne Leibspeise Schlumpf auf Eis ist - ich selbst bin ihnen zum Glück schon zu alt und zäh.
+        Dennoch sehe ich ein, dass dies auf Dauer keine geeignete Umgeung für meine fröhlichen und unschuldigen Schlümpfe ist,
+        um ein glückliches und geschütztes Leben führen zu können. Daher werde ich sie am morgigen Montag schweren Herzens zur
+        Adoption freigeben und hoffe, dass sie so ein neues Zuhause finden, in dem Schlumpfibalen ihnen nichts mehr anhaben können.
+        Papa Schlumpf
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Friedensaus first Zopfmodel gesucht (m,w,d)"
+    shortTitle=""
+    category = "Anzeigen"
+    author = ""
+    keywords = "Kontakt,Gesucht"
+    pictures = ""
+    location="Dresden"
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Wir suchen Friedensaus first Zopfmodel! Ob du geeignet bist? Na klar, wenn du eine Haarlänge von min. 5cm besitzt!
+        Wir flechten dir dann 1 - 2 Zöpfe und machen ein Foto. Am Ende wird das beste Foto gewinnen.
+        Am Sonntag könnt ihr die ganze Zeit zu den Dresdnern ins Lager kommen (am Fahnenturm).
+        Die Belohnung: Ruhm und Ehre. Wir freuen uns auf euch!
+        P.S.: Männlich, weiblich, divers - das ist ganz egal. Und vergesst nicht: Nur einer/eine kann Friedensaus
+        first Zopfmodel werden! Eigene Haargummis erwünscht!
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Ratgeber: So wirst du zur Flirtmaschine"
+    shortTitle="Erfolg Garantiert"
+    category = "Lifestyle"
+    author = "Nils Rösel"
+    keywords = "Ratgeber,Liebe,Leben,Sommer"
+    pictures = ""
+    location=""
+  >
+    <summary>
+      Der ultimative Ratgeber, für angehende Pick Up Artists
+    </summary>
+    <text-block>
+      <title></title>
+      <text>
+        Tinder, Bumble, LOVOO kannst du vergessen. Das Connectival an sich ist der perfekte Ort, um den oder die Zukünftige zu finden.
+        Egal ob blutiger Anfänger, Fortgeschrittener oder Flirtguru: Wir haben für jeden die richtigen Tipps,
+        wie man den/die Angebetete bezirzen kann.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>
+        1. Ich hab gestern in der Bibel über Jericho gelesen. Wie oft muss ich denn um dich herumlaufen,
+        damit deine Mauern für mich fallen?
+      </title>
+      <text></text>
+    </text-block>
+    <text-block>
+      <title>
+        2. Ich hab gestern in der Bibel über Jericho gelesen. Wie oft muss ich denn um dich herumlaufen,
+        damit deine Mauern für mich fallen?
+      </title>
+      <text></text>
+    </text-block>
+    <text-block>
+      <title>
+        3. Ist es so heiß hier, oder ist es der Heilige Geist, der in dir brennt?
+      </title>
+      <text></text>
+    </text-block>
+    <text-block>
+      <title>
+        4. Brauchst du ein Gebet? Ich wäre total bereit, dir die Hände aufzulegen.
+      </title>
+      <text></text>
+    </text-block>
+    <text-block>
+      <title>
+       5. Du bist ja echt wie das Paradies! Ich sehne mich nach dir!
+      </title>
+      <text></text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Schwere Kämpfe im Osten des Zeltplatzes"
+    shortTitle="Konflikt eskaliert"
+    category = "Politik"
+    author = "Nils Rösel"
+    keywords = "Wasserschlacht,Massenbewässerungswaffen,Wasserbombeb,Bewässerung,Bewässerungsverbrechen"
+    pictures = "sonntag/war/krieg4.jpeg"
+    location=""
+  >
+    <summary>
+      Nach anfänglichen Hoffnungen, den Konflikt lokal begrenzt halten zu können, ist dieser am Samstagnachmittag auf den
+      gesamten Osten des Zeltplatzes übergeschwappt. Unser Wasserschlachtberichterstatter Nils R. berichtet von der Front.
+    </summary>
+    <text-block>
+      <title>Der Überfall</title>
+      <text>
+        Am 04. Juni 2022 überfiel eine Jugendgruppe das arglos, mit Wasserpistölchen spielende, One Year 4 Yesus Team.
+        Der örtliche Jugendleiter dazu: "Wir haben eine spezielle Bewässerungsppoeration gestartet.
+        Ziel ist die totale Bewässerung des 1Y4J -Teams"
+      </text>
+    </text-block>
+
+    <text-block picture="sonntag/war/krieg1.jpeg">
+      <title>Schwere Kämpfe und massive Zerstörung</title>
+      <text>
+        Die Kämpfe toben nun schon seit einigen Stunden. Besonders im östlichen Teil des Zeltplatzes kam es vereinzelt
+        zur Desintegrierung von Zeltaufbauten. Wie viele Zivilisten genau betroffen sind, kann zur derzeitigen Stunde
+        noch nicht abgeschätzt werden. Es wird eine Flüchtlingswelle der Trockenen in den Westen des Zeltplatzes erwartet.
+        Vereinzelt wurden die Zelte schon abgebrochen und in ausgewiesenen Flüchtlingszonen neu errichtet.
+      </text>
+    </text-block>
+    <text-block picture="sonntag/war/krieg3.jpeg">
+      <title>Verluste sind enorm</title>
+      <text>
+        Die Kräfte des Freikorps 1Y4J sind am schwersten betroffen. Durch den massiven Einsatz von Wasserbomben trifft es vor Allem die Füße.
+        Diese Art der Wasserschlachtsführung ist zwar verpöhnt, doch nur eine Hand voll Länder haben bisher die Charta zum Verbot
+        von Wasserbomben unterzeichnet. Daher setzen beide Seiten auf diese Art der Ausstattung. Wer also ohne Gummistiefel
+        in das Gefecht zieht, hat einen eklatanten Nachteil. Ein Kommandeur der niedrigen Befehlskette beklagte die Verluste von nassen Socken,
+        Hosen und Unterwäsche.
+        Allerdings werden die Auswirkungen durch das gute Wetter einigermaßen in Grenzen gehalten.
+      </text>
+    </text-block>
+    <text-block picture="sonntag/war/krieg2.jpeg">
+      <title>Berichte von Wasserschlachtsverbrechen</title>
+      <text>
+        Der Umgang mit den Gefangenen ist auf allen Seiten kritisch. Die Genfer Konvention zur Wasserschlachtsführung wird teilweise
+        nicht eingehalten. Berichte über Wasserschlachtsverbrechen erreichen uns im Mintutentakt.
+        Bei einem Zwischenfall in Sektor 4-2-Alpha kam es zur totalen Durchnässen von Gefangenen durch Wasserpistolen.
+        Besonders kritisch: Auch die Zivilbevölkerung wird zunehmend Ziel von den Angriffen. Teilweise werden Zivilisten
+        aus dem Hinterhalt bewässert. Auch unser Reporter an der Front entkam den Attacken nur in höchster Not und zum Glück lediglich
+        leicht befeuchtet.
+        Befürchtet wird nun eine weitere Eskalation der ohnehin schon nassen Lage.
+        Dabei könntes vor Allem zum Einsatz von Massenbewässerungswaffen kommen.
+      </text>
+    </text-block>
+    <text-block picture="sonntag/war/krieg4.jpeg">
+      <title>OLL bei Bewässerungsgerät-Lieferungen noch verhalten</title>
+      <text>
+        Auf Anfragen der Redaktion an die OLL bezüglich möglicher Bewässerungsgerät-Lieferungen gab es nur verhaltene Antworten.
+        Man sei gewillt die Verteidiger zu unterstützen, aber der Lieferung schwerer Wasserbomben und -pistolen stehe man äußerst
+        kritisch gegenüber. Die Bewässerungsgeräte "made in Germany" seien ohnehin nicht sonderlich treffsicher.
+        Es werde aber eine diplomatische Lösung gesucht. Der Lagerkanzler Martin H. hat bereits eine Rolle als Vermittler angeboten.
+        Derzeit setzen die Verteidiger besonders auf den Einsatz von Beutewaffen.
+        Die Vertretung der 1Y4J Leitung fordert bei der OLL schon seit Beginn die
+        Lieferung schweren Geräts wie Wasserwerfern aus Polizeigerät-Altbeständen.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Schweigen auf seiten von Plietz
+      </title>
+      <text>
+        Lagerkanzler a. D. Michael Plietz unterhält seit Jahren beste Verbindungen zu gewissen Abteilungen innerhalb der Adventjugend.
+        Während die meisten Funktionäre das Ausufern der Wasserschlacht bereits scharf verurteilt haben, ließ das Büro der ehemaligen
+        OLL nur eine standartisierte Stellungnahme verlautbaren.
+        "[...] Diese spezielle Bewässerungsoperation habe nichts mit den derzeitigen Ämtern und Aufgaben von Michael Plietz zu tun\ [...]".
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Top und Flop des Tages"
+    shortTitle=""
+    category = "Lifestyle"
+    author = "Tabea Gibbert"
+    keywords = "Top,Flop"
+    pictures = "flipflop.png"
+  >
+    <summary>
+      Der Top und Flop vom Samstag
+    </summary>
+    <text-block picture="flipflop.png">
+      <title>Top des Tages</title>
+      <text>
+        Justus W. hat sein Messer vergessen, freut sich aber trotzdem, sein Brötchen schmieren zu können. Die Lösung: Er benutzt den Griff seiner Gabel.
+      </text>
+    </text-block>
+    <text-block>
+      <title>Flop des Tages</title>
+      <text>
+        Joshua W. hat starke Bauchschmerzen durch übermäßigen Regenwasser-Konsum.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Zelt-Index offenbart Gehaltsgefälle"
+    shortTitle="Klarstellung"
+    category = "Wirtschaft"
+    author = "Dominik Weber"
+    keywords = "Lohn-Gap,Ausbeutung,Ungerechtigkeit"
+    pictures = "sonntag/zeltindex.png"
+    location=""
+  >
+    <text-block>
+      <title>Paul H. zum Artikel</title>
+      <text>
+        Nach Veröffentlichung des Zelt-Indexes und dessen Zusammenhang des Gehaltgefälles in der Vereinigung NRW
+        erreichte uns harsche Kritik. Paul H. teilte der Redaktion der FriedenSau mit, dass sein aktuelles Wirkungsfeld dieses Großzelt sei.
+        Das abgelichtet Mini-Zelt ist zugegebenermaßen sein Eigentum, aber „diene ausschließlich als besonderer Rückzugsort,
+        welcher nicht häufig genutzt werde“, so Paul H. schnippisch. Zu den Eigentumsverhältnissen des großen Zeltes wollte
+        sich der amtierende Jugendabteilungsleiter aus NRW nicht äußern.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title></title>
+      <text>
+
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Die Sitzplätze regulieren sich selbst."
+    shortTitle="Kommentar"
+    category = "Meinung"
+    author = "Nils Rösel"
+    keywords = "Meinung,Sitzplätze,Arena,Zelt,Freiheit"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title>Zum Autor</title>
+      <text>
+        Nils R. ist ein junger Informatiker und Sitzplatzökonom, mit einem speziellen Faible für eine gute Sitzplatzauswahl.
+        Auch wenn nicht so penetrant bedacht wie Sheldon Cooper, ist eine gute Sitzplatzposition für ihn sehr wichtig.
+      </text>
+    </text-block>
+
+    <text-block>
+      <title></title>
+      <text>
+        "Das geht ja wohl nicht an. Wir haben uns gerade auf richtig geile Plätze gesetzt und dann so eine rektalexkrementale Ausscheidung." - Filip K.
+        Dem kann ich nur beipflichten. Die Moderation soll sich ihre Kernkompetenz konzentrieren undf sich nicht in die Sitzplatzauswahl
+        der Zuschauer einmischen. Diese funktioniert nämlich äquivalent zum freien Markt: Sie reguliert sich selbst.
+        Wenn nun also das Zentralkomitee in die Sitzplatzwahl eingreift und für eine Umverteilung von Oben sorgt,
+        hat dies eklatante Auswirkungen auf die Zukunft und sorgt für Präzedenzfälle. Der Schritt, die Leute von ihren
+        angestammten Plätzen zu vertreiben, öffnet Tor und Angel für eine totale, zentralisierte Sitzpatzkontrolle seitens der OLL.
+        Darüber hinaus werden dadurch am Ende die Leute belohnt, die unpünktlich zu den Veranstaltungen kommen.
+        Man gibt ihnen eine neue, ungerechtfertigte Chance auf die besten Plätze, während die Frühaufsteher, die
+        morgens Stunden in der Schlange standen, um einen Platz mit gutem Zugang und guter Sicht zu ergattern,
+        defacto abgestraft werden, indem man sie auf die schlechtesten Plätze setzt. Ohne dauerhafte Nackenprobleme in Kauf zu nehmen,
+        kann man die Leinwand nicht sehen, und wenn man die Bühne direkt betrachten möchte, sieht man zumeist nur Rücken.
+        Für die Moderation mögen die vordersten Reihen in den Seitenflügeln zwar sinnvoll erscheinen, doch hat man von dort
+        wahrlich keine gute Sicht auf das Geschehen.
+
+        Also bitte liebes Zentralkomitee, liebe Moderation: Lasst uns auf unseren Plätzen!
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="#folgeFrank"
+    shortTitle="Challenge time"
+    category = "Technik"
+    author = ""
+    keywords = "Digital,Instagram,Internet,Frank"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title>#folgefrankchallenge - Schafft Frank mehr Follower als der Connectival-Account?</title>
+      <text>
+        Frank, bekannt aus einer vorherigen Ausgabe der Friedensau, möchte Influencer werden. Mit exklusivem
+        Content möchte er seine Follower begeistern. Um die Reichweite zu erhöhen, hat die Adventjugend Chemnitz
+        deshalb die #folgefrankchallenge ausgerufen. Ziel der Challenge ist es, dass Frank bis zum Ende des Connectivals mehr
+        Follower zusammenbekommt als der offizielle Connectival-Account. Teilnehmer sind dazu aufgerufen, dem Account
+        folge_frank auf Instagram zu folgen. Um den Erfolg der Kampagne zu erhöhen, können Teilnehmer weiterhin eine
+        Story mit Verlinkung auf Franks Instagramaccount posten, bei dem Nutzer ein Selfie mit dem Color-Shift Filter
+        einbinden und sie mit Blümchens "Boomerang" als Hintergrundmusik unterlegen. Um die Attraktivität des Accounts
+        zu steigern, wurden exklusiv neue Fotos hier auf dem Connectival aufgenommen.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Alles schwitzt - OLL genießt Pool"
+    shortTitle="Leben in Glanz und Gloria"
+    category = "Politik"
+    author = "Tabea Gibbert"
+    keywords = "Investigativ,OLL,Faulheit,Luxus"
+    pictures = "sonntag/oll-pool.jpeg"
+    location=""
+  >
+    <summary>
+      Die Politik war schon immer durchzogen von besser Privelegierten, aber die neue OLL stellt ihren Status noch mehr zur Show als
+      under M. Plietz.
+    </summary>
+    <text-block>
+      <title>Entspannen im kühlen Nass</title>
+      <text>
+        Die Sonne brennt heiß auf den Friedensauer Zeltplatz. Jugendliche rösten bei Temperaturen über 30°C in der Sonne.
+        Wer es körperlich schafft, findet Abkühlung im weit entfernten Friedensauer Badesee.
+        Der Weg dorthin gleicht jedoch der Wüstenwanderung des Volkes Israel.
+        Von solchen Problemen weiß das führende Mitglied der OLL Martin H. natürlich nichts.
+        Noch bevor er richtig auf dem Zeltplatz eintraf, ließ er sich von seinen Untergebenen bereits einen Pool aufstellen,
+        der seinesgleichen sucht. Augenzeugen berichten nun, wie er mehrfach täglich das kühle Nass genießt,
+        während die jungen Leute um ihn herum in der Sonne zerlaufen.
+        Stößt dieses Verhalten aber auf Anklang? Die FriedenSau hat nachgefragt:
+      </text>
+    </text-block>
+
+    <text-block>
+      <title></title>
+      <text>
+        Es kann nicht sein, dass die Obersten unserer Gemeinde ihre Machtposition so ausnutzen! (Lukas S.)
+      </text>
+    </text-block>
+
+    <text-block>
+      <title></title>
+      <text>
+        Das ist einfach dreist und unfair. Wir sind hier auf einem Zeltplatz und nicht in Tropical Island.
+        Der soll sich mal anpassen. (Lena K. und Vivien G.)
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Ich finds gut. Lisa (Tochter von Martin H./Anm. der Red.) hat mir erlaubt, auch da zu baden.
+        Wäre ja noch schöner, wenn jetzt alle Leute vom Zeltplatz auch noch da rein wollen. (Luise H.)
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Da fehlen uns die Worte. So ein Verhalten ist einfach unverschämt und arrogant. Er sollte wenigstens Pool-Steuer zahlen.
+        Am besten in Form von Eis für alle. (Vici B. und Wischmopp)
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Zumindest die Leute aus der BMV sollten rein dürfen. Das ist doch Landesverrat! (Gruppe Berlin Spandau)
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Und dann nicht mal Mädchen mit Getränkekästen helfen! (Samira D.)
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Und dann nicht mal Mädchen mit Getränkekästen helfen! (Samira D.)
+      </text>
+    </text-block>
+    <text-block>
+      <title>Was sind die Konsequenzen?</title>
+      <text>
+        Inwieweit und wann genau es zur Rebellion kommt ist momentan noch unklar. Gerüchten zufolge sind bereits erste
+        Pläne durchgesickert, den Pool zu stürmen und unter eigene Kontrolle zu bringen. Auch das über Nacht aufgetauchte
+        Schild mit der Aufschrift "Deich", welches ahnungslose Touristen direkt in das Lager des Martin H. schickt, spricht dafür.
+        Für alle Teilnehmer wäre eine Übernahme definitiv ein persönlicher Gewinn, müssten sie dann doch nicht mehr den weiten
+        Weg zum ohnehin verseuchten Badesee auf sich nehmen.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Pferdeexperten und Reitermädchen aufgepasst!"
+    shortTitle="Wer weiß es?"
+    category = "Anzeigen"
+    author = ""
+    keywords = "Mystery,Rätsel"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Lucas B. steht vor einem großen Rätsel, mit dem er sich verzweifelt an die Zeitung wandte: Er kann sich nicht erklären,
+        woher die Pferde in den Rosinenstuten kommen.
+        Bist du Experte auf dem Gebiet des Reitsports? Identifizierst du dich selbst als Pferdemädchen/-junge?
+        Findest du das Glück der Erde nur auf dem Rücken der Pferde? Dann bist du unsere Person!
+        Wende dich noch heute mit deiner Antwort auf die Frage von Lucas B. an die Gruppe Hannover Fischerstraße und hilf
+        einem armen Jungen aus der Verwirrung.
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="M18 ultra, GTI - zu vermieten"
+    shortTitle="Jetzt zuschlagen!"
+    category = "Anzeigen"
+    author = ""
+    keywords = "Anzeigen,Biete,Sklave"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Raphael V. ist ein sehr großer (über 1,50m), übermotivierter Junge. Seine überdimensionale Schuhgröße (48,5)
+        macht er durch seine Ungeduld wett. Auch kann er alle Instrumente spielen, zumindest bis morgen. Diesen
+        hungrigen Lustmolch kann man schon für einen minimalen Preis (Lösung des Lagerrätsels oder 25€/h) mieten.
+        Meldet euch einfach bei Martin am Pool.
+        Nur solange der Vorrat reicht!
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="(D)rolliger Jungkatholik (m,17) sucht Sie(w, 16+)"
+    shortTitle="Knuffiges Jüngchen"
+    category = "Anzeigen"
+    author = ""
+    keywords = "Anzeigen,Suche,Freundin,Jung,Liebe,Leben"
+    pictures = ""
+    location="Waldfriede"
+  >
+    <text-block>
+      <title>#(D)rolliger Jungkatholik (m,17) sucht Sie(w, 16+)</title>
+      <text>
+        zum gemeinsamen Abhängen.
+        Er trinkt gerne das Ein oder Andere Weihwässerchen zu viel. Wenn du also den Duft von Weihrauch magstt,
+        bist du bei ihm an der richtigen Stelle. Melde dich bei den Waldfriednern.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Heißer Freund gesucht!"
+    shortTitle="Sie sucht ihn"
+    category = "Anzeigen"
+    author = ""
+    keywords = "Anzeigen,Suche,Freund,Jung,Liebe,Leben"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title>Heißer Freund gesucht!</title>
+      <text>Wir wollen euch Laura kurz vorstellen:</text>
+    </text-block>
+
+    <text-block>
+      <title></title>
+      <text>
+        ist eine heiße Schnitte aus Nordsachsen
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        wird am Dienstag (7.6.) stolze 17 Jahre alt
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        klein aber fein (1,55m)
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        talentiert und überaus motiviert Sport zu machen
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        sympathisch, man kann sich mit ihr gut unterhalten
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        möchte einen Typen mit geilen Haaren
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        ihre Handynummer erhaltet ihr im Redaktionsbüro
+      </text>
+    </text-block>
+    <text-block>
+      <title></title>
+      <text>
+        Bei Interesse bitte melden!
+      </text>
+    </text-block>
+  </article>
+  <article
+    headline="Bieten diverse Dienste"
+    shortTitle="#folgeFrank"
+    category = "Anzeigen"
+    author = ""
+    keywords = "Anzeigen,Suche,Freundin,Jung,Liebe,Leben,Frank"
+    pictures = ""
+    location="Waldfriede"
+  >
+    <text-block>
+      <title>#folgeFrank</title>
+      <text>
+        Du brauchst Internet um deine Flammen auf Snapchat zu erhalten?
+      </text>
+    </text-block>
+    <text-block>
+      <title>#folgeFrank</title>
+      <text>
+        Du brauchst Internet um auf Instagram @folge_frank zu folgen?
+      </text>
+    </text-block>
+    <text-block>
+      <title>#folgeFrank</title>
+      <text>
+        Oder brauchst du Internet um den Prozess zwischen Johnny Depp und Amber Heard nochmal in voller Länge auf YouTube anzuschauen?
+        Tja… dann hol dir Telekom, auch wenn du es nur einmal im Jahr brauchst… in Friedensau…
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Sabbat Gottesdienst in verschiedensten Facetten"
+    shortTitle="Abendmahl inklusive"
+    category = "Lifestyle"
+    author = "Dominik Weber"
+    keywords = "Predigt,Veranstaltung,Gottesdienst"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title></title>
+      <text>
+        Die Moderator:innen nehmen den Bildungsauftrag in ihrer Arbeit mit Jugendlichen offenbar sehr ernst. Nur so lässt sich erklären,
+        weshalb sie beim Sabbatmorgen-Quiz eine „Freiwillige“ nach der nächsten in ihrer Unwissenheit vor dem gesamten Arenapublikum bloßstellten.
+        Immerhin gab es am Ende ein Buch als Geschenk - gefüllt mit leeren Seiten! Frei nach dem Motto: Du weißt nichts und das wird auch so bleiben!
+        Na vielen Dank auch!
+        Die Band gab im Anschluss Vollgas. Der Text flog den Teilnehmern nur so um die Ohren.
+        Selbst die Mitarbeiter:in der Präsentationstechnik war überfordert. Soweit wir in Erfahrung bringen konnten,
+        kam sie jedoch mit einem kleinen Schleudertrauma davon. Erst Flo E., der Bassist der Lobpreis-Band, brachte den tobenden Herd in
+        der Arena zum Schweigen. Sein Zeugnis war eines wahren Bassisten würdig. In tiefen Tönen bekannte er, dass er gar kein Bassist sei.
+        Auch zog ihn nichts in die Gemeinschaft mit anderen Jugendlichen, nachdem COVID-19 gewütet hatte. Aber heute ist er hier.
+        Von Gott angesprochen und berufen: In Gemeinschaft und als ausgebildeter Bassist baut er mit am Reich Gottes. Praise the lord!
+      </text>
+    </text-block>
+
+    <text-block>
+      <title>Krasse Message von Paul</title>
+      <text>
+        Nun betrat M und M-Liebhaber Paul H., seines Zeichens Jugendabteilungsleiter in NRW und bekannt für sein joviales Lebensmotto
+        "I'm sexy and I know it" die Bühne. Und seine Message hatte es in sich: Es ging um das Reich Gottes und unsere Teilhabe
+        und Verantwortung darin. Er machte mit seinem Unvermögen Mut. Es ist nicht entscheidend, alles zu können oder den richtigen
+        Moment in völliger Klarheit zu erkennen. Gott benutzt Menschen, um sein Reich zu erweitern und Menschen Heilung zu schenken.
+        Doch er möchte es auch zum Segen seiner Nachfolger werden lassen, indem sie das Wunder selbst miterleben. Und hier bist du gefragt!
+        Genau wie Esther: In einer von Männern dominierten Welt erkennt sie ihre Position als Chance, der verlängerte Arm Gottes zu sein.
+        Nicht durch Zuruf Gottes, Wunder oder Engel, sondern durch das Kennen des Wesens Gottes. Er strebt nach Liebe, Gemeinschaft,
+        Gerechtigkeit und Wahrheit. Sie entscheidet sich das zu tun, was Gott getan hätte: Menschenleben retten unter Einsatz ihres eigenen Lebens.
+        Gott redet auch zu dir. Du kannst etwas, du hast etwas oder du bist jemand. Das ist kein Zufall, sondern Berufung.
+        Gott redet auch durch die Situation, in der du lebst, mit dir. Vielleicht wäre es besser nicht zu warten, bis eine Eselin mit dir spricht.
+        Es bleibt die Frage: Was würde Jesus in meiner Lage tun?
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Abwaschwasser zum Trinken ungeeignet"
+    shortTitle="Lecker Regen!"
+    category = "Lifestyle"
+    author = ""
+    keywords = "Gesundheit,Wasser,Gift,Investigativ"
+    pictures = ""
+    location=""
+  >
+    <text-block>
+      <title>Achtung! Passen Sie auf wo Sie Ihre Flaschen befüllen</title>
+      <text>
+        Wir leben in einem Jahrhundert, in dem die Grundausstattung des Zeltplatzes auch Sanitäranlagen mit Trinkwasserhähnen
+        in den inneren Räumlichkeiten aufweist. Um ökologisch verantwortlich zu handeln, werden die äußeren Spülbecken,
+        die vorrangig zum Geschirrabwasch dienen, mit zeltplatzeigenem Regenwasser versorgt, das aufgrund von Hygienevorschriften
+        eben nicht zum Verzehr geeignet ist. Bei einer stichprobenartigen Untersuchung musste das örtliche Gesundheitsamt
+        mit Schrecken feststellen, dass diese Schutzmaßnahme von vielen Zeltplatzbesuchern missachtet, und Trinkflaschen
+        an eben diesen Becken aufgefüllt wurden und werden. Die Lagerleitung sowie besorgte Anwohner der Sanitäranlagen
+        bitten die jungen Adventisten, Rücksicht zu nehmen auf zu ihrem eigenen Schutz installierte Vorrichtungen -
+        etwaige gesundheitliche Schäden sollen nicht in Kauf genommen werden.
+      </text>
+    </text-block>
+
+  </article>
+  <article
+    headline="Die schönsten Badestellen in Friedensau"
+    shortTitle="Der Sommer kann kommen"
+    category = "Ratgeber"
+    author = "Nils Rösel"
+    keywords = "Sport,Tipps,Top,Freizeit,Lifestyle,Ratgeber"
+    pictures = "sonntag/badestellen/see.jpeg"
+    pictureBasePath="sonntag/badestellen/"
+    location=""
+  >
+    <summary>
+      Der Sommer ist da und pünktlich zu den steigenden Temperaturen präsentieren wir euch die schönsten Badestellen in Friedensau!
+    </summary>
+    <text-block picture="biotop.jpeg">
+      <title>1. Das Biotop</title>
+      <text>
+        Zugegeben - es wirkt auf den ersten Blick vielleicht etwas sumpfig. Aber an den Moorgeruch gewöhnt man sich doch
+        ziemlich zügig. Die günstige Lage direkt am Zeltplatz macht diese Badestelle besonders attraktiv für Touristen.
+      </text>
+    </text-block>
+
+    <text-block picture="brunnen.jpeg">
+      <title>2. Der Brunnen am Studentenwohnheim</title>
+      <text>
+        Zum Bahnen ziehen ungeeignet, dafür aber mit bester Wasserqualität. Die belebte Badestelle sorgt nicht nur bei
+        den Student:innen, sondern auch bei Kindern für maximalen Badespaß! Kleiner Geheimtipp:
+        Ein bisschen Waschpulver macht aus dem Brunnen eine spaßige Schaumbadlandschaft! Kostenpunkt: ca. 20.000€
+      </text>
+    </text-block>
+    <text-block picture="ihle.jpeg">
+      <title>3. Die Ihle</title>
+      <text>
+        Mit den knapp 800m in Friedensau und einer Gesamtlänge von 30km bietet die Ihle viele Möglichkeiten für jeden,
+        der nach einem Platz zum Plantschen sucht. Nehmt jedoch dringlichst Rücksicht auf die örtliche Binnenschifffahrt
+        sowie die Friedensauer Pfingstregatta auf der Ihle (Sonntag 22.05.2022)
+      </text>
+    </text-block>
+    <text-block picture="taufbecken.jpeg">
+      <title>4. Das Taufbecken</title>
+      <text>
+        Durch die traditionelle Taufe am Sabbat bietet sich den Jugendlichen die einmalige Gelegenheit, im Heiligen
+        Pool plantschen zu gehen. Hier gilt allerdings: Nur für künftige Mitglieder und lediglich einmalig nutzbar.
+        Für den Wunsch der häufigeren Nutzung empfehlen wir eine Ausbildung zur Pastorin / zum Pastor.
+      </text>
+    </text-block>
+    <text-block picture="teich_bib.jpeg">
+      <title>5. Der Teich an der Bibliothek</title>
+      <text>
+        Gegenüber der örtlichen Bibliothek findet sich ein kleiner Teich. Allerdings gilt hier: Wer baden will,
+        muss leise sein, damit die Frösche beim Quaken nicht gestört werden.
+      </text>
+    </text-block>
+    <text-block picture="see.jpeg">
+      <title>6. Der Naturbadeteich</title>
+      <text>
+        Abseits der Zivilisation, weit abgelegen liegt er: Der Badeteich. Keine wirkliche Alternative. Um ihn zu erreichen, muss erst die Ihle überquert werden, was den Besuch überflüssig macht, da man dann auch direkt in ebenselbe springen kann.
+        Der einzige Pluspunkt: Der kleine Strand.
+      </text>
+    </text-block>
+
+  </article>
+
+</articles>
