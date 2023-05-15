@@ -1,9 +1,9 @@
 <div style="width: 100%">
-  <div class="article-tile" *ngIf="!!article">
+  <div class="article-tile" *ngIf="!!article" (click)="openArticle()">
     <img *ngIf="!!article.picturePaths.length" src="{{ article.picturePaths[0] }}" class="article-tile__picture">
-    <span class="headline-short color-main" (click)="openArticle()"> {{ article.shortTitle }}</span>
-    <span class="headline" (click)="openArticle()">{{ article.headline }}</span>
-    <div class="summary" (click)="openArticle()">
+    <span class="headline-short color-main"> {{ article.shortTitle }}</span>
+    <span class="headline">{{ article.headline }}</span>
+    <div class="summary">
       {{ article.metadata.summary }}
     </div>
 
